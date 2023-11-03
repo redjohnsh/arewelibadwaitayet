@@ -635,6 +635,12 @@ const apps: App[] = [
     desc: "Calculate display info like DPI and aspect ratio",
     lang: Lang.Vala,
   },
+  {
+    id: "org.gabmus.whatip",
+    name: "What IP",
+    desc: "Info on your IP",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
