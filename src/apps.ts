@@ -581,6 +581,12 @@ const apps: App[] = [
     desc: "Create @font-face kits easily",
     lang: Lang.Python,
   },
+  {
+    id: "nl.g4d.Girens",
+    name: "Girens for Plex",
+    desc: "Watch your Plex content",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
