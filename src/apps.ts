@@ -593,6 +593,12 @@ const apps: App[] = [
     desc: "Find info about an IP address",
     lang: Lang.Python,
   },
+  {
+    id: "im.dino.Dino",
+    name: "Dino",
+    desc: "Modern XMPP Chat Client",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
