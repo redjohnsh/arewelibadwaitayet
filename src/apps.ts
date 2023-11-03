@@ -651,7 +651,7 @@ const apps: App[] = [
     id: "com.feaneron.Boatswain",
     name: "Boatswain",
     desc: "Control your Elgato Stream Decks",
-    lang: Lang.CSharp,
+    lang: Lang.C,
   },
 ];
 
