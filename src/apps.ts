@@ -557,6 +557,12 @@ const apps: App[] = [
     desc: "Turn your text into ASCII banners",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.tfuxu.Halftone",
+    name: "Halftone",
+    desc: "Give your images that pixel art-like style",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
