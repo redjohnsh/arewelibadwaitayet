@@ -641,6 +641,12 @@ const apps: App[] = [
     desc: "Info on your IP",
     lang: Lang.Python,
   },
+  {
+    id: "ir.imansalmani.IPlan",
+    name: "IPlan",
+    desc: "Your plan for improving personal life and workflow",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
