@@ -545,6 +545,12 @@ const apps: App[] = [
     desc: "Compare images and videos",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.nokse22.asciidraw",
+    name: "ASCII Draw",
+    desc: "Draw using ASCII characters",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
