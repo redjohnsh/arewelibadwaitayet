@@ -605,6 +605,12 @@ const apps: App[] = [
     desc: "News reader for GNOME",
     lang: Lang.Python,
   },
+  {
+    id: "dev.geopjr.Tuba",
+    name: "Tuba",
+    desc: "Browse the Fediverse",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
