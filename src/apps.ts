@@ -442,6 +442,12 @@ const apps: App[] = [
     desc: "Harmonize your listening experience",
     lang: Lang.Rust,
   },
+  {
+    id: "com.vixalien.decibels",
+    name: "Decibels",
+    desc: "Play audio files",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
