@@ -9,6 +9,7 @@ export enum Lang {
   C = "C",
   CPlusPlus = "C++",
   CSharp = "C#",
+  Go = "Go",
   JavaScript = "JavaScript",
   Python = "Python",
   Rust = "Rust",
@@ -519,6 +520,12 @@ const apps: App[] = [
     name: "Celluloid",
     desc: "GTK+ frontend for mpv",
     lang: Lang.CSharp,
+  },
+  {
+    id: "com.pojtinger.felicitas.Multiplex",
+    name: "Multiplex",
+    desc: "Watch torrents with your friends",
+    lang: Lang.Go,
   },
 ];
 
