@@ -502,6 +502,12 @@ const apps: App[] = [
     desc: "Fine-tune your instruments",
     lang: Lang.Rust,
   },
+  {
+    id: "org.nickvision.tagger",
+    name: "Tagger",
+    desc: "Tag your music",
+    lang: Lang.CSharp,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
