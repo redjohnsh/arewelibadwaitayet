@@ -551,6 +551,12 @@ const apps: App[] = [
     desc: "Draw using ASCII characters",
     lang: Lang.Python,
   },
+  {
+    id: "io.gitlab.gregorni.Calligraphy",
+    name: "Calligraphy",
+    desc: "Turn your text into ASCII banners",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
