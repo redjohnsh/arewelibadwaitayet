@@ -623,6 +623,12 @@ const apps: App[] = [
     desc: "Read your favorite manga",
     lang: Lang.Python,
   },
+  {
+    id: "se.sjoerd.Graphs",
+    name: "Graphs",
+    desc: "Plot and manipulate data in a breeze",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
