@@ -527,6 +527,12 @@ const apps: App[] = [
     desc: "Watch torrents with your friends",
     lang: Lang.Go,
   },
+  {
+    id: "io.gitlab.adhami3310.Footage",
+    name: "Footage",
+    desc: "Polish your videos",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
