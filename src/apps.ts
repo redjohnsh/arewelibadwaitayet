@@ -454,6 +454,12 @@ const apps: App[] = [
     desc: "Generate Two-Factor Codes",
     lang: Lang.Rust,
   },
+  {
+    id: "org.gnome.World.Secrets",
+    name: "Secrets",
+    desc: "Manage your passwords",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
