@@ -569,6 +569,12 @@ const apps: App[] = [
     desc: "2D CAD for GNOME",
     lang: Lang.JavaScript,
   },
+  {
+    id: "io.github.dlippok.photometric-viewer",
+    name: "Photometric Viewer",
+    desc: "Browse content of IES and LDT photometric files",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
