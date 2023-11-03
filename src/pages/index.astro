@@ -28,7 +28,7 @@ import apps, { Lang } from "../apps.ts";
           apps.map((app) => (
             <article class="relative">
               <span
-                class="ml-1.5 mt-1.5 absolute top-0 lef-0 text-xs px-1.5 py-0.5 rounded-md text-white font-medium dark:bg-zinc-800 dark:text-white"
+                class="ml-1.5 mt-1.5 absolute top-0 lef-0 text-xs px-1.5 py-0.5 rounded-md font-medium dark:bg-zinc-800 dark:text-white"
                 class:list={{
                   "bg-blue-100 text-blue-900": app.lang === Lang.Python,
                   "bg-orange-100 text-orange-900": app.lang === Lang.Rust,
