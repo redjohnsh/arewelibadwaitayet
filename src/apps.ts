@@ -575,6 +575,12 @@ const apps: App[] = [
     desc: "Browse content of IES and LDT photometric files",
     lang: Lang.Python,
   },
+  {
+    id: "com.rafaelmardojai.WebfontKitGenerator",
+    name: "Webfont Kit Generator",
+    desc: "Create @font-face kits easily",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
