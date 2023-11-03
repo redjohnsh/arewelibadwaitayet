@@ -647,6 +647,12 @@ const apps: App[] = [
     desc: "Your plan for improving personal life and workflow",
     lang: Lang.Rust,
   },
+  {
+    id: "com.feaneron.Boatswain",
+    name: "Boatswain",
+    desc: "Control your Elgato Stream Decks",
+    lang: Lang.CSharp,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
