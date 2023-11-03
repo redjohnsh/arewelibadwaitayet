@@ -508,6 +508,12 @@ const apps: App[] = [
     desc: "Tag your music",
     lang: Lang.CSharp,
   },
+  {
+    id: "app.drey.EarTag",
+    name: "Ear Tag",
+    desc: "Edit audio file tags",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
