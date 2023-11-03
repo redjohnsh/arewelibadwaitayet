@@ -490,6 +490,12 @@ const apps: App[] = [
     desc: "Share your computer audio",
     lang: Lang.Rust,
   },
+  {
+    id: "org.zrythm.Zrythm",
+    name: "Zrythm",
+    desc: "Digital audio workstation",
+    lang: Lang.CPlusPlus,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
