@@ -611,6 +611,12 @@ const apps: App[] = [
     desc: "Browse the Fediverse",
     lang: Lang.Vala,
   },
+  {
+    id: "re.sonny.Tangram",
+    name: "Tangram",
+    desc: "Browser for your pinned tabs",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
