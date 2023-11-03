@@ -466,6 +466,12 @@ const apps: App[] = [
     desc: "Play your music elegantly",
     lang: Lang.Vala,
   },
+  {
+    id: "io.github.diegopvlk.Dosage",
+    name: "Dosage",
+    desc: "Keep track of your treatments",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
