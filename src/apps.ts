@@ -617,6 +617,12 @@ const apps: App[] = [
     desc: "Browser for your pinned tabs",
     lang: Lang.JavaScript,
   },
+  {
+    id: "info.febvre.Komikku",
+    name: "Komikku",
+    desc: "Read your favorite manga",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
