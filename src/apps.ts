@@ -629,6 +629,12 @@ const apps: App[] = [
     desc: "Plot and manipulate data in a breeze",
     lang: Lang.Python,
   },
+  {
+    id: "com.github.cassidyjames.dippi",
+    name: "Dippi",
+    desc: "Calculate display info like DPI and aspect ratio",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
