@@ -599,6 +599,12 @@ const apps: App[] = [
     desc: "Modern XMPP Chat Client",
     lang: Lang.Vala,
   },
+  {
+    id: "org.gabmus.gfeeds",
+    name: "Feeds",
+    desc: "News reader for GNOME",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
