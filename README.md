@@ -1,8 +1,10 @@
 # Are We LibAdwaita Yet?
 
+Welcome to the "Are We LibAdwaita Yet?" website, where you can explore a curated collection of apps that utilize `libadwaita`. While this list may not encompass every app in existence, it provides a snapshot of apps that we are aware of and welcomes contributions from the community to expand the selection.
+
 ## 🚀 Project Structure
 
-Inside of the project, you'll see the following folders and files:
+Here's an overview of the project's directory structure:
 
 ```text
 /
@@ -33,10 +35,8 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
 ## Contributing
 
-If you spot an app that is not yet listed on the page you can just fork the repo and add it to the `src/apps.ts` file. Each app has four fields which are required. The app **must** be published on [flathub](https://flathub.org) for it to work.
+If you come across an app that's missing from our list, you can actively contribute by forking this repository and adding it to the `src/apps.ts` file. Each app entry should include four mandatory fields. Note that the app **must** be published on [Flathub](https://flathub.org) for it to be considered.
+
+We appreciate your contributions and look forward to growing our collection of LibAdwaita-powered apps!
