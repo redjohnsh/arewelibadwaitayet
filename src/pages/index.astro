@@ -1,0 +1,85 @@
+---
+import apps, { Lang } from "../apps.ts";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Are We LibAdwaita Yet?</title>
+    <meta
+      name="description"
+      content="A curated list of apps tailored for Gnome using libadwaita"
+    />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body class="dark:bg-zinc-950">
+    <div class="max-w-7xl w-full mx-auto px-4 md:px-6 lg:px-8">
+      <h1
+        class="text-center text-6xl dark:text-white font-extrabold text-zinc-900 mt-12"
+      >
+        Are We LibAdwaita Yet?
+      </h1>
+      <main
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-12 mt-20"
+      >
+        {
+          apps.map((app) => (
+            <article class="relative">
+              <span
+                class="ml-1.5 mt-1.5 absolute top-0 lef-0 text-xs px-1.5 py-0.5 rounded-md text-white font-medium"
+                class:list={{
+                  "bg-blue-600 dark:bg-blue-200 dark:text-blue-950":
+                    app.lang === Lang.Python,
+                  "bg-orange-700 dark:bg-orange-200 dark:text-orange-950":
+                    app.lang === Lang.Rust,
+                  "bg-lime-600 dark:bg-lime-100 dark:text-lime-950":
+                    app.lang === Lang.CSharp,
+                  "bg-purple-600 dark:bg-purple-100 dark:text-purple-950":
+                    app.lang === Lang.Vala,
+                  "bg-zinc-600 dark:bg-zinc-200 dark:text-zinc-950":
+                    app.lang === Lang.C,
+                  "bg-pink-600 dark:bg-pink-200 dark:text-pink-950":
+                    app.lang === Lang.CPlusPlus,
+                  "bg-yellow-600 dark:bg-yellow-100 dark:text-yellow-950":
+                    app.lang === Lang.JavaScript,
+                }}
+              >
+                {app.lang}
+              </span>
+              <a
+                class="hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors rounded-xl p-6 flex flex-col items-center"
+                href={`https://flathub.org/apps/${app.id}`}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  class="w-20"
+                  src={`https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/${app.id}.png`}
+                />
+                <h3 class="text-lg font-medium text-zinc-900 dark:text-white">
+                  {app.name}
+                </h3>
+                <p class="text-sm text-zinc-600 dark:text-zinc-400 text-center">
+                  {app.desc}
+                </p>
+              </a>
+            </article>
+          ))
+        }
+      </main>
+    </div>
+
+    <footer class="bg-zinc-50 mt-20 dark:bg-zinc-900">
+      <div
+        class="max-w-7xl w-full text-center py-6 text-zinc-700 dark:text-zinc-300 text-sm font-medium mx-auto px-4 md:px-6 lg:px-8"
+      >
+        Made with ❤️ by <a
+          class="text-teal-600"
+          href="https://github.com/brielov">@brielov</a
+        > - {new Date().getFullYear()}
+      </div>
+    </footer>
+  </body>
+</html>
