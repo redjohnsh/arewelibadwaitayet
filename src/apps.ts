@@ -539,6 +539,12 @@ const apps: App[] = [
     desc: "Elegantly record your screen",
     lang: Lang.Rust,
   },
+  {
+    id: "org.gnome.gitlab.YaLTeR.Identity",
+    name: "Identity",
+    desc: "Compare images and videos",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
