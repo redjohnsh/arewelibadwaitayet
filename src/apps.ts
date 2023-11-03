@@ -460,6 +460,12 @@ const apps: App[] = [
     desc: "Manage your passwords",
     lang: Lang.Python,
   },
+  {
+    id: "com.github.neithern.g4music",
+    name: "G4Music",
+    desc: "Play your music elegantly",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
