@@ -563,6 +563,12 @@ const apps: App[] = [
     desc: "Give your images that pixel art-like style",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.dubstar_04.design",
+    name: "Design",
+    desc: "2D CAD for GNOME",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
