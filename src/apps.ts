@@ -478,6 +478,12 @@ const apps: App[] = [
     desc: "Manage your tasks",
     lang: Lang.C,
   },
+  {
+    id: "org.gnome.DejaDup",
+    name: "Déjà Dup Backups",
+    desc: "Protect yourself from data loss",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
