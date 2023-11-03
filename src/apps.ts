@@ -533,6 +533,12 @@ const apps: App[] = [
     desc: "Polish your videos",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.seadve.Kooha",
+    name: "Kooha",
+    desc: "Elegantly record your screen",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
