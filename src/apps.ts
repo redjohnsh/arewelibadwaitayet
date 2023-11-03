@@ -496,6 +496,12 @@ const apps: App[] = [
     desc: "Digital audio workstation",
     lang: Lang.CPlusPlus,
   },
+  {
+    id: "io.github.nate_xyz.Chromatic",
+    name: "Chromatic",
+    desc: "Fine-tune your instruments",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
