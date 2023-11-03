@@ -514,6 +514,12 @@ const apps: App[] = [
     desc: "Edit audio file tags",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.celluloid_player.Celluloid",
+    name: "Celluloid",
+    desc: "GTK+ frontend for mpv",
+    lang: Lang.CSharp,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
