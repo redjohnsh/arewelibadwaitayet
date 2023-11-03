@@ -484,6 +484,12 @@ const apps: App[] = [
     desc: "Protect yourself from data loss",
     lang: Lang.Vala,
   },
+  {
+    id: "de.haeckerfelix.AudioSharing",
+    name: "Audio Sharing",
+    desc: "Share your computer audio",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
