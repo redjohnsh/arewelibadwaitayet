@@ -55,7 +55,9 @@ import apps, { Lang } from "../apps.ts";
                 rel="noreferrer noopener"
               >
                 <img
+                  alt={`${app.name} logo`}
                   class="w-20"
+                  loading="lazy"
                   src={`https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/${app.id}.png`}
                 />
                 <h3 class="text-lg font-medium text-zinc-900 dark:text-white">
