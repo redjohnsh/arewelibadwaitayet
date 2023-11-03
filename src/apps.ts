@@ -472,6 +472,12 @@ const apps: App[] = [
     desc: "Keep track of your treatments",
     lang: Lang.JavaScript,
   },
+  {
+    id: "org.gnome.Todo",
+    name: "Endeavour",
+    desc: "Manage your tasks",
+    lang: Lang.C,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
