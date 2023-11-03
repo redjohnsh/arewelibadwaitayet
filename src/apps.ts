@@ -448,6 +448,12 @@ const apps: App[] = [
     desc: "Play audio files",
     lang: Lang.JavaScript,
   },
+  {
+    id: "com.belmoussaoui.Authenticator",
+    name: "Authenticator",
+    desc: "Generate Two-Factor Codes",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
