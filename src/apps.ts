@@ -587,6 +587,12 @@ const apps: App[] = [
     desc: "Watch your Plex content",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.bytezz.IPLookup",
+    name: "IP Lookup",
+    desc: "Find info about an IP address",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
