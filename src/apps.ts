@@ -436,6 +436,12 @@ const apps: App[] = [
     desc: "Browse the web",
     lang: Lang.C,
   },
+  {
+    id: "io.github.nate_xyz.Resonance",
+    name: "Resonance",
+    desc: "Harmonize your listening experience",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
