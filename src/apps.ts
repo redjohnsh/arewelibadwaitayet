@@ -762,6 +762,12 @@ const apps: App[] = [
     desc: "Commit message editor",
     lang: Lang.JavaScript,
   },
+  {
+    id: "io.github.lainsce.Emulsion",
+    name: "Emulsion",
+    desc: "Stock up on colors",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
