@@ -720,6 +720,12 @@ const apps: App[] = [
     desc: "Manage Chroot and Containers",
     lang: Lang.Python,
   },
+  {
+    id: "re.sonny.Playhouse",
+    name: "Playhouse",
+    desc: "Playground for HTML/CSS/JavaScript",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
