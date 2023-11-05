@@ -701,6 +701,12 @@ const apps: App[] = [
     desc: "To-do lists reimagined",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.dgsasha.Remembrance",
+    name: "Reminders",
+    desc: "Set reminders for yourself",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
