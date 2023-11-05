@@ -671,6 +671,12 @@ const apps: App[] = [
     desc: "Time games of over-the-board chess",
     lang: Lang.Python,
   },
+  {
+    id: "com.lakoliu.Furtherance",
+    name: "Furtherance",
+    desc: "Track your time without being tracked",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
