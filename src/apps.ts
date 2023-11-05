@@ -732,6 +732,12 @@ const apps: App[] = [
     desc: "Manage your bibliography",
     lang: Lang.Rust,
   },
+  {
+    id: "com.felipekinoshita.Wildcard",
+    name: "Wildcard",
+    desc: "Test your regular expressions",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
