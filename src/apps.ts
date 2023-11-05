@@ -750,6 +750,12 @@ const apps: App[] = [
     desc: "Development tools at your fingertips",
     lang: Lang.Python,
   },
+  {
+    id: "com.github.GradienceTeam.Gradience",
+    name: "Gradience",
+    desc: "Change the look of Adwaita, with ease",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
