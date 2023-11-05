@@ -689,6 +689,12 @@ const apps: App[] = [
     desc: "A customizable retro digital segment clock",
     lang: Lang.JavaScript,
   },
+  {
+    id: "com.github.vikdevelop.timer",
+    name: "Timer",
+    desc: "Simple Countdown Timer",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
