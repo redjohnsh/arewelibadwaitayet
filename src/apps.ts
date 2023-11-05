@@ -726,6 +726,12 @@ const apps: App[] = [
     desc: "Playground for HTML/CSS/JavaScript",
     lang: Lang.JavaScript,
   },
+  {
+    id: "org.gnome.World.Citations",
+    name: "Citations",
+    desc: "Manage your bibliography",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
