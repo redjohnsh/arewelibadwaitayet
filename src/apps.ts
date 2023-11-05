@@ -677,6 +677,12 @@ const apps: App[] = [
     desc: "Track your time without being tracked",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.lainsce.Khronos",
+    name: "Khronos",
+    desc: "Log the time it took to do tasks",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
