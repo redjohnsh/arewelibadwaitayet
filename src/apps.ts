@@ -774,6 +774,12 @@ const apps: App[] = [
     desc: "Symbolic icons for your apps",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.nate_xyz.Paleta",
+    name: "Paleta",
+    desc: "Generate color palettes with ease",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
