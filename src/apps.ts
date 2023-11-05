@@ -653,6 +653,12 @@ const apps: App[] = [
     desc: "Control your Elgato Stream Decks",
     lang: Lang.C,
   },
+  {
+    id: "garden.turtle.Jellybean",
+    name: "Jellybean",
+    desc: "Manage inventories of various things",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
