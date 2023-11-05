@@ -768,6 +768,12 @@ const apps: App[] = [
     desc: "Stock up on colors",
     lang: Lang.Vala,
   },
+  {
+    id: "org.gnome.design.IconLibrary",
+    name: "Icon Library",
+    desc: "Symbolic icons for your apps",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
