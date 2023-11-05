@@ -780,6 +780,12 @@ const apps: App[] = [
     desc: "Generate color palettes with ease",
     lang: Lang.Python,
   },
+  {
+    id: "org.gnome.design.SymbolicPreview",
+    name: "Symbolic Preview",
+    desc: "Symbolics Made Easy",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
