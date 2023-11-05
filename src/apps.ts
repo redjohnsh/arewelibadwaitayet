@@ -714,6 +714,12 @@ const apps: App[] = [
     desc: "Check hashes for your files",
     lang: Lang.Crystal,
   },
+  {
+    id: "pm.mirko.Atoms",
+    name: "Atoms",
+    desc: "Manage Chroot and Containers",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
