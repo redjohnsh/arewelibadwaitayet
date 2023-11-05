@@ -738,6 +738,12 @@ const apps: App[] = [
     desc: "Test your regular expressions",
     lang: Lang.Rust,
   },
+  {
+    id: "de.philippun1.Snoop",
+    name: "Snoop",
+    desc: "Snoop through your files",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
