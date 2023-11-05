@@ -695,6 +695,12 @@ const apps: App[] = [
     desc: "Simple Countdown Timer",
     lang: Lang.Python,
   },
+  {
+    id: "dev.edfloreshz.Done",
+    name: "Done",
+    desc: "To-do lists reimagined",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
