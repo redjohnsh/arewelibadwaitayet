@@ -9,6 +9,7 @@ export enum Lang {
   C = "C",
   CPlusPlus = "C++",
   CSharp = "C#",
+  Crystal = "Crystal",
   Go = "Go",
   JavaScript = "JavaScript",
   Python = "Python",
@@ -706,6 +707,12 @@ const apps: App[] = [
     name: "Reminders",
     desc: "Set reminders for yourself",
     lang: Lang.Python,
+  },
+  {
+    id: "dev.geopjr.Collision",
+    name: "Collision",
+    desc: "Check hashes for your files",
+    lang: Lang.Crystal,
   },
 ];
 

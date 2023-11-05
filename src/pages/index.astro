@@ -32,10 +32,12 @@ import apps, { Lang } from "../apps.ts";
                 class="ml-1.5 mt-1.5 absolute top-0 lef-0 text-xs px-1.5 py-0.5 rounded-md font-medium dark:bg-zinc-800 dark:text-white"
                 class:list={{
                   "bg-blue-100 text-blue-900": app.lang === Lang.Python,
+                  "bg-sky-100 text-sky-900": app.lang === Lang.Go,
                   "bg-orange-100 text-orange-900": app.lang === Lang.Rust,
                   "bg-lime-100 text-lime-900": app.lang === Lang.CSharp,
                   "bg-purple-100 text-purple-900": app.lang === Lang.Vala,
-                  "bg-zinc-100 text-zinc-900": app.lang === Lang.C,
+                  "bg-zinc-100 text-zinc-900":
+                    app.lang === Lang.C || app.lang === Lang.Crystal,
                   "bg-pink-100 text-pink-900": app.lang === Lang.CPlusPlus,
                   "bg-yellow-100 text-yellow-900": app.lang === Lang.JavaScript,
                 }}
