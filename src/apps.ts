@@ -683,6 +683,12 @@ const apps: App[] = [
     desc: "Log the time it took to do tasks",
     lang: Lang.Vala,
   },
+  {
+    id: "re.sonny.Retro",
+    name: "Retro",
+    desc: "A customizable retro digital segment clock",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
