@@ -659,6 +659,12 @@ const apps: App[] = [
     desc: "Manage inventories of various things",
     lang: Lang.Vala,
   },
+  {
+    id: "org.gnome.Characters",
+    name: "Characters",
+    desc: "Character map application",
+    lang: Lang.C,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
