@@ -665,6 +665,12 @@ const apps: App[] = [
     desc: "Character map application",
     lang: Lang.C,
   },
+  {
+    id: "com.clarahobbs.chessclock",
+    name: "Chess Clock",
+    desc: "Time games of over-the-board chess",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
