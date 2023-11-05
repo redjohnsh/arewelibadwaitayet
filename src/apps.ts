@@ -756,6 +756,12 @@ const apps: App[] = [
     desc: "Change the look of Adwaita, with ease",
     lang: Lang.Python,
   },
+  {
+    id: "re.sonny.Commit",
+    name: "Commit",
+    desc: "Commit message editor",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
