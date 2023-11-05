@@ -744,6 +744,12 @@ const apps: App[] = [
     desc: "Snoop through your files",
     lang: Lang.Vala,
   },
+  {
+    id: "me.iepure.devtoolbox",
+    name: "Dev Toolbox",
+    desc: "Development tools at your fingertips",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
