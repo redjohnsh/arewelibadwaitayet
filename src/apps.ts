@@ -786,6 +786,12 @@ const apps: App[] = [
     desc: "Symbolics Made Easy",
     lang: Lang.Rust,
   },
+  {
+    id: "com.hunterwittenborn.Celeste",
+    name: "Celeste",
+    desc: "Sync your cloud files",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
