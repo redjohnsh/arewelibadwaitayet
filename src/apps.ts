@@ -858,6 +858,12 @@ const apps: App[] = [
     desc: "Simple note taking",
     lang: Lang.Python,
   },
+  {
+    id: "de.k_bo.Televido",
+    name: "Televido",
+    desc: "Access German-language public TV",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
