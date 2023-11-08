@@ -882,6 +882,12 @@ const apps: App[] = [
     desc: "GTK4 Discord client in Go",
     lang: Lang.Go,
   },
+  {
+    id: "com.github.joseexposito.touche",
+    name: "Touché",
+    desc: "Multi-touch Gestures",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
