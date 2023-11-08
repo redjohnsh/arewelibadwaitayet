@@ -840,6 +840,12 @@ const apps: App[] = [
     desc: "Manage your PineTime",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.diegoivan.pdf_metadata_editor",
+    name: "Paper Clip",
+    desc: "Edit PDF document metadata",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
