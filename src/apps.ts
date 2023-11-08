@@ -834,6 +834,12 @@ const apps: App[] = [
     desc: "GTK4 version of Vakt-i Salah (Prayer Times)",
     lang: Lang.Rust,
   },
+  {
+    id: "io.gitlab.azymohliad.WatchMate",
+    name: "Watchmate",
+    desc: "Manage your PineTime",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
