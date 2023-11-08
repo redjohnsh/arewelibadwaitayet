@@ -876,6 +876,12 @@ const apps: App[] = [
     desc: "Save and read web articles",
     lang: Lang.Rust,
   },
+  {
+    id: "so.libdb.gtkcord4",
+    name: "gtkcord4",
+    desc: "GTK4 Discord client in Go",
+    lang: Lang.Go,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
