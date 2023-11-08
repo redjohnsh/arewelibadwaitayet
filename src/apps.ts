@@ -822,6 +822,12 @@ const apps: App[] = [
     desc: "Write and decode morse",
     lang: Lang.Python,
   },
+  {
+    id: "com.gitlab.guillermop.MasterKey",
+    name: "Master Key",
+    desc: "A password manager application",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
