@@ -798,6 +798,12 @@ const apps: App[] = [
     desc: "Learn Japanese characters",
     lang: Lang.Rust,
   },
+  {
+    id: "com.ranfdev.Notify",
+    name: "Notify",
+    desc: "Receive notifications from ntfy.sh.",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
