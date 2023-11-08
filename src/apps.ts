@@ -816,6 +816,12 @@ const apps: App[] = [
     desc: "Roll the dice",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.fkinoshita.Telegraph",
+    name: "Telegraph",
+    desc: "Write and decode morse",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
