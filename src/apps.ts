@@ -792,6 +792,12 @@ const apps: App[] = [
     desc: "Sync your cloud files",
     lang: Lang.Rust,
   },
+  {
+    id: "com.felipekinoshita.Kana",
+    name: "Kana",
+    desc: "Learn Japanese characters",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
