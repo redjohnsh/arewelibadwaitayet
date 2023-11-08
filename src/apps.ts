@@ -828,6 +828,12 @@ const apps: App[] = [
     desc: "A password manager application",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.eminfedar.vaktisalah-gtk-rs",
+    name: "Vakt-i Salah",
+    desc: "GTK4 version of Vakt-i Salah (Prayer Times)",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
