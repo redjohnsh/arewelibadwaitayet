@@ -888,6 +888,12 @@ const apps: App[] = [
     desc: "Multi-touch Gestures",
     lang: Lang.JavaScript,
   },
+  {
+    id: "it.mijorus.gearlever",
+    name: "Gear Level",
+    desc: "Manage AppImages",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
