@@ -864,6 +864,12 @@ const apps: App[] = [
     desc: "Access German-language public TV",
     lang: Lang.Rust,
   },
+  {
+    id: "de.schmidhuberj.DieBahn",
+    name: "Railway",
+    desc: "Travel with all your train information in one place",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
