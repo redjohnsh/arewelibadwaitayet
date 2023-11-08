@@ -852,6 +852,12 @@ const apps: App[] = [
     desc: "Play the classic two-player board game of chess",
     lang: Lang.Vala,
   },
+  {
+    id: "org.gnome.gitlab.cheywood.Iotas",
+    name: "Iotas",
+    desc: "Simple note taking",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
