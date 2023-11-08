@@ -42,7 +42,12 @@ import apps, { Lang } from "../apps.ts";
       >
         {
           apps.map((app) => (
-            <article class="relative">
+            <a
+              class="relative"
+              href={`https://flathub.org/apps/${app.id}`}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <span
                 class="ml-1.5 mt-1.5 absolute top-0 lef-0 text-xs px-1.5 py-0.5 rounded-md font-medium dark:bg-zinc-800 dark:text-white"
                 class:list={{
@@ -59,15 +64,10 @@ import apps, { Lang } from "../apps.ts";
               >
                 {app.lang}
               </span>
-              <a
-                class="hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors rounded-xl p-6 flex flex-col items-center"
-                href={`https://flathub.org/apps/${app.id}`}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              <article class="hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors rounded-xl p-6 flex flex-col items-center">
                 <img
                   alt={`${app.name} logo`}
-                  class="w-20"
+                  class="w-28 md:w-20"
                   loading="lazy"
                   src={`https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/${app.id}.png`}
                 />
@@ -77,8 +77,8 @@ import apps, { Lang } from "../apps.ts";
                 <p class="text-sm text-zinc-600 dark:text-zinc-400 text-center">
                   {app.desc}
                 </p>
-              </a>
-            </article>
+              </article>
+            </a>
           ))
         }
       </main>
