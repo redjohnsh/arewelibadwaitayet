@@ -810,6 +810,12 @@ const apps: App[] = [
     desc: "Configure port forwarding on your gateway through the NAT-PMP protocol.",
     lang: Lang.Rust,
   },
+  {
+    id: "dev.zelikos.rollit",
+    name: "Roll-It",
+    desc: "Roll the dice",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
