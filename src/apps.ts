@@ -846,6 +846,12 @@ const apps: App[] = [
     desc: "Edit PDF document metadata",
     lang: Lang.Vala,
   },
+  {
+    id: "org.gnome.Chess",
+    name: "Chess",
+    desc: "Play the classic two-player board game of chess",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
