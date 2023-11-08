@@ -870,6 +870,12 @@ const apps: App[] = [
     desc: "Travel with all your train information in one place",
     lang: Lang.Rust,
   },
+  {
+    id: "com.belmoussaoui.ReadItLater",
+    name: "Read It Later",
+    desc: "Save and read web articles",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
