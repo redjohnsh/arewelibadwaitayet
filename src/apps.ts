@@ -804,6 +804,12 @@ const apps: App[] = [
     desc: "Receive notifications from ntfy.sh.",
     lang: Lang.Rust,
   },
+  {
+    id: "fr.sgued.ten_forward",
+    name: "Ten Forward",
+    desc: "Configure port forwarding on your gateway through the NAT-PMP protocol.",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
