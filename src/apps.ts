@@ -894,6 +894,12 @@ const apps: App[] = [
     desc: "Manage AppImages",
     lang: Lang.Python,
   },
+  {
+    id: "im.bernard.Nostalgia",
+    name: "Nostalgia",
+    desc: "Set historic GNOME Wallpapers",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
