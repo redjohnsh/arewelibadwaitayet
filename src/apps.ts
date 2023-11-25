@@ -900,6 +900,12 @@ const apps: App[] = [
     desc: "Set historic GNOME Wallpapers",
     lang: Lang.Vala,
   },
+  {
+    id: "io.github.vikdevelop.SaveDesktop",
+    name: "SaveDesktop",
+    desc: "Save the current configuration of your desktop environment",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
