@@ -807,7 +807,8 @@ const apps: App[] = [
   {
     id: "fr.sgued.ten_forward",
     name: "Ten Forward",
-    desc: "Configure port forwarding on your gateway through the NAT-PMP protocol.",
+    desc:
+      "Configure port forwarding on your gateway through the NAT-PMP protocol.",
     lang: Lang.Rust,
   },
   {
@@ -904,6 +905,12 @@ const apps: App[] = [
     id: "io.github.vikdevelop.SaveDesktop",
     name: "SaveDesktop",
     desc: "Save the current configuration of your desktop environment",
+    lang: Lang.Python,
+  },
+  {
+    id: "io.frama.tractor.carburetor",
+    name: "Carburetor",
+    desc: "The Onion Routing app",
     lang: Lang.Python,
   },
 ];
