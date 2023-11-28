@@ -918,6 +918,12 @@ const apps: App[] = [
     desc: "Translation software for gnome",
     lang: Lang.Python,
   },
+  {
+    id: "art.taunoerik.tauno-monitor",
+    name: "Tauno Monitor",
+    desc: "Simple stand-alone serial port monitor",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
