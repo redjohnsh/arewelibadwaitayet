@@ -92,7 +92,7 @@ const apps: App[] = [
   },
   {
     id: "io.gitlab.adhami3310.Converter",
-    name: "Converter",
+    name: "Switcheroo",
     desc: "Convert and manipulate images",
     lang: Lang.Rust,
   },
