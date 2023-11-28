@@ -924,6 +924,12 @@ const apps: App[] = [
     desc: "Simple stand-alone serial port monitor",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.giantpinkrobots.varia",
+    name: "Varia",
+    desc: "Download manager based on aria2",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
