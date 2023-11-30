@@ -936,6 +936,12 @@ const apps: App[] = [
     desc: "Documentation viewer for GNOME",
     lang: Lang.JavaScript,
   },
+  {
+    id: "org.gnome.Fractal",
+    name: "Fractal",
+    desc: "Matrix group messaging app",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
