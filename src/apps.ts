@@ -930,6 +930,12 @@ const apps: App[] = [
     desc: "Download manager based on aria2",
     lang: Lang.Python,
   },
+  {
+    id: "app.drey.Biblioteca",
+    name: "Biblioteca",
+    desc: "Documentation viewer for GNOME",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
