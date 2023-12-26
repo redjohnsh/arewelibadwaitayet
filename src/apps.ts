@@ -960,6 +960,12 @@ const apps: App[] = [
     desc: "Convert Youtube Music playlists to Jellyfin playlists",
     lang: Lang.Python,
   },
+  {
+    id: "dev.bragefuglseth.Fretboard",
+    name: "Fretboard",
+    desc: "Look up guitar chords",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
