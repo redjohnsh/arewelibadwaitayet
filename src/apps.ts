@@ -942,6 +942,12 @@ const apps: App[] = [
     desc: "Matrix group messaging app",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.leolost2605.gradebook",
+    name: "Gradebook",
+    desc: "Keep track of your grades",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
