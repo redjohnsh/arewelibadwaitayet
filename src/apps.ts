@@ -954,6 +954,12 @@ const apps: App[] = [
     desc: "Forget about forgetting things",
     lang: Lang.Vala,
   },
+  {
+    id: "net.krafting.Playlifin",
+    name: "Playlifin",
+    desc: "Convert Youtube Music playlists to Jellyfin playlists",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
