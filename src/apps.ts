@@ -948,6 +948,12 @@ const apps: App[] = [
     desc: "Keep track of your grades",
     lang: Lang.Vala,
   },
+  {
+    id: "io.github.alainm23.planify",
+    name: "Planify",
+    desc: "Forget about forgetting things",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
