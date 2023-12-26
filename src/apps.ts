@@ -656,7 +656,7 @@ const apps: App[] = [
   },
   {
     id: "garden.turtle.Jellybean",
-    name: "Jellybean",
+    name: "Stockpile",
     desc: "Manage inventories of various things",
     lang: Lang.Vala,
   },
