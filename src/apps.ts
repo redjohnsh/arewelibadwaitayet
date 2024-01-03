@@ -990,6 +990,12 @@ const apps: App[] = [
     desc: "Draw sequence diagrams of D-Bus activity",
     lang: Lang.Rust,
   },
+  {
+    id: "com.quexten.Goldwarden",
+    name: "Goldwarden",
+    desc: "A Bitwarden compatible desktop client",
+    lang: Lang.Go,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
