@@ -972,6 +972,12 @@ const apps: App[] = [
     desc: "Stream movies and TV shows from Jellyfin",
     lang: Lang.Rust,
   },
+  {
+    id: "io.gitlab.daikhan.stable",
+    name: "Daikhan",
+    desc: "Play Videos/Music with style",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
