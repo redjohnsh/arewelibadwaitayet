@@ -978,6 +978,12 @@ const apps: App[] = [
     desc: "Play Videos/Music with style",
     lang: Lang.Vala,
   },
+  {
+    id: "io.github.FailurePoint.RandomNumberFive",
+    name: "Random Number Five",
+    desc: "Random number generator for For the Linux desktop!",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
