@@ -984,6 +984,12 @@ const apps: App[] = [
     desc: "Random number generator for For the Linux desktop!",
     lang: Lang.Python,
   },
+  {
+    id: "org.freedesktop.Bustle",
+    name: "Bustle",
+    desc: "Draw sequence diagrams of D-Bus activity",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
