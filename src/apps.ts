@@ -996,6 +996,12 @@ const apps: App[] = [
     desc: "A Bitwarden compatible desktop client",
     lang: Lang.Go,
   },
+  {
+    id: "com.github.johnfactotum.Foliate",
+    name: "Foliate",
+    desc: "Read e-books in style",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
