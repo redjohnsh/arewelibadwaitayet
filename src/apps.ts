@@ -1002,6 +1002,12 @@ const apps: App[] = [
     desc: "Read e-books in style",
     lang: Lang.JavaScript,
   },
+  {
+    id: "app.drey.KeyRack",
+    name: "Key Rack",
+    desc: "View and edit app secrets",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
