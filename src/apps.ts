@@ -1008,6 +1008,12 @@ const apps: App[] = [
     desc: "View and edit app secrets",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.fizzyizzy05.binary",
+    name: "Binary",
+    desc: "Number base converter, written in Python with GTK/Libadwaita",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
