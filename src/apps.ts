@@ -1014,6 +1014,12 @@ const apps: App[] = [
     desc: "Number base converter, written in Python with GTK/Libadwaita",
     lang: Lang.Python,
   },
+  {
+    id: "org.gaphor.Gaphor",
+    name: "Gaphor",
+    desc: "Simple UML and SysML modeling tool",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
