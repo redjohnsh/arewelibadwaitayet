@@ -1026,6 +1026,12 @@ const apps: App[] = [
     desc: "Customize the menu",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.fabrialberio.pinapp",
+    name: "PinApp",
+    desc: "Create and edit application shortcuts",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
