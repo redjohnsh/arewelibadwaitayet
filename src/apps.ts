@@ -1020,6 +1020,12 @@ const apps: App[] = [
     desc: "Simple UML and SysML modeling tool",
     lang: Lang.Python,
   },
+  {
+    id: "page.codeberg.libre_menu_editor.LibreMenuEditor",
+    name: "Main Menu",
+    desc: "Customize the menu",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
