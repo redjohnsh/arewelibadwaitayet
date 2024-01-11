@@ -1032,6 +1032,12 @@ const apps: App[] = [
     desc: "Create and edit application shortcuts",
     lang: Lang.Python,
   },
+  {
+    id: "it.mijorus.whisper",
+    name: "Whisper",
+    desc: "Listen to your mic",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
