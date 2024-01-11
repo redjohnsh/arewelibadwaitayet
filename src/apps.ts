@@ -1038,6 +1038,12 @@ const apps: App[] = [
     desc: "Listen to your mic",
     lang: Lang.Python,
   },
+  {
+    id: "com.github.alexkdeveloper.forgetpass",
+    name: "Forgetpass",
+    desc: "Simple password generator for websites",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
