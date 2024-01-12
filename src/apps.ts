@@ -1050,6 +1050,12 @@ const apps: App[] = [
     desc: "Follow video creators",
     lang: Lang.Rust,
   },
+  {
+    id: "xyz.tytanium.DoorKnocker",
+    name: "Door Knocker",
+    desc: "Check the availability of portals",
+    lang: Lang.C,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
