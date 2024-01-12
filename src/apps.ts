@@ -1044,6 +1044,12 @@ const apps: App[] = [
     desc: "Simple password generator for websites",
     lang: Lang.Vala,
   },
+  {
+    id: "de.schmidhuberj.tubefeeder",
+    name: "Pipeline",
+    desc: "Follow video creators",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
