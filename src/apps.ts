@@ -627,7 +627,7 @@ const apps: App[] = [
   {
     id: "se.sjoerd.Graphs",
     name: "Graphs",
-    desc: "Plot and manipulate data in a breeze",
+    desc: "Plot and manipulate data",
     lang: Lang.Python,
   },
   {
