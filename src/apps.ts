@@ -1056,6 +1056,12 @@ const apps: App[] = [
     desc: "Check the availability of portals",
     lang: Lang.C,
   },
+  {
+    id: "io.github.sigmasd.nosleep",
+    name: "Stimulator",
+    desc: "Stop the desktop environment from sleeping",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
