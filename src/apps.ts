@@ -1062,6 +1062,12 @@ const apps: App[] = [
     desc: "Stop the desktop environment from sleeping",
     lang: Lang.JavaScript,
   },
+  {
+    id: "io.github.idevecore.CurrencyConverter",
+    name: "Currency Converter",
+    desc: "A simple currency converter using Google-based data",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
