@@ -1068,6 +1068,12 @@ const apps: App[] = [
     desc: "A simple currency converter using Google-based data",
     lang: Lang.Python,
   },
+  {
+    id: "io.gitlab.idevecore.Pomodoro",
+    name: "Pomodoro",
+    desc: "Pomodoro is a productivity-focused timer",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
