@@ -572,8 +572,8 @@ const apps: App[] = [
   },
   {
     id: "io.github.dlippok.photometric-viewer",
-    name: "Photometric Viewer",
-    desc: "Browse content of IES and LDT photometric files",
+    name: "Photometry",
+    desc: "View photometric files",
     lang: Lang.Python,
   },
   {
