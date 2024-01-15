@@ -1074,6 +1074,12 @@ const apps: App[] = [
     desc: "Pomodoro is a productivity-focused timer",
     lang: Lang.JavaScript,
   },
+  {
+    id: "io.github.amit9838.weather",
+    name: "Weather",
+    desc: "Beautiful and lightweight weather app",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
