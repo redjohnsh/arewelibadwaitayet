@@ -1080,6 +1080,12 @@ const apps: App[] = [
     desc: "Beautiful and lightweight weather app",
     lang: Lang.Python,
   },
+  {
+    id: "it.mijorus.collector",
+    name: "Collector",
+    desc: "Drag and Drop to the next level",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
