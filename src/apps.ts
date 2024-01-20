@@ -1086,6 +1086,12 @@ const apps: App[] = [
     desc: "Drag and Drop to the next level",
     lang: Lang.Python,
   },
+  {
+    id: "org.sigxcpu.Livi",
+    name: "Light Video",
+    desc: "A simple GTK4 based video player for mobile phones",
+    lang: Lang.C,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
