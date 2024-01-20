@@ -1092,6 +1092,12 @@ const apps: App[] = [
     desc: "A simple GTK4 based video player for mobile phones",
     lang: Lang.C,
   },
+  {
+    id: "net.krafting.PleasureDVR",
+    name: "Pleasure DVR",
+    desc: "DVR for the Chaturbate website",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
