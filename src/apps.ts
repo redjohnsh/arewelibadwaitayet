@@ -1104,6 +1104,12 @@ const apps: App[] = [
     desc: "Exclude files and folders from recently used files",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.davidoc26.wallpaper_selector",
+    name: "Wallpaper Selector",
+    desc: "Downloads and applies wallpapers",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
