@@ -1098,6 +1098,12 @@ const apps: App[] = [
     desc: "DVR for the Chaturbate website",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.unrud.RecentFilter",
+    name: "Recent Filter",
+    desc: "Exclude files and folders from recently used files",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
