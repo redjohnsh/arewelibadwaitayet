@@ -1116,6 +1116,12 @@ const apps: App[] = [
     desc: "Clicker & Chance Game",
     lang: Lang.C,
   },
+  {
+    id: "com.github.tenderowl.frog",
+    name: "Frog",
+    desc: "Extract text from images",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
