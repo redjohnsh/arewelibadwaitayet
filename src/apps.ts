@@ -1110,6 +1110,12 @@ const apps: App[] = [
     desc: "Downloads and applies wallpapers",
     lang: Lang.Rust,
   },
+  {
+    id: "page.codeberg.SOrg.DogGTK",
+    name: "Doggo",
+    desc: "Clicker & Chance Game",
+    lang: Lang.C,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
