@@ -1128,6 +1128,12 @@ const apps: App[] = [
     desc: "Fitness tracker",
     lang: Lang.Rust,
   },
+  {
+    id: "com.github.rogercrocker.badabib",
+    name: "Bada Bib!",
+    desc: "View and edit BibTeX entries",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
