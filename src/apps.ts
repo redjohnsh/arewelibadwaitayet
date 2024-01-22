@@ -1134,6 +1134,12 @@ const apps: App[] = [
     desc: "View and edit BibTeX entries",
     lang: Lang.Python,
   },
+  {
+    id: "com.github.cassidyjames.clairvoyant",
+    name: "Clairvoyant",
+    desc: "Ask questions, get psychic answers",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
