@@ -1122,6 +1122,12 @@ const apps: App[] = [
     desc: "Extract text from images",
     lang: Lang.Python,
   },
+  {
+    id: "xyz.slothlife.Jogger",
+    name: "Jogger",
+    desc: "Fitness tracker",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
