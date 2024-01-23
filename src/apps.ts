@@ -1140,6 +1140,12 @@ const apps: App[] = [
     desc: "Ask questions, get psychic answers",
     lang: Lang.Vala,
   },
+  {
+    id: "io.github.xverizex.RetroSpriteEditor",
+    name: "Retro Sprite",
+    desc: "Pixel Editor for Retro Consoles",
+    lang: Lang.C,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
