@@ -1146,6 +1146,12 @@ const apps: App[] = [
     desc: "Pixel Editor for Retro Consoles",
     lang: Lang.C,
   },
+  {
+    id: "io.github.phastmike.tags",
+    name: "Tags",
+    desc: "Color logs based on tags",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
