@@ -1152,6 +1152,12 @@ const apps: App[] = [
     desc: "Color logs based on tags",
     lang: Lang.Vala,
   },
+  {
+    id: "io.github.santiagocezar.maniatic-launcher",
+    name: "Maniatic Launcher",
+    desc: "A launcher for the decompilation of Retro Engine (v5)",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
