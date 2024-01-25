@@ -1158,6 +1158,12 @@ const apps: App[] = [
     desc: "A launcher for the decompilation of Retro Engine (v5)",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.nokse22.ultimate-tic-tac-toe",
+    name: "Ultimate Tic Tac Toe",
+    desc: "(Tic Tac Toe)²",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
