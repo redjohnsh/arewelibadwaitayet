@@ -1158,6 +1158,12 @@ const apps: App[] = [
     desc: "A launcher for the decompilation of Retro Engine (v5)",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.nokse22.inspector",
+    name: "Inspector",
+    desc: "View information about your system",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
