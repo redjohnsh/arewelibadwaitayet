@@ -520,7 +520,7 @@ const apps: App[] = [
     id: "io.github.celluloid_player.Celluloid",
     name: "Celluloid",
     desc: "GTK+ frontend for mpv",
-    lang: Lang.CSharp,
+    lang: Lang.C,
   },
   {
     id: "com.pojtinger.felicitas.Multiplex",
