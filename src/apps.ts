@@ -1159,6 +1159,7 @@ const apps: App[] = [
     lang: Lang.Python,
   },
   {
+
     id: "io.github.Rirusha.Cassette",
     name: "Cassette",
     desc: "Unofficial Yandex.Music client",
@@ -1169,7 +1170,13 @@ const apps: App[] = [
     name: "Mini Text",
     desc: "Ephemeral scratch pad",
     lang: Lang.Python,
-  }
+  },
+  {
+    id: "io.github.nokse22.ultimate-tic-tac-toe",
+    name: "Ultimate Tic Tac Toe",
+    desc: "(Tic Tac Toe)²",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
