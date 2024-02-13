@@ -1183,6 +1183,12 @@ const apps: App[] = [
     desc: "View information about your system",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.nokse22.trivia-quiz",
+    name: "Trivia Quiz",
+    desc: "Respond to endless questions",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
