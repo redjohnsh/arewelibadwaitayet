@@ -1164,6 +1164,12 @@ const apps: App[] = [
     desc: "Unofficial Yandex.Music client",
     lang: Lang.Vala,
   },
+  {
+    id: "io.github.nokse22.minitext",
+    name: "Mini Text",
+    desc: "Ephemeral scratch pad",
+    lang: Lang.Python,
+  }
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
