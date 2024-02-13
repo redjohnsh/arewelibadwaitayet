@@ -1177,6 +1177,12 @@ const apps: App[] = [
     desc: "(Tic Tac Toe)²",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.nokse22.inspector",
+    name: "Inspector",
+    desc: "View information about your system",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
