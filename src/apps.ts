@@ -520,7 +520,7 @@ const apps: App[] = [
     id: "io.github.celluloid_player.Celluloid",
     name: "Celluloid",
     desc: "GTK+ frontend for mpv",
-    lang: Lang.CSharp,
+    lang: Lang.C,
   },
   {
     id: "com.pojtinger.felicitas.Multiplex",
@@ -1159,11 +1159,17 @@ const apps: App[] = [
     lang: Lang.Python,
   },
   {
+    id: "io.github.Rirusha.Cassette",
+    name: "Cassette",
+    desc: "Unofficial Yandex.Music client",
+    lang: Lang.Vala,
+  },
+  {
     id: "io.github.nokse22.minitext",
     name: "Mini Text",
     desc: "Ephemeral scratch pad",
     lang: Lang.Python,
-  },
+  }
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
