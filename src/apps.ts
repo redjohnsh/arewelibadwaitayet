@@ -520,7 +520,7 @@ const apps: App[] = [
     id: "io.github.celluloid_player.Celluloid",
     name: "Celluloid",
     desc: "GTK+ frontend for mpv",
-    lang: Lang.CSharp,
+    lang: Lang.C,
   },
   {
     id: "com.pojtinger.felicitas.Multiplex",
@@ -1156,6 +1156,31 @@ const apps: App[] = [
     id: "io.github.santiagocezar.maniatic-launcher",
     name: "Maniatic Launcher",
     desc: "A launcher for the decompilation of Retro Engine (v5)",
+    lang: Lang.Python,
+  },
+  {
+
+    id: "io.github.Rirusha.Cassette",
+    name: "Cassette",
+    desc: "Unofficial Yandex.Music client",
+    lang: Lang.Vala,
+  },
+  {
+    id: "io.github.nokse22.minitext",
+    name: "Mini Text",
+    desc: "Ephemeral scratch pad",
+    lang: Lang.Python,
+  },
+  {
+    id: "io.github.nokse22.ultimate-tic-tac-toe",
+    name: "Ultimate Tic Tac Toe",
+    desc: "(Tic Tac Toe)²",
+    lang: Lang.Python,
+  },
+  {
+    id: "io.github.nokse22.inspector",
+    name: "Inspector",
+    desc: "View information about your system",
     lang: Lang.Python,
   },
   {
