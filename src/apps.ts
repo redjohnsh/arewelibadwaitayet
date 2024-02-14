@@ -1158,8 +1158,7 @@ const apps: App[] = [
     desc: "A launcher for the decompilation of Retro Engine (v5)",
     lang: Lang.Python,
   },
-  {
-
+   {
     id: "io.github.Rirusha.Cassette",
     name: "Cassette",
     desc: "Unofficial Yandex.Music client",
@@ -1187,6 +1186,12 @@ const apps: App[] = [
     id: "io.github.nokse22.trivia-quiz",
     name: "Trivia Quiz",
     desc: "Respond to endless questions",
+    lang: Lang.Python,
+  },
+  {
+    id: "io.github.nokse22.teleprompter",
+    name: "Teleprompter",
+    desc: "Stay on track during speeches",
     lang: Lang.Python,
   },
 ];
