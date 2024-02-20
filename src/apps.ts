@@ -1218,6 +1218,12 @@ const apps: App[] = [
     desc: "Application for tracking player scores in card and board games",
     lang: Lang.Rust,
   },
+  {
+    id: "dev.mufeed.Wordbook",
+    name: "Wordbook",
+    desc: "Lookup definitions for any English term",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
