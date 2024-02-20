@@ -1206,6 +1206,12 @@ const apps: App[] = [
     desc: "Manage files on the go",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.dvlv.boxbuddyrs",
+    name: "BoxBuddy",
+    desc: "A Graphical Distrobox Manager",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
