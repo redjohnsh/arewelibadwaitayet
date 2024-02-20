@@ -1212,6 +1212,12 @@ const apps: App[] = [
     desc: "A Graphical Distrobox Manager",
     lang: Lang.Rust,
   },
+  {
+    id: "io.github.weclaw1.ScoreTracker",
+    name: "Score Tracker",
+    desc: "Application for tracking player scores in card and board games",
+    lang: Lang.Rust,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
