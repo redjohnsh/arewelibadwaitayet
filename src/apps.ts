@@ -1200,6 +1200,12 @@ const apps: App[] = [
     desc: "A simple SQL client",
     lang: Lang.Vala,
   },
+  {
+    id: "dev.tchx84.Portfolio",
+    name: "Portfolio",
+    desc: "Manage files on the go",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
