@@ -1194,6 +1194,12 @@ const apps: App[] = [
     desc: "Stay on track during speeches",
     lang: Lang.Python,
   },
+  {
+    id: "me.ppvan.psequel",
+    name: "psequel",
+    desc: "A simple SQL client",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
