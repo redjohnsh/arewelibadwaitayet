@@ -1158,7 +1158,7 @@ const apps: App[] = [
     desc: "A launcher for the decompilation of Retro Engine (v5)",
     lang: Lang.Python,
   },
-   {
+  {
     id: "io.github.Rirusha.Cassette",
     name: "Cassette",
     desc: "Unofficial Yandex.Music client",
@@ -1223,6 +1223,12 @@ const apps: App[] = [
     name: "Wordbook",
     desc: "Lookup definitions for any English term",
     lang: Lang.Python,
+  },
+  {
+    id: "com.vysp3r.RetroPlus",
+    name: "RetroPlus",
+    desc: "A simple ROM downloader",
+    lang: Lang.Vala,
   },
 ];
 
