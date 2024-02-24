@@ -1242,6 +1242,12 @@ const apps: App[] = [
     desc: "Graphical client for the Soulseek network",
     lang: Lang.Python,
   },
+  {
+    id: "dev.skynomads.Seabird",
+    name: "Seabird",
+    desc: "Kubernetes desktop client",
+    lang: Lang.Go,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
