@@ -1236,6 +1236,12 @@ const apps: App[] = [
     desc: "Enjoy colors and feel happy",
     lang: Lang.Python,
   },
+  {
+    id: "org.nicotine_plus.Nicotine",
+    name: "Nicotine+",
+    desc: "Graphical client for the Soulseek network",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
