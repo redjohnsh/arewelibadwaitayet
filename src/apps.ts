@@ -1230,6 +1230,12 @@ const apps: App[] = [
     desc: "A simple ROM downloader",
     lang: Lang.Vala,
   },
+  {
+    id: "com.github.huluti.Coulr",
+    name: "Coulr",
+    desc: "Enjoy colors and feel happy",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
