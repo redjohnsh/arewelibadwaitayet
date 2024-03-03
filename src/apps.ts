@@ -1254,6 +1254,12 @@ const apps: App[] = [
     desc: "Identify hashing algorithms",
     lang: Lang.Python,
   },
+  {
+    id: "com.toolstack.Folio",
+    name: "Folio",
+    desc: "Take notes in Markdown",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
