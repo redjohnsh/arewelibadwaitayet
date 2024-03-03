@@ -1248,6 +1248,12 @@ const apps: App[] = [
     desc: "Kubernetes desktop client",
     lang: Lang.Go,
   },
+  {
+    id: "io.github.zefr0x.hashes",
+    name: "Hashes",
+    desc: "Identify hashing algorithms",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
