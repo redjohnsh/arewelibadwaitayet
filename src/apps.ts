@@ -1260,6 +1260,12 @@ const apps: App[] = [
     desc: "Take notes in Markdown",
     lang: Lang.Vala,
   },
+  {
+    id: "org.cvfosammmm.Lemma",
+    name: "Lemma",
+    desc: "Note-Taking App",
+    lang: Lang.Python,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
