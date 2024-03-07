@@ -1273,6 +1273,12 @@ const apps: App[] = [
     desc: "Study flashcards",
     lang: Lang.Swift,
   },
+  {
+    id: "app.drey.Elastic",
+    name: "Elastic",
+    desc: "Design spring animations",
+    lang: Lang.Vala,
+  },
 ];
 
 export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
