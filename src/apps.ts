@@ -1,3 +1,5 @@
+import { List } from "@oxi/list";
+
 type App = {
   id: string;
   name: string;
@@ -1281,4 +1283,6 @@ const apps: App[] = [
   },
 ];
 
-export default apps.slice().sort((a, b) => a.name.localeCompare(b.name));
+export default List.from(apps)
+  .uniqueBy((item) => item.id)
+  .sort((a, b) => a.name.localeCompare(b.name));
