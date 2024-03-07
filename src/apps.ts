@@ -8,12 +8,13 @@ type App = {
 export enum Lang {
   C = "C",
   CPlusPlus = "C++",
-  CSharp = "C#",
   Crystal = "Crystal",
+  CSharp = "C#",
   Go = "Go",
   JavaScript = "JavaScript",
   Python = "Python",
   Rust = "Rust",
+  Swift = "Swift",
   Vala = "Vala",
 }
 
@@ -1265,6 +1266,12 @@ const apps: App[] = [
     name: "Lemma",
     desc: "Note-Taking App",
     lang: Lang.Python,
+  },
+  {
+    id: "io.github.david_swift.Flashcards",
+    name: "Memorize",
+    desc: "Study flashcards",
+    lang: Lang.Swift,
   },
 ];
 
