@@ -1281,6 +1281,12 @@ const apps: App[] = [
     desc: "Design spring animations",
     lang: Lang.Vala,
   },
+  {
+    id: "com.github.geigi.cozy",
+    name: "Cozy",
+    desc: "Listen to audio books",
+    lang: Lang.Python,
+  },
 ];
 
 export default List.from(apps)
