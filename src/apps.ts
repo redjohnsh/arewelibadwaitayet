@@ -1305,6 +1305,12 @@ const apps: App[] = [
     desc: "Browse music with MPD",
     lang: Lang.Python,
   },
+  {
+    id: "io.github.finefindus.Hieroglyphic",
+    name: "Hieroglyphic",
+    desc: "Find LaTeX symbols",
+    lang: Lang.Rust,
+  },
 ];
 
 export default List.from(apps)
