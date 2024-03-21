@@ -880,9 +880,9 @@ const apps: App[] = [
     lang: Lang.Rust,
   },
   {
-    id: "so.libdb.gtkcord4",
-    name: "gtkcord4",
-    desc: "GTK4 Discord client in Go",
+    id: "so.libdb.dissent",
+    name: "Dissent",
+    desc: "GTK4 Discord client in Go (formerly gtkcord4)",
     lang: Lang.Go,
   },
   {
