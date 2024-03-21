@@ -1293,6 +1293,12 @@ const apps: App[] = [
     desc: "GTK speed reading software: Read like a speedrunner!",
     lang: Lang.Vala,
   },
+  {
+    id: "im.bernard.Memorado",
+    name: "Memorado",
+    desc: "Memorize anything",
+    lang: Lang.Python,
+  },
 ];
 
 export default List.from(apps)
