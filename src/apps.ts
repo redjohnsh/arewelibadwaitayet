@@ -1299,6 +1299,12 @@ const apps: App[] = [
     desc: "Memorize anything",
     lang: Lang.Python,
   },
+  {
+    id: "de.wagnermartin.Plattenalbum",
+    name: "Plattenalbum",
+    desc: "Browse music with MPD",
+    lang: Lang.Python,
+  },
 ];
 
 export default List.from(apps)
