@@ -1287,6 +1287,12 @@ const apps: App[] = [
     desc: "Listen to audio books",
     lang: Lang.Python,
   },
+  {
+    id: "com.github.Darazaki.Spedread",
+    name: "Spedread",
+    desc: "GTK speed reading software: Read like a speedrunner!",
+    lang: Lang.Vala,
+  },
 ];
 
 export default List.from(apps)
