@@ -1311,6 +1311,12 @@ const apps: App[] = [
     desc: "Find LaTeX symbols",
     lang: Lang.Rust,
   },
+  {
+    id: "com.core447.StreamController",
+    name: "StreamController",
+    desc: "Control your Elgato Stream Decks with plugin support",
+    lang: Lang.Python,
+  },
 ];
 
 export default List.from(apps)
