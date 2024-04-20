@@ -10,12 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.6",
-    "@astrojs/sitemap": "^3.1.1",
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/sitemap": "^3.1.4",
     "@astrojs/tailwind": "^5.1.0",
-    "@oxi/list": "npm:@jsr/oxi__list@^1.0.0",
-    "astro": "^4.4.14",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2"
+    "@oxi/list": "npm:@jsr/oxi__list@^1.2.0",
+    "astro": "^4.6.3",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
   }
 }
