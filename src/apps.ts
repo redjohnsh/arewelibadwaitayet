@@ -1317,6 +1317,12 @@ const apps: App[] = [
     desc: "Control your Elgato Stream Decks with plugin support",
     lang: Lang.Python,
   },
+  {
+    "id": "org.gnome.gitlab.cheywood.Buffer",
+    name: "Buffer",
+    desc: "Embrace ephemeral text",
+    lang: Lang.Python,
+  },
 ];
 
 export default List.from(apps)
