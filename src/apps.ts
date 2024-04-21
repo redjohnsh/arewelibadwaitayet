@@ -1323,6 +1323,12 @@ const apps: App[] = [
     desc: "Embrace ephemeral text",
     lang: Lang.Python,
   },
+  {
+    id: "io.gitlab.leesonwai.Tactics",
+    name: "Tactics",
+    desc: "Build your soccer lineup",
+    lang: Lang.C,
+  },
 ];
 
 export default List.from(apps)
