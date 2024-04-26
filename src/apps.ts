@@ -1335,6 +1335,12 @@ const apps: App[] = [
 		desc: "Calculate with postfix notation",
 		lang: Lang.C,
 	},
+	{
+		id: "io.github.halfmexican.Mingle",
+		name: "Mingle",
+		desc: "Combine emojis with Google's Emoji Kitchen",
+		lang: Lang.Vala,
+	},
 ];
 
 export default List.from(apps)
