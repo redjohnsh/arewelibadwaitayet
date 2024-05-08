@@ -1347,6 +1347,12 @@ const apps: App[] = [
 		desc: "Flatpak metainfo banner previewer",
 		lang: Lang.Python,
 	},
+	{
+		id: "org.gnome.gitlab.somas.Apostrophe",
+		name: "Apostrophe",
+		desc: "Edit Markdown in style",
+		lang: Lang.Python,
+	},
 ];
 
 export default List.from(apps)
