@@ -1365,6 +1365,12 @@ const apps: App[] = [
 		desc: "Automatic wallpapers from the Internet",
 		lang: Lang.Vala,
 	},
+	{
+		id: "dev.tchx84.Gameeky",
+		name: "Gameeky",
+		desc: "Play, create and learn",
+		lang: Lang.Python,
+	},
 ];
 
 export default List.from(apps)
