@@ -1359,6 +1359,12 @@ const apps: App[] = [
 		desc: "Combine emojis with Google's Emoji Kitchen",
 		lang: Lang.Vala,
 	},
+	{
+		id: "app.drey.Damask",
+		name: "Damask",
+		desc: "Automatic wallpapers from the Internet",
+		lang: Lang.Vala,
+	},
 ];
 
 export default List.from(apps)
