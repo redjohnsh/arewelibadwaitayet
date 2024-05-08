@@ -1377,6 +1377,12 @@ const apps: App[] = [
 		desc: "Give Steam the Adwaita treatment",
 		lang: Lang.Python,
 	},
+	{
+		id: "org.gnome.SimpleScan",
+		name: "Document Scanner",
+		desc: "Make a digital copy of your photos and documents",
+		lang: Lang.Vala,
+	},
 ];
 
 export default List.from(apps)
