@@ -1389,6 +1389,12 @@ const apps: App[] = [
 		desc: "Tool for designing applications icons",
 		lang: Lang.Rust,
 	},
+	{
+		id: "io.github.andreibachim.shortcut",
+		name: "Shortcut",
+		desc: "Make app shortcuts",
+		lang: Lang.Rust,
+	},
 ];
 
 export default List.from(apps)
