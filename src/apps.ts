@@ -1353,6 +1353,12 @@ const apps: App[] = [
 		desc: "Edit Markdown in style",
 		lang: Lang.Python,
 	},
+	{
+		id: "io.github.halfmexican.Mingle",
+		name: "Mingle",
+		desc: "Combine emojis with Google's Emoji Kitchen",
+		lang: Lang.Vala,
+	},
 ];
 
 export default List.from(apps)
