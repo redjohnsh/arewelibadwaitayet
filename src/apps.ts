@@ -1383,6 +1383,12 @@ const apps: App[] = [
 		desc: "Make a digital copy of your photos and documents",
 		lang: Lang.Vala,
 	},
+	{
+		id: "org.gnome.design.AppIconPreview",
+		name: "App Icon Preview",
+		desc: "Tool for designing applications icons",
+		lang: Lang.Rust,
+	},
 ];
 
 export default List.from(apps)
