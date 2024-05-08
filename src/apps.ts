@@ -1371,6 +1371,12 @@ const apps: App[] = [
 		desc: "Play, create and learn",
 		lang: Lang.Python,
 	},
+	{
+		id: "io.github.Foldex.AdwSteamGtk",
+		name: "AdwSteamGtk",
+		desc: "Give Steam the Adwaita treatment",
+		lang: Lang.Python,
+	},
 ];
 
 export default List.from(apps)
