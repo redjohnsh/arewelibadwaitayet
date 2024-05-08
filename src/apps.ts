@@ -1341,6 +1341,12 @@ const apps: App[] = [
 		desc: "Combine emojis with Google's Emoji Kitchen",
 		lang: Lang.Vala,
 	},
+	{
+		id: "io.github.cleomenezesjr.aurea",
+		name: "Aurea",
+		desc: "Flatpak metainfo banner previewer",
+		lang: Lang.Python,
+	},
 ];
 
 export default List.from(apps)
