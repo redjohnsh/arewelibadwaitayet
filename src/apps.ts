@@ -1395,6 +1395,12 @@ const apps: App[] = [
 		desc: "Make app shortcuts",
 		lang: Lang.Rust,
 	},
+	{
+		id: "io.github.mpobaschnig.Vaults",
+		name: "Vaults",
+		desc: "Keep important files safe",
+		lang: Lang.Rust,
+	},
 ];
 
 export default List.from(apps)
