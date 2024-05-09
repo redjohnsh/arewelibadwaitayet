@@ -1401,6 +1401,12 @@ const apps: App[] = [
 		desc: "Keep important files safe",
 		lang: Lang.Rust,
 	},
+	{
+		id: "com.github.johnfactotum.QuickLookup",
+		name: "Quick Lookup",
+		desc: "Look up words quickly",
+		lang: Lang.JavaScript,
+	},
 ];
 
 export default List.from(apps)
