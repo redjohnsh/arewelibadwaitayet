@@ -1407,6 +1407,12 @@ const apps: App[] = [
 		desc: "Look up words quickly",
 		lang: Lang.JavaScript,
 	},
+	{
+		id: "io.github.fsobolev.TimeSwitch",
+		name: "Time Switch",
+		desc: "Set a task to run after a timer",
+		lang: Lang.Python,
+	},
 ];
 
 export default List.from(apps)
