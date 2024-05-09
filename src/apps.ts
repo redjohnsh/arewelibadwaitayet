@@ -1413,6 +1413,12 @@ const apps: App[] = [
 		desc: "Set a task to run after a timer",
 		lang: Lang.Python,
 	},
+	{
+		id: "cz.ondrejkolin.Barcoder",
+		name: "Barcoder",
+		desc: "Simple barcode generator also usable on smaller screens",
+		lang: Lang.Rust,
+	},
 ];
 
 export default List.from(apps)
