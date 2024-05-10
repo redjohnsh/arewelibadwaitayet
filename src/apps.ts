@@ -1425,6 +1425,12 @@ const apps: App[] = [
     desc: "Manage your Epic assets",
     lang: Lang.Rust,
   },
+  {
+    id: "org.gnome.gitlab.bazylevnik0.Convolution",
+    name: "Convolution",
+    desc: "Maze escaping game",
+    lang: Lang.JavaScript,
+  },
 ];
 
 export default List.from(apps)
