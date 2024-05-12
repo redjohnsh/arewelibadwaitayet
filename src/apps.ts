@@ -1431,6 +1431,12 @@ const apps: App[] = [
     desc: "Maze escaping game",
     lang: Lang.JavaScript,
   },
+  {
+    id: "xyz.safeworlds.hiit",
+    name: "Exercise Timer",
+    desc: "Timer clock for high intensity interval training",
+    lang: Lang.Rust,
+  },
 ];
 
 export default List.from(apps)
