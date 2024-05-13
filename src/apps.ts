@@ -1437,6 +1437,12 @@ const apps: App[] = [
     desc: "Timer clock for high intensity interval training",
     lang: Lang.Rust,
   },
+  {
+    id: "net.codelogistics.webapps",
+    name: "Web Apps",
+    desc: "Install websites as apps",
+    lang: Lang.Python,
+  },
 ];
 
 export default List.from(apps)
