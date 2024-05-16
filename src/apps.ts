@@ -1198,6 +1198,11 @@ const APP_MAP: Record<string, App> = {
     desc: "An Ollama client",
     lang: Lang.Python,
   },
+  "app.devsuite.Schemes": {
+    name: "Schemes",
+    desc: "Create syntax highlighting schemes",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
