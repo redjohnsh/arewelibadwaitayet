@@ -1443,6 +1443,12 @@ const apps: App[] = [
     desc: "Install websites as apps",
     lang: Lang.Python,
   },
+  {
+    id: "com.jeffser.Alpaca",
+    name: "Alpaca",
+    desc: "An Ollama client",
+    lang: Lang.Python,
+  },
 ];
 
 export default List.from(apps)
