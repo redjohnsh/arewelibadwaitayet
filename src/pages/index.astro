@@ -2,16 +2,13 @@
 import apps, { Lang } from "../apps.ts";
 ---
 
-  <html lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Libadwaita Apps - A Curated List for Gnome</title>
-    <meta
-      name="description"
-      content=""
-    />
+    <meta name="description" content="" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="canonical" href="https://arewelibadwaitayet.com" />
@@ -25,9 +22,12 @@ import apps, { Lang } from "../apps.ts";
         <h2 class="text-xl dark:text-white font-extrabold text-zinc-900 mt-8">
           Your Comprehensive List for LibAdwaita-Powered Linux Applications
         </h2>
-        <p class="leading-relaxed text-lg text-zinc-800 mt-4 dark:text-zinc-200">
-          Uncover a curated selection of Linux apps utilizing libadwaita. Explore the
-          latest and most exciting applications seamlessly integrating with LibAdwaita.
+        <p
+          class="leading-relaxed text-lg text-zinc-800 mt-4 dark:text-zinc-200"
+        >
+          Uncover a curated selection of Linux apps utilizing libadwaita.
+          Explore the latest and most exciting applications seamlessly
+          integrating with LibAdwaita.
           <strong>🚀 Explore. Find. Innovate. 🧑‍💻</strong>
         </p>
       </div>
@@ -77,7 +77,7 @@ import apps, { Lang } from "../apps.ts";
         }
       </main>
       <div class="mt-12 text-center text-zinc-600 dark:text-zinc-300 font-bold">
-        A total of {apps.size} apps using LibAdwaita
+        A total of {apps.length} apps using LibAdwaita
       </div>
     </div>
 

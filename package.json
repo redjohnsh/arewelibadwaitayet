@@ -13,7 +13,6 @@
     "@astrojs/check": "^0.6.0",
     "@astrojs/sitemap": "^3.1.4",
     "@astrojs/tailwind": "^5.1.0",
-    "@oxi/list": "npm:@jsr/oxi__list@^1.2.0",
     "astro": "^4.8.0",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
