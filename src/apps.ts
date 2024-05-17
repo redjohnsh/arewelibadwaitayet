@@ -1203,6 +1203,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Create syntax highlighting schemes",
     lang: Lang.C,
   },
+  "nl.v0yd.Capsule": {
+    name: "Capsule",
+    desc: "Medication tracker",
+    lang: Lang.JavaScript,
+  },
 };
 
 export default Object.entries(APP_MAP)
