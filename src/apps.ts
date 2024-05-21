@@ -1208,6 +1208,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Medication tracker",
     lang: Lang.JavaScript,
   },
+  "garden.jamie.Morphosis": {
+    name: "Morphosis",
+    desc: "Convert your documents",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
