@@ -1213,6 +1213,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Convert your documents",
     lang: Lang.Python,
   },
+  "app.fotema.Fotema": {
+    name: "Fotema",
+    desc: "Admire your photos",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
