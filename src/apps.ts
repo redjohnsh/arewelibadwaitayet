@@ -1228,6 +1228,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Solve crossword puzzles",
     lang: Lang.C,
   },
+  "io.gitlab.cyberphantom52.sudoku_solver": {
+    name: "Sudoku Solver",
+    desc: "A simple Sudoku Sovler",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
