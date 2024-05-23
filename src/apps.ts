@@ -1223,6 +1223,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Create crossword puzzles",
     lang: Lang.C,
   },
+  "org.gnome.Crosswords": {
+    name: "Crosswords",
+    desc: "Solve crossword puzzles",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
