@@ -1218,6 +1218,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Admire your photos",
     lang: Lang.Rust,
   },
+  "org.gnome.Crosswords.Editor": {
+    name: "Crossword Editor",
+    desc: "Create crossword puzzles",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
