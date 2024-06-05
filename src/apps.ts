@@ -1253,6 +1253,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Media player for transcription",
     lang: Lang.C,
   },
+  "app.devsuite.Manuals": {
+    name: "Manuals",
+    desc: "Install, Browse, and Search Documentation",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
