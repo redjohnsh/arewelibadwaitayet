@@ -1238,6 +1238,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Preview your 3D models",
     lang: Lang.Python,
   },
+  "io.github.pieterdd.RcloneShuttle": {
+    name: "Rclone Shuttle",
+    desc: "Upload your files to anywhere",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
