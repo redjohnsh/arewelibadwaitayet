@@ -1248,6 +1248,11 @@ const APP_MAP: Record<string, App> = {
     desc: "When will the next rocket soar to the skies?",
     lang: Lang.Vala,
   },
+  "xyz.parlatype.Parlatype": {
+    name: "Parlatype",
+    desc: "Media player for transcription",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
