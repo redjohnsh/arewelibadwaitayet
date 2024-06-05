@@ -1263,6 +1263,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Practice your typing skills",
     lang: Lang.Rust,
   },
+  "net.danigm.loop": {
+    name: "Loop",
+    desc: "A simple audio loop machine for GNOME",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
