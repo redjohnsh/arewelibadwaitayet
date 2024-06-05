@@ -1258,6 +1258,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Install, Browse, and Search Documentation",
     lang: Lang.C,
   },
+  "dev.bragefuglseth.Keypunch": {
+    name: "Keypunch",
+    desc: "Practice your typing skills",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
