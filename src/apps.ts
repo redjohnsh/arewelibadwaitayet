@@ -1233,6 +1233,11 @@ const APP_MAP: Record<string, App> = {
     desc: "A simple Sudoku Sovler",
     lang: Lang.Rust,
   },
+  "io.github.nokse22.Exhibit": {
+    name: "Exhibit",
+    desc: "Preview your 3D models",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
