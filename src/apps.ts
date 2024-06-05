@@ -1243,6 +1243,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Upload your files to anywhere",
     lang: Lang.Rust,
   },
+  "io.gitlab.elescoute.spacelaunch": {
+    name: "Space Launch",
+    desc: "When will the next rocket soar to the skies?",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
