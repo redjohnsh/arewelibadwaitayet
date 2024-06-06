@@ -1268,6 +1268,11 @@ const APP_MAP: Record<string, App> = {
     desc: "A simple audio loop machine for GNOME",
     lang: Lang.Python,
   },
+  "org.gnome.gitlab.ilhooq.Bookup": {
+    name: "Bookup",
+    desc: "Streamline notes with Markdown!",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
