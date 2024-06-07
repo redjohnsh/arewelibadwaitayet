@@ -1278,6 +1278,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Track events until they happen or since they happened",
     lang: Lang.Vala,
   },
+  "io.github.lainsce.DotMatrix": {
+    name: "Dot Matrix",
+    desc: "The creativity playground of lines and curves",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
