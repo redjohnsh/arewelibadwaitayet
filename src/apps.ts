@@ -1283,6 +1283,11 @@ const APP_MAP: Record<string, App> = {
     desc: "The creativity playground of lines and curves",
     lang: Lang.Vala,
   },
+  "app.drey.Blurble": {
+    name: "Blurble",
+    desc: "Word guessing game",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
