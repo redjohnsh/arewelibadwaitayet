@@ -1273,6 +1273,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Streamline notes with Markdown!",
     lang: Lang.C,
   },
+  "io.github.lainsce.Countdown": {
+    name: "Countdown",
+    desc: "Track events until they happen or since they happened",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
