@@ -458,7 +458,7 @@ const APP_MAP: Record<string, App> = {
     desc: "Draw using ASCII characters",
     lang: Lang.Python,
   },
-  "io.gitlab.gregorni.Calligraphy": {
+  "dev.geopjr.Calligraphy": {
     name: "Calligraphy",
     desc: "Turn your text into ASCII banners",
     lang: Lang.Python,
