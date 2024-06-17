@@ -1288,6 +1288,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Word guessing game",
     lang: Lang.Vala,
   },
+  "me.sanchezrodriguez.passes": {
+    name: "Passes",
+    desc: "Manage your digital passes",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
