@@ -1293,6 +1293,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Manage your digital passes",
     lang: Lang.Python,
   },
+  "de.hummdudel.Libellus": {
+    name: "Libellus",
+    desc: "View DnD information in style",
+    lang: Lang.JavaScript,
+  },
 };
 
 export default Object.entries(APP_MAP)
