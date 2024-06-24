@@ -1298,6 +1298,11 @@ const APP_MAP: Record<string, App> = {
     desc: "View DnD information in style",
     lang: Lang.JavaScript,
   },
+  "com.saivert.pwvucontrol": {
+    name: "pwvucontrol",
+    desc: "Volume control for pipewire",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
