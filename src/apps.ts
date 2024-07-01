@@ -1318,6 +1318,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Test your logic skills in this number grid puzzle",
 		lang: Lang.Vala,
 	},
+	"io.github.lo2dev.Echo": {
+		name: "Echo",
+		desc: "Ping websites",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
