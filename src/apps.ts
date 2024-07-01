@@ -1313,6 +1313,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Kanban-style task organiser",
 		lang: Lang.CPlusPlus,
 	},
+	"org.gnome.Sudoku": {
+		name: "GNOME Sudoku",
+		desc: "Test your logic skills in this number grid puzzle",
+		lang: Lang.Vala,
+	},
 };
 
 export default Object.entries(APP_MAP)
