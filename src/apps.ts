@@ -1308,6 +1308,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Container-oriented terminal",
 		lang: Lang.C,
 	},
+	"io.github.smolblackcat.Progress": {
+		name: "Progress",
+		desc: "Kanban-style task organiser",
+		lang: Lang.CPlusPlus,
+	},
 };
 
 export default Object.entries(APP_MAP)
