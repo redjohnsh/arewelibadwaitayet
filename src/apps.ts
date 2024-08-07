@@ -1318,6 +1318,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Ping websites",
 		lang: Lang.Python,
 	},
+	"io.github.getnf.embellish": {
+		name: "Embellish",
+		desc: "Install nerd fonts",
+		lang: Lang.Go,
+	},
 };
 
 export default Object.entries(APP_MAP)
