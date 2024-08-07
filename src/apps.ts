@@ -1373,6 +1373,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Easily share files",
 		lang: Lang.JavaScript,
 	},
+	"com.lynnmichaelmartin.TimeTracker": {
+		name: "Time Tracker",
+		desc: "Track and sync time, local-first",
+		lang: Lang.JavaScript,
+	},
 };
 
 export default Object.entries(APP_MAP)
