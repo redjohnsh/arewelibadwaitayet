@@ -1,3 +1,7 @@
 {
-  "extends": "astro/tsconfigs/strictest"
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": "astro/tsconfigs/strictest",
+  "compilerOptions": {
+    "lib": ["ES2022"]
+  }
 }
