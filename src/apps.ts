@@ -1343,6 +1343,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Make HTTP requests and test APIs",
 		lang: Lang.Rust,
 	},
+	"io.github.lawstorant.boxflat": {
+		name: "Boxflat",
+		desc: "Configure Moza Racing hardware",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
