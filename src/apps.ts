@@ -1368,6 +1368,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Convert between currencies",
 		lang: Lang.Python,
 	},
+	"io.github.sigmasd.share": {
+		name: "Share",
+		desc: "Easily share files",
+		lang: Lang.JavaScript,
+	},
 };
 
 export default Object.entries(APP_MAP)
