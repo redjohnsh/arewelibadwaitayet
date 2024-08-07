@@ -1338,6 +1338,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Color Code to Resistance Value",
 		lang: Lang.Python,
 	},
+	"es.danirod.Cartero": {
+		name: "Cartero",
+		desc: "Make HTTP requests and test APIs",
+		lang: Lang.Rust,
+	},
 };
 
 export default Object.entries(APP_MAP)
