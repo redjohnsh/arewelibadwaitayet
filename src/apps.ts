@@ -1348,6 +1348,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Configure Moza Racing hardware",
 		lang: Lang.Python,
 	},
+	"org.gnome.gitlab.cheywood.Pulp": {
+		name: "Pulp",
+		desc: "Skim excessive feeds",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
