@@ -1378,6 +1378,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Track and sync time, local-first",
 		lang: Lang.JavaScript,
 	},
+	"org.gnome.Papers": {
+		name: "Papers",
+		desc: "Read documents",
+		lang: Lang.C,
+	},
 };
 
 export default Object.entries(APP_MAP)
