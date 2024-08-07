@@ -1018,11 +1018,6 @@ const APP_MAP: Record<string, App> = {
 		desc: "Lookup definitions for any English term",
 		lang: Lang.Python,
 	},
-	"com.vysp3r.RetroPlus": {
-		name: "RetroPlus",
-		desc: "A simple ROM downloader",
-		lang: Lang.Vala,
-	},
 	"com.github.huluti.Coulr": {
 		name: "Coulr",
 		desc: "Enjoy colors and feel happy",
