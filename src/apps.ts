@@ -1328,6 +1328,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Easilly add icons on top of folders",
 		lang: Lang.Rust,
 	},
+	"com.github.ztefn.haguichi": {
+		name: "Haguichi",
+		desc: "Manage your Hamachi networks",
+		lang: Lang.Vala,
+	},
 };
 
 export default Object.entries(APP_MAP)
