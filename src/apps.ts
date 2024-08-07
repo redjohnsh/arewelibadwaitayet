@@ -1383,6 +1383,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Read documents",
 		lang: Lang.C,
 	},
+	"net.codelogistics.clicker": {
+		name: "Clicker",
+		desc: "Simulate user input repeatedly",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
