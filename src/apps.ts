@@ -1358,6 +1358,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Watch without distraction",
 		lang: Lang.Python,
 	},
+	"de.z_ray.Facetracker": {
+		name: "Facetracker",
+		desc: "Face tracking made easy",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
