@@ -1363,6 +1363,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Face tracking made easy",
 		lang: Lang.Python,
 	},
+	"io.github.idevecore.Valuta": {
+		name: "Valuta",
+		desc: "Convert between currencies",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
