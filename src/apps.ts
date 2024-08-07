@@ -1333,6 +1333,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Manage your Hamachi networks",
 		lang: Lang.Vala,
 	},
+	"com.oyajun.ColorCode": {
+		name: "Color Code",
+		desc: "Color Code to Resistance Value",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
