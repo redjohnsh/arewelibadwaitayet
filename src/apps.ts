@@ -1353,6 +1353,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Skim excessive feeds",
 		lang: Lang.Python,
 	},
+	"org.gnome.Showtime": {
+		name: "Showtime",
+		desc: "Watch without distraction",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
