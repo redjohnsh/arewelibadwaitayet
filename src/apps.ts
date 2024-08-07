@@ -1323,6 +1323,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Install nerd fonts",
 		lang: Lang.Go,
 	},
+	"nl.emphisia.icon": {
+		name: "Iconic",
+		desc: "Easilly add icons on top of folders",
+		lang: Lang.Rust,
+	},
 };
 
 export default Object.entries(APP_MAP)
