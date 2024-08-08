@@ -1388,6 +1388,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Simulate user input repeatedly",
 		lang: Lang.Python,
 	},
+	"org.skytemple.Randomizer": {
+		name: "SkyTemple Randomizer",
+		desc: "Randomizer for Pokémon Mystery Dungeon Explorers of Sky",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
