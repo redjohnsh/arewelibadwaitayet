@@ -1393,6 +1393,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Randomizer for Pokémon Mystery Dungeon Explorers of Sky",
 		lang: Lang.Python,
 	},
+	"io.github.alexkdeveloper.radio": {
+		name: "Radio",
+		desc: "A simple radio with stations from the website radio-browser.info",
+		lang: Lang.Vala,
+	},
 };
 
 export default Object.entries(APP_MAP)
