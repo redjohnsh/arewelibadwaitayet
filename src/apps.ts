@@ -1408,6 +1408,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "A simple app to pick something out of a list of things",
 		lang: Lang.Python,
 	},
+	"dev.geopjr.Archives": {
+		name: "Archives",
+		desc: "Create and view web archives",
+		lang: Lang.Vala,
+	},
 };
 
 export default Object.entries(APP_MAP)
