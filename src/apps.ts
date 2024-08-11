@@ -893,9 +893,9 @@ const APP_MAP: Record<string, App> = {
 		desc: "Pomodoro is a productivity-focused timer",
 		lang: Lang.JavaScript,
 	},
-	"io.github.amit9838.weather": {
-		name: "Weather",
-		desc: "Beautiful and lightweight weather app",
+	"io.github.amit9838.mousam": {
+		name: "Mousam",
+		desc: "Weather at a glance",
 		lang: Lang.Python,
 	},
 	"it.mijorus.collector": {
