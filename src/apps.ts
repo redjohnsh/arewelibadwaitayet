@@ -1413,6 +1413,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Create and view web archives",
 		lang: Lang.Vala,
 	},
+	"com.github.gmg137.netease-cloud-music-gtk": {
+		name: "NetEase Cloud Music Gtk4",
+		desc: "Linux muisc player for NetEase Cloud Music",
+		lang: Lang.Rust,
+	},
 };
 
 export default Object.entries(APP_MAP)
