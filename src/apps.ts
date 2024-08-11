@@ -40,7 +40,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"com.rafaelmardojai.Blanket": {
 		name: "Blanket",
-		desc: "Listen to different sounds",
+		desc: "Listen to ambient sounds",
 		lang: Lang.Python,
 	},
 	"com.usebottles.bottles": {
@@ -59,7 +59,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.Python,
 	},
 	"org.gnome.Snapshot": {
-		name: "Snapshot",
+		name: "Camera",
 		desc: "Take pictures and videos",
 		lang: Lang.Rust,
 	},
@@ -70,7 +70,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"com.github.rafostar.Clapper": {
 		name: "Clapper",
-		desc: "Simple and modern GNOME media player",
+		desc: "Lean back and enjoy videos",
 		lang: Lang.JavaScript,
 	},
 	"org.gnome.design.Contrast": {
@@ -135,7 +135,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"com.github.ADBeveridge.Raider": {
 		name: "File Shredder",
-		desc: "Securely delete your files",
+		desc: "Permanently delete your files",
 		lang: Lang.C,
 	},
 	"de.schmidhuberj.Flare": {
@@ -165,7 +165,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"de.haeckerfelix.Fragments": {
 		name: "Fragments",
-		desc: "A BitTorrent Client",
+		desc: "Manage torrents",
 		lang: Lang.Rust,
 	},
 	"io.github.realmazharhussain.GdmSettings": {
@@ -180,7 +180,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"org.gnome.Loupe": {
 		name: "Loupe",
-		desc: "View images",
+		desc: "Image Viewer",
 		lang: Lang.Rust,
 	},
 	"io.gitlab.adhami3310.Impression": {
@@ -210,7 +210,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.gitlab.zehkira.Monophony": {
 		name: "Monophony",
-		desc: "Stream music from YouTube",
+		desc: "Stream music from YouTube Music",
 		lang: Lang.Python,
 	},
 	"io.github.seadve.Mousai": {
@@ -219,7 +219,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.Rust,
 	},
 	"io.gitlab.news_flash.NewsFlash": {
-		name: "NewsFlash",
+		name: "Newsflash",
 		desc: "Keep up with your feeds",
 		lang: Lang.Rust,
 	},
@@ -250,7 +250,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"net.nokyan.Resources": {
 		name: "Resources",
-		desc: "Monitor your system resources and processes",
+		desc: "Keep an eye on system resources",
 		lang: Lang.Rust,
 	},
 	"com.rafaelmardojai.SharePreview": {
@@ -285,7 +285,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.gitlab.liferooter.TextPieces": {
 		name: "Text Pieces",
-		desc: "Transform text without using random websites",
+		desc: "Developer's scratchpad",
 		lang: Lang.Vala,
 	},
 	"me.iepure.Ticketbooth": {
@@ -305,7 +305,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"com.github.unrud.VideoDownloader": {
 		name: "Video Downloader",
-		desc: "Download videos from websites like YouTube and many others",
+		desc: "Download web videos",
 		lang: Lang.Python,
 	},
 	"org.gnome.gitlab.YaLTeR.VideoTrimmer": {
@@ -330,7 +330,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"re.sonny.Workbench": {
 		name: "Workbench",
-		desc: "Learn and prototype with GNOME technologies",
+		desc: "Prototype with GNOME technologies",
 		lang: Lang.JavaScript,
 	},
 	"org.gnome.Music": {
@@ -340,7 +340,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"org.gnome.Calendar": {
 		name: "Calendar",
-		desc: "Calendar for GNOME",
+		desc: "Manage your schedule",
 		lang: Lang.C,
 	},
 	"org.gnome.Weather": {
@@ -375,7 +375,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"com.belmoussaoui.Authenticator": {
 		name: "Authenticator",
-		desc: "Generate Two-Factor Codes",
+		desc: "Generate two-factor codes",
 		lang: Lang.Rust,
 	},
 	"org.gnome.World.Secrets": {
@@ -384,7 +384,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.Python,
 	},
 	"com.github.neithern.g4music": {
-		name: "G4Music",
+		name: "Gapless",
 		desc: "Play your music elegantly",
 		lang: Lang.Vala,
 	},
@@ -430,7 +430,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.github.celluloid_player.Celluloid": {
 		name: "Celluloid",
-		desc: "GTK+ frontend for mpv",
+		desc: "Plays videos",
 		lang: Lang.C,
 	},
 	"com.pojtinger.felicitas.Multiplex": {
@@ -455,17 +455,17 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.github.nokse22.asciidraw": {
 		name: "ASCII Draw",
-		desc: "Draw using ASCII characters",
+		desc: "Sketch anything using characters",
 		lang: Lang.Python,
 	},
 	"dev.geopjr.Calligraphy": {
 		name: "Calligraphy",
-		desc: "Turn your text into ASCII banners",
+		desc: "Turn text into ASCII banners",
 		lang: Lang.Python,
 	},
 	"io.github.tfuxu.Halftone": {
 		name: "Halftone",
-		desc: "Give your images that pixel art-like style",
+		desc: "Dither your images",
 		lang: Lang.Python,
 	},
 	"io.github.dubstar_04.design": {
@@ -495,7 +495,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"im.dino.Dino": {
 		name: "Dino",
-		desc: "Modern XMPP Chat Client",
+		desc: "Modern XMPP chat client",
 		lang: Lang.Vala,
 	},
 	"org.gabmus.gfeeds": {
@@ -515,7 +515,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"info.febvre.Komikku": {
 		name: "Komikku",
-		desc: "Read your favorite manga",
+		desc: "Discover and read manga & comics",
 		lang: Lang.Python,
 	},
 	"se.sjoerd.Graphs": {
@@ -545,7 +545,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"garden.turtle.Jellybean": {
 		name: "Stockpile",
-		desc: "Manage inventories of various things",
+		desc: "Keep count of restockable items",
 		lang: Lang.Vala,
 	},
 	"org.gnome.Characters": {
@@ -570,12 +570,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	"re.sonny.Retro": {
 		name: "Retro",
-		desc: "A customizable retro digital segment clock",
+		desc: "Customizable clock widget",
 		lang: Lang.JavaScript,
 	},
 	"com.github.vikdevelop.timer": {
 		name: "Timer",
-		desc: "Simple Countdown Timer",
+		desc: "Simple countdown timer",
 		lang: Lang.Python,
 	},
 	"io.github.dgsasha.Remembrance": {
@@ -660,11 +660,11 @@ const APP_MAP: Record<string, App> = {
 	},
 	"fr.sgued.ten_forward": {
 		name: "Ten Forward",
-		desc: "Configure port forwarding on your gateway through the NAT-PMP protocol.",
+		desc: "Control a NAT-PMP gateway",
 		lang: Lang.Rust,
 	},
 	"dev.zelikos.rollit": {
-		name: "Roll-It",
+		name: "Chance",
 		desc: "Roll the dice",
 		lang: Lang.Rust,
 	},
@@ -680,7 +680,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.github.eminfedar.vaktisalah-gtk-rs": {
 		name: "Vakt-i Salah",
-		desc: "GTK4 version of Vakt-i Salah (Prayer Times)",
+		desc: "Simple prayer times app",
 		lang: Lang.Rust,
 	},
 	"io.gitlab.azymohliad.WatchMate": {
@@ -694,7 +694,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.Vala,
 	},
 	"org.gnome.Chess": {
-		name: "Chess",
+		name: "GNOME Chess",
 		desc: "Play the classic two-player board game of chess",
 		lang: Lang.Vala,
 	},
@@ -710,7 +710,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"de.schmidhuberj.DieBahn": {
 		name: "Railway",
-		desc: "Travel with all your train information in one place",
+		desc: "Find all your travel information",
 		lang: Lang.Rust,
 	},
 	"com.belmoussaoui.ReadItLater": {
@@ -720,7 +720,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"so.libdb.dissent": {
 		name: "Dissent",
-		desc: "GTK4 Discord client in Go (formerly gtkcord4)",
+		desc: "Tiny native Discord app",
 		lang: Lang.Go,
 	},
 	"com.github.joseexposito.touche": {
@@ -729,7 +729,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.JavaScript,
 	},
 	"it.mijorus.gearlever": {
-		name: "Gear Level",
+		name: "Gear Lever",
 		desc: "Manage AppImages",
 		lang: Lang.Python,
 	},
@@ -740,12 +740,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.github.vikdevelop.SaveDesktop": {
 		name: "SaveDesktop",
-		desc: "Save the current configuration of your desktop environment",
+		desc: "Save your desktop configuration",
 		lang: Lang.Python,
 	},
 	"io.frama.tractor.carburetor": {
 		name: "Carburetor",
-		desc: "The Onion Routing app",
+		desc: "Browse anonymously",
 		lang: Lang.Python,
 	},
 	"cool.ldr.lfy": {
@@ -755,22 +755,22 @@ const APP_MAP: Record<string, App> = {
 	},
 	"art.taunoerik.tauno-monitor": {
 		name: "Tauno Monitor",
-		desc: "Simple stand-alone serial port monitor",
+		desc: "Serial port monitor",
 		lang: Lang.Python,
 	},
 	"io.github.giantpinkrobots.varia": {
 		name: "Varia",
-		desc: "Download manager based on aria2",
+		desc: "Download files and torrents",
 		lang: Lang.Python,
 	},
 	"app.drey.Biblioteca": {
 		name: "Biblioteca",
-		desc: "Documentation viewer for GNOME",
+		desc: "Read GNOME documentation offline",
 		lang: Lang.JavaScript,
 	},
 	"org.gnome.Fractal": {
 		name: "Fractal",
-		desc: "Matrix group messaging app",
+		desc: "Chat on Matrix",
 		lang: Lang.Rust,
 	},
 	"io.github.leolost2605.gradebook": {
@@ -785,7 +785,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"net.krafting.Playlifin": {
 		name: "Playlifin",
-		desc: "Convert Youtube Music playlists to Jellyfin playlists",
+		desc: "Sync YouTube playlists to Jellyfin",
 		lang: Lang.Python,
 	},
 	"dev.bragefuglseth.Fretboard": {
@@ -810,7 +810,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"org.freedesktop.Bustle": {
 		name: "Bustle",
-		desc: "Draw sequence diagrams of D-Bus activity",
+		desc: "Visualize D-Bus activity",
 		lang: Lang.Rust,
 	},
 	"com.quexten.Goldwarden": {
@@ -825,12 +825,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	"app.drey.KeyRack": {
 		name: "Key Rack",
-		desc: "View and edit app secrets",
+		desc: "View and edit passwords",
 		lang: Lang.Rust,
 	},
 	"io.github.fizzyizzy05.binary": {
 		name: "Binary",
-		desc: "Number base converter, written in Python with GTK/Libadwaita",
+		desc: "Convert numbers between bases",
 		lang: Lang.Python,
 	},
 	"org.gaphor.Gaphor": {
@@ -870,12 +870,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.github.sigmasd.stimulator": {
 		name: "Stimulator",
-		desc: "Stop the desktop environment from sleeping",
+		desc: "Keep your computer awake",
 		lang: Lang.JavaScript,
 	},
 	"io.github.idevecore.Valuta": {
-		name: "Currency Converter",
-		desc: "A simple currency converter using Google-based data",
+		name: "Valuta",
+		desc: "Convert between currencies",
 		lang: Lang.Python,
 	},
 	"io.gitlab.idevecore.Pomodoro": {
@@ -950,7 +950,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.github.santiagocezar.maniatic-launcher": {
 		name: "Maniatic Launcher",
-		desc: "A launcher for the decompilation of Retro Engine (v5)",
+		desc: "A Retro Engine v5 launcher",
 		lang: Lang.Python,
 	},
 	"io.github.Rirusha.Cassette": {
@@ -985,7 +985,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"me.ppvan.psequel": {
 		name: "psequel",
-		desc: "A simple SQL client",
+		desc: "A minimal SQL client",
 		lang: Lang.Vala,
 	},
 	"dev.tchx84.Portfolio": {
@@ -1015,12 +1015,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	"org.nicotine_plus.Nicotine": {
 		name: "Nicotine+",
-		desc: "Graphical client for the Soulseek network",
+		desc: "Browse the Soulseek network",
 		lang: Lang.Python,
 	},
 	"dev.skynomads.Seabird": {
 		name: "Seabird",
-		desc: "Kubernetes desktop client",
+		desc: "A simple Kubernetes IDE for GNOME",
 		lang: Lang.Go,
 	},
 	"io.github.zefr0x.hashes": {
@@ -1155,7 +1155,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"cz.ondrejkolin.Barcoder": {
 		name: "Barcoder",
-		desc: "Simple barcode generator also usable on smaller screens",
+		desc: "Create barcodes",
 		lang: Lang.Rust,
 	},
 	"io.github.achetagames.epic_asset_manager": {
@@ -1170,7 +1170,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"xyz.safeworlds.hiit": {
 		name: "Exercise Timer",
-		desc: "Timer clock for high intensity interval training",
+		desc: "Train and rest with high intensity",
 		lang: Lang.Rust,
 	},
 	"net.codelogistics.webapps": {
@@ -1180,7 +1180,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"com.jeffser.Alpaca": {
 		name: "Alpaca",
-		desc: "An Ollama client",
+		desc: "Chat with local AI models",
 		lang: Lang.Python,
 	},
 	"app.devsuite.Schemes": {
@@ -1230,7 +1230,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"io.gitlab.elescoute.spacelaunch": {
 		name: "Space Launch",
-		desc: "When will the next rocket soar to the skies?",
+		desc: "Rocket launches tracker",
 		lang: Lang.Vala,
 	},
 	"xyz.parlatype.Parlatype": {
@@ -1240,7 +1240,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"app.devsuite.Manuals": {
 		name: "Manuals",
-		desc: "Install, Browse, and Search Documentation",
+		desc: "Read developer documentation",
 		lang: Lang.C,
 	},
 	"dev.bragefuglseth.Keypunch": {
