@@ -1398,6 +1398,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "A simple radio with stations from the website radio-browser.info",
 		lang: Lang.Vala,
 	},
+	"com.adrienplazas.Metronome": {
+		name: "Metronome",
+		desc: "Keep the tempo",
+		lang: Lang.Rust,
+	},
 };
 
 export default Object.entries(APP_MAP)
