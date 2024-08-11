@@ -1353,11 +1353,6 @@ const APP_MAP: Record<string, App> = {
 		desc: "Face tracking made easy",
 		lang: Lang.Python,
 	},
-	"io.github.idevecore.Valuta": {
-		name: "Valuta",
-		desc: "Convert between currencies",
-		lang: Lang.Python,
-	},
 	"io.github.sigmasd.share": {
 		name: "Share",
 		desc: "Easily share files",
