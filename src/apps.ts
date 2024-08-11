@@ -1403,6 +1403,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Keep the tempo",
 		lang: Lang.Rust,
 	},
+	"io.github.mezoahmedii.Picker": {
+		name: "Picker",
+		desc: "A simple app to pick something out of a list of things",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
