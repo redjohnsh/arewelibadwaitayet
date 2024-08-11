@@ -53,7 +53,7 @@ const APP_MAP: Record<string, App> = {
 		desc: "An IDE for GNOME",
 		lang: Lang.C,
 	},
-	"hu.kramo.Cartridges": {
+	"page.kramo.Cartridges": {
 		name: "Cartridges",
 		desc: "Launch all your games",
 		lang: Lang.Python,
@@ -283,7 +283,7 @@ const APP_MAP: Record<string, App> = {
 		desc: "Listen to music on Spotify",
 		lang: Lang.Rust,
 	},
-	"com.github.liferooter.textpieces": {
+	"io.gitlab.liferooter.TextPieces": {
 		name: "Text Pieces",
 		desc: "Transform text without using random websites",
 		lang: Lang.Vala,
@@ -368,7 +368,7 @@ const APP_MAP: Record<string, App> = {
 		desc: "Harmonize your listening experience",
 		lang: Lang.Rust,
 	},
-	"com.vixalien.decibels": {
+	"org.gnome.Decibels": {
 		name: "Decibels",
 		desc: "Play audio files",
 		lang: Lang.JavaScript,
@@ -578,11 +578,6 @@ const APP_MAP: Record<string, App> = {
 		desc: "Simple Countdown Timer",
 		lang: Lang.Python,
 	},
-	"dev.edfloreshz.Done": {
-		name: "Done",
-		desc: "To-do lists reimagined",
-		lang: Lang.Rust,
-	},
 	"io.github.dgsasha.Remembrance": {
 		name: "Reminders",
 		desc: "Set reminders for yourself",
@@ -621,11 +616,6 @@ const APP_MAP: Record<string, App> = {
 	"me.iepure.devtoolbox": {
 		name: "Dev Toolbox",
 		desc: "Development tools at your fingertips",
-		lang: Lang.Python,
-	},
-	"com.github.GradienceTeam.Gradience": {
-		name: "Gradience",
-		desc: "Change the look of Adwaita, with ease",
 		lang: Lang.Python,
 	},
 	"re.sonny.Commit": {
@@ -708,7 +698,7 @@ const APP_MAP: Record<string, App> = {
 		desc: "Play the classic two-player board game of chess",
 		lang: Lang.Vala,
 	},
-	"org.gnome.gitlab.cheywood.Iotas": {
+	"org.gnome.World.Iotas": {
 		name: "Iotas",
 		desc: "Simple note taking",
 		lang: Lang.Python,
@@ -878,12 +868,12 @@ const APP_MAP: Record<string, App> = {
 		desc: "Check the availability of portals",
 		lang: Lang.C,
 	},
-	"io.github.sigmasd.nosleep": {
+	"io.github.sigmasd.stimulator": {
 		name: "Stimulator",
 		desc: "Stop the desktop environment from sleeping",
 		lang: Lang.JavaScript,
 	},
-	"io.github.idevecore.CurrencyConverter": {
+	"io.github.idevecore.Valuta": {
 		name: "Currency Converter",
 		desc: "A simple currency converter using Google-based data",
 		lang: Lang.Python,
