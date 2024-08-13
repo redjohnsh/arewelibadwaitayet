@@ -1413,6 +1413,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Convert case in your text",
 		lang: Lang.Vala,
 	},
+	"dev.deedles.Trayscale": {
+		name: "Trayscale",
+		desc: "Unofficial GUI for Tailscale",
+		lang: Lang.Go,
+	},
 };
 
 export default Object.entries(APP_MAP)
