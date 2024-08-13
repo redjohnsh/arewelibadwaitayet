@@ -1403,6 +1403,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Linux muisc player for NetEase Cloud Music",
 		lang: Lang.Rust,
 	},
+	"com.github.ryonakano.pinit": {
+		name: "Pin It!",
+		desc: "Pin portable apps to the launcher",
+		lang: Lang.Vala,
+	},
 };
 
 export default Object.entries(APP_MAP)
