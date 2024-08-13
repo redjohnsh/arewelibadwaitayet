@@ -1408,6 +1408,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Pin portable apps to the launcher",
 		lang: Lang.Vala,
 	},
+	"com.github.ryonakano.konbucase": {
+		name: "KonbuCase",
+		desc: "Convert case in your text",
+		lang: Lang.Vala,
+	},
 };
 
 export default Object.entries(APP_MAP)
