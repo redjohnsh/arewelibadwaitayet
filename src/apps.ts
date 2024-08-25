@@ -179,8 +179,8 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.Rust,
 	},
 	"org.gnome.Loupe": {
-		name: "Loupe",
-		desc: "Image Viewer",
+		name: "Image Viewer",
+		desc: "View images",
 		lang: Lang.Rust,
 	},
 	"io.gitlab.adhami3310.Impression": {
@@ -207,11 +207,6 @@ const APP_MAP: Record<string, App> = {
 		name: "Mission Center",
 		desc: "Monitor system resource usage",
 		lang: Lang.Rust,
-	},
-	"io.gitlab.zehkira.Monophony": {
-		name: "Monophony",
-		desc: "Stream music from YouTube Music",
-		lang: Lang.Python,
 	},
 	"io.github.seadve.Mousai": {
 		name: "Mousai",
@@ -525,7 +520,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"com.github.cassidyjames.dippi": {
 		name: "Dippi",
-		desc: "Calculate display info like DPI and aspect ratio",
+		desc: "Calculate display info like DPI",
 		lang: Lang.Vala,
 	},
 	"org.gabmus.whatip": {
@@ -725,7 +720,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"com.github.joseexposito.touche": {
 		name: "Touché",
-		desc: "Multi-touch Gestures",
+		desc: "Multi-touch gestures",
 		lang: Lang.JavaScript,
 	},
 	"it.mijorus.gearlever": {
@@ -750,7 +745,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"cool.ldr.lfy": {
 		name: "lfy",
-		desc: "Translation software for gnome",
+		desc: "Translation software for read paper",
 		lang: Lang.Python,
 	},
 	"art.taunoerik.tauno-monitor": {
@@ -1315,7 +1310,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	"nl.emphisia.icon": {
 		name: "Iconic",
-		desc: "Easilly add icons on top of folders",
+		desc: "Easily add icons on top of folders",
 		lang: Lang.Rust,
 	},
 	"com.github.ztefn.haguichi": {
