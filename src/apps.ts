@@ -1423,6 +1423,11 @@ const APP_MAP: Record<string, App> = {
     desc: "One app to search through all your files, powered by ripgrep",
     lang: Lang.Rust,
   },
+  "eu.nokun.MirrorHall": {
+    name: "Mirror Hall",
+    desc: "Use Linux devices as virtual displays in a peer-to-peer fashion",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
