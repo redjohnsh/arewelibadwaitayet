@@ -1428,6 +1428,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Use Linux devices as virtual displays in a peer-to-peer fashion",
     lang: Lang.Python,
   },
+  "org.pipewire.Helvum": {
+    name: "Helvum",
+    desc: "Patchbay for PipeWire",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
