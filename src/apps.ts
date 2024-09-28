@@ -1418,6 +1418,11 @@ const APP_MAP: Record<string, App> = {
     desc: "View and edit graphs",
     lang: Lang.Rust,
   },
+  "de.leopoldluley.Clapgrep": {
+    name: "Clapgrep",
+    desc: "One app to search through all your files, powered by ripgrep",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
