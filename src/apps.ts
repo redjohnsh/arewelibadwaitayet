@@ -1448,6 +1448,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Unofficial Yandex Music client",
     lang: Lang.Vala,
   },
+  "org.gnome.Calculator": {
+    name: "Calculator",
+    desc: "Perform arithmetic, scientific or financial calculations",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
