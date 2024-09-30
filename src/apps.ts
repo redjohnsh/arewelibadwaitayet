@@ -1443,6 +1443,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Calculate IP subnets",
     lang: Lang.Python,
   },
+  "space.rirusha.Cassette": {
+    name: "Cassette",
+    desc: "Unofficial Yandex Music client",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
