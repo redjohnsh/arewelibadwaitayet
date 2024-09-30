@@ -1433,6 +1433,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Patchbay for PipeWire",
     lang: Lang.Rust,
   },
+  "io.github.kelvinnovais.Kasasa": {
+    name: "Kasasa",
+    desc: "Create ephemeral floating screenshot windows",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
