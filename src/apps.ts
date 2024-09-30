@@ -1438,6 +1438,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Create ephemeral floating screenshot windows",
     lang: Lang.C,
   },
+  "io.github.vmkspv.netsleuth": {
+    name: "Netsleuth",
+    desc: "Calculate IP subnets",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
