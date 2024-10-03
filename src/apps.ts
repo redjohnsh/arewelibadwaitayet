@@ -1474,6 +1474,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Look up text styles",
     lang: Lang.C,
   },
+  "org.gnome.design.Palette": {
+    name: "Palette",
+    desc: "Color Palette tool",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
