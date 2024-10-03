@@ -1458,6 +1458,11 @@ const APP_MAP: Record<string, App> = {
     desc: "SysEx Controls for Linux",
     lang: Lang.C,
   },
+  "io.github.philippkosarev.bmi": {
+    name: "BMI",
+    desc: "A body mass index calculator",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
