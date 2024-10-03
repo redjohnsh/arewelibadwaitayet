@@ -7,10 +7,11 @@ type App = {
 export enum Lang {
   C = "C",
   CPlusPlus = "C++",
-  Crystal = "Crystal",
   CSharp = "CSharp",
+  Crystal = "Crystal",
   Go = "Go",
   JavaScript = "JavaScript",
+  Lua = "Lua",
   Python = "Python",
   Rust = "Rust",
   Swift = "Swift",
@@ -1462,6 +1463,11 @@ const APP_MAP: Record<string, App> = {
     name: "BMI",
     desc: "A body mass index calculator",
     lang: Lang.Python,
+  },
+  "ca.vlacroix.Tally": {
+    name: "Tally",
+    desc: "Count anything",
+    lang: Lang.Lua,
   },
 };
 
