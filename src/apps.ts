@@ -1453,6 +1453,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Perform arithmetic, scientific or financial calculations",
     lang: Lang.Vala,
   },
+  "hu.irl.sysex-controls": {
+    name: "SysEx Controls",
+    desc: "SysEx Controls for Linux",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
