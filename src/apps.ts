@@ -1469,6 +1469,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Count anything",
     lang: Lang.Lua,
   },
+  "org.gnome.design.Typography": {
+    name: "Typography",
+    desc: "Look up text styles",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
