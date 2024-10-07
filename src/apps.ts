@@ -1484,6 +1484,11 @@ const APP_MAP: Record<string, App> = {
 		desc: "Find the Wikipedia page",
 		lang: Lang.Python,
 	},
+	"io.github.buonhobo.Katharsis": {
+		name: "Katharsis",
+		desc: "A simple Kathara GUI to test emulated computer networks",
+		lang: Lang.Python,
+	},
 };
 
 export default Object.entries(APP_MAP)
