@@ -1494,6 +1494,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Browse and play your local music",
     lang: Lang.Rust,
   },
+  "com.konstantintutsch.Caffeine": {
+    name: "Caffeine",
+    desc: "Calculate your coffee",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
