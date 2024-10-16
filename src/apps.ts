@@ -1499,6 +1499,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Calculate your coffee",
     lang: Lang.C,
   },
+  "dev.qwery.AddWater": {
+    name: "Add Water",
+    desc: "Keep Firefox in Fashion",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
