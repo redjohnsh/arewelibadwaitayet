@@ -949,11 +949,6 @@ const APP_MAP: Record<string, App> = {
     desc: "A Retro Engine v5 launcher",
     lang: Lang.Python,
   },
-  "io.github.Rirusha.Cassette": {
-    name: "Cassette",
-    desc: "Unofficial Yandex.Music client",
-    lang: Lang.Vala,
-  },
   "io.github.nokse22.minitext": {
     name: "Mini Text",
     desc: "Ephemeral scratch pad",
