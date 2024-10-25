@@ -1504,6 +1504,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Keep plaintext accounts",
     lang: Lang.Vala,
   },
+  "de.swsnr.turnon": {
+    name: "Turn On",
+    desc: "Turn on devices in your network",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
