@@ -1499,6 +1499,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Keep Firefox in Fashion",
     lang: Lang.Python,
   },
+  "com.dz4k.FruitCredits": {
+    name: "Fruit Credits",
+    desc: "Keep plaintext accounts",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
