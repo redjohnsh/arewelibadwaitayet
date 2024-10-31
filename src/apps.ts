@@ -72,7 +72,7 @@ const APP_MAP: Record<string, App> = {
   "com.github.rafostar.Clapper": {
     name: "Clapper",
     desc: "Lean back and enjoy videos",
-    lang: Lang.JavaScript,
+    lang: Lang.C,
   },
   "org.gnome.design.Contrast": {
     name: "Contrast",
