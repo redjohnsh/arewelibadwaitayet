@@ -1514,6 +1514,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Find the color",
     lang: Lang.Python,
   },
+  "io.gitlab.guillermop.Counters": {
+    name: "Counters",
+    desc: "Keep track of anything",
+    lang: Lang.JavaScript,
+  },
 };
 
 export default Object.entries(APP_MAP)
