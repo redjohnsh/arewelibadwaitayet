@@ -1509,6 +1509,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Turn on devices in your network",
     lang: Lang.Rust,
   },
+  "net.krafting.HexColordle": {
+    name: "Hex Colordle",
+    desc: "Find the color",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
