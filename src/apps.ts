@@ -1519,6 +1519,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Keep track of anything",
     lang: Lang.JavaScript,
   },
+  "io.github.efogdev.mpris-timer": {
+    name: "MPRIS Timer",
+    desc: "Native-feeling timers for GNOME",
+    lang: Lang.Go,
+  },
 };
 
 export default Object.entries(APP_MAP)
