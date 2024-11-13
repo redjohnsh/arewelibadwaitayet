@@ -1549,6 +1549,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Repost Reddit images to Lemmy",
     lang: Lang.Python,
   },
+  "io.github.Q1CHENL.fig": {
+    name: "Fig",
+    desc: "Sleek GIF editor",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
