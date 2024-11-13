@@ -1534,6 +1534,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Sketch and take handwritten notes",
     lang: Lang.Rust,
   },
+  "io.github.qwersyk.Newelle": {
+    name: "Newelle",
+    desc: "Your AI-Powered System Assistant",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
