@@ -1529,6 +1529,11 @@ const APP_MAP: Record<string, App> = {
     desc: "A GUI to manage systemd units",
     lang: Lang.Rust,
   },
+  "com.github.flxzt.rnote": {
+    name: "Rnote",
+    desc: "Sketch and take handwritten notes",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
