@@ -1554,6 +1554,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Sleek GIF editor",
     lang: Lang.Python,
   },
+  "io.github.alescdb.mailviewer": {
+    name: "MailViewer",
+    desc: "EML and MSG file viewer",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
