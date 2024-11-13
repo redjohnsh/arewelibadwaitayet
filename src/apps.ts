@@ -1539,6 +1539,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Your AI-Powered System Assistant",
     lang: Lang.Python,
   },
+  "net.krafting.SemantiK": {
+    name: "Semantik",
+    desc: "Find the secret word",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
