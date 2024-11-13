@@ -1524,6 +1524,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Native-feeling timers for GNOME",
     lang: Lang.Go,
   },
+  "io.github.plrigaux.sysd-manager": {
+    name: "SysD Manager",
+    desc: "A GUI to manage systemd units",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
