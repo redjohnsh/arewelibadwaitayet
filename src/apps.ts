@@ -1544,6 +1544,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Find the secret word",
     lang: Lang.Python,
   },
+  "net.krafting.Reddy": {
+    name: "Reddy",
+    desc: "Repost Reddit images to Lemmy",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
