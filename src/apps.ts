@@ -1559,6 +1559,11 @@ const APP_MAP: Record<string, App> = {
     desc: "EML and MSG file viewer",
     lang: Lang.Rust,
   },
+  "org.gnome.Gtranslator": {
+    name: "Translation Editor",
+    desc: "Translate and localize applications and libraries",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
