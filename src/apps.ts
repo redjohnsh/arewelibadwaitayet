@@ -1564,6 +1564,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Translate and localize applications and libraries",
     lang: Lang.C,
   },
+  "io.github.OkuBrowser.oku": {
+    name: "Oku",
+    desc: "A Web browser with an emphasis on local-first data storage",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
