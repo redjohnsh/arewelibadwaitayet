@@ -1569,6 +1569,11 @@ const APP_MAP: Record<string, App> = {
     desc: "A Web browser with an emphasis on local-first data storage",
     lang: Lang.Rust,
   },
+  "io.github.dzheremi2.lrcmake-gtk": {
+    name: "LRCMake",
+    desc: "Sync lyrics of your loved songs",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
