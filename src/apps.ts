@@ -1574,6 +1574,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Sync lyrics of your loved songs",
     lang: Lang.Python,
   },
+  "io.github.kriptolix.Poliedros": {
+    name: "Poliedros",
+    desc: "Poliedros is a multi-type dice roller",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
