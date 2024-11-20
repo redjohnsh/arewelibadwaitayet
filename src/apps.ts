@@ -1520,7 +1520,7 @@ const APP_MAP: Record<string, App> = {
     lang: Lang.JavaScript,
   },
   "io.github.efogdev.mpris-timer": {
-    name: "MPRIS Timer",
+    name: "Play Timer",
     desc: "Native-feeling timers for GNOME",
     lang: Lang.Go,
   },
