@@ -1579,6 +1579,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Poliedros is a multi-type dice roller",
     lang: Lang.Python,
   },
+  "com.konstantintutsch.Lock": {
+    name: "Lock",
+    desc: "Process data with GnuPG",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
