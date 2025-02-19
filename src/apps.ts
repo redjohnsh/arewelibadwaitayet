@@ -404,11 +404,6 @@ const APP_MAP: Record<string, App> = {
     desc: "Share your computer audio",
     lang: Lang.Rust,
   },
-  "org.zrythm.Zrythm": {
-    name: "Zrythm",
-    desc: "Digital audio workstation",
-    lang: Lang.CPlusPlus,
-  },
   "io.github.nate_xyz.Chromatic": {
     name: "Chromatic",
     desc: "Fine-tune your instruments",
