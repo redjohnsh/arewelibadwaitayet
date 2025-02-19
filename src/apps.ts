@@ -1629,6 +1629,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Talk to people on IRC",
     lang: Lang.JavaScript,
   },
+  "page.tesk.Refine": {
+    name: "Refine",
+    desc: "Tweak various aspects of GNOME",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
