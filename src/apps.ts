@@ -1584,6 +1584,51 @@ const APP_MAP: Record<string, App> = {
     desc: "Process data with GnuPG",
     lang: Lang.C,
   },
+  "org.gnome.baobab": {
+    name: "Disk Usage Analyzer",
+    desc: "Check folder sizes and available disk space",
+    lang: Lang.Vala,
+  },
+  "org.gnome.design.Emblem": {
+    name: "Emblem",
+    desc: "Generate project avatars",
+    lang: Lang.Rust,
+  },
+  "org.gnome.Contacts": {
+    name: "Contacts",
+    desc: "Manage your contacts",
+    lang: Lang.Vala,
+  },
+  "org.gnome.Firmware": {
+    name: "Firmware",
+    desc: "Install firmware on devices",
+    lang: Lang.C,
+  },
+  "org.gnome.font-viewer": {
+    name: "Fonts",
+    desc: "View fonts on your system",
+    lang: Lang.C,
+  },
+  "org.gnome.Logs": {
+    name: "Logs",
+    desc: "View detailed event logs for the system",
+    lang: Lang.C,
+  },
+  "org.gnome.Mahjongg": {
+    name: "Mahjongg",
+    desc: "Match tiles and clear the board",
+    lang: Lang.Vala,
+  },
+  "org.gnome.TextEditor": {
+    name: "Text Editor",
+    desc: "Edit text files",
+    lang: Lang.C,
+  },
+  "org.gnome.Polari": {
+    name: "Polari",
+    desc: "Talk to people on IRC",
+    lang: Lang.JavaScript,
+  },
 };
 
 export default Object.entries(APP_MAP)
