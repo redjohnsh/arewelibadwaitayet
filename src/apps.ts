@@ -840,9 +840,9 @@ const APP_MAP: Record<string, App> = {
     lang: Lang.Python,
   },
   "io.github.fabrialberio.pinapp": {
-    name: "PinApp",
+    name: "Pins",
     desc: "Create and edit application shortcuts",
-    lang: Lang.Python,
+    lang: Lang.C,
   },
   "it.mijorus.whisper": {
     name: "Whisper",
