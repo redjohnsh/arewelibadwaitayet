@@ -844,11 +844,6 @@ const APP_MAP: Record<string, App> = {
     desc: "Listen to your mic",
     lang: Lang.Python,
   },
-  "com.github.alexkdeveloper.forgetpass": {
-    name: "Forgetpass",
-    desc: "Simple password generator for websites",
-    lang: Lang.Vala,
-  },
   "de.schmidhuberj.tubefeeder": {
     name: "Pipeline",
     desc: "Follow video creators",
