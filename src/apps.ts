@@ -549,11 +549,6 @@ const APP_MAP: Record<string, App> = {
     desc: "Time games of over-the-board chess",
     lang: Lang.Python,
   },
-  "com.lakoliu.Furtherance": {
-    name: "Furtherance",
-    desc: "Track your time without being tracked",
-    lang: Lang.Rust,
-  },
   "io.github.lainsce.Khronos": {
     name: "Khronos",
     desc: "Log the time it took to do tasks",
