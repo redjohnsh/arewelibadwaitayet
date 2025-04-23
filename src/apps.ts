@@ -282,7 +282,7 @@ const APP_MAP: Record<string, App> = {
   "io.gitlab.liferooter.TextPieces": {
     name: "Text Pieces",
     desc: "Developer's scratchpad",
-    lang: Lang.Vala,
+    lang: Lang.Rust,
   },
   "me.iepure.Ticketbooth": {
     name: "Ticket Booth",
