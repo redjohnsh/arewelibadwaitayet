@@ -1679,6 +1679,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Application chooser",
     lang: Lang.JavaScript,
   },
+  "io.github.revisto.drum-machine": {
+    name: "Drum Machine",
+    desc: "Create and play drum beats",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
