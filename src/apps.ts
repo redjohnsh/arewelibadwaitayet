@@ -1649,6 +1649,31 @@ const APP_MAP: Record<string, App> = {
     desc: "A simple, modern sound recorder for GNOME",
     lang: Lang.JavaScript,
   },
+  "org.gnome.LightsOff": {
+    name: "Lights Off",
+    desc: "Turn off all the lights",
+    lang: Lang.Vala,
+  },
+  "org.gnome.Mines": {
+    name: "Mines",
+    desc: "Clear hidden mines from a minefield",
+    lang: Lang.Vala,
+  },
+  "org.gnome.Nibbles": {
+    name: "Nibbles",
+    desc: "Guide a worm around a maze",
+    lang: Lang.Vala,
+  },
+  "org.gnome.Robots": {
+    name: "GNOME Robots",
+    desc: "Avoid the robots and make them crash into each other",
+    lang: Lang.Rust,
+  },
+  "org.gnome.SwellFoop": {
+    name: "Swell Foop",
+    desc: "Clear the screen by removing groups of colored and shaped tiles",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
