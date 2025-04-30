@@ -1639,6 +1639,16 @@ const APP_MAP: Record<string, App> = {
     desc: "Messaging application for mobile and desktop",
     lang: Lang.C,
   },
+  "org.gnome.FileRoller": {
+    name: "File Roller",
+    desc: "Open, modify and create compressed archive files",
+    lang: Lang.C,
+  },
+  "org.gnome.SoundRecorder": {
+    name: "Sound Recorder",
+    desc: "A simple, modern sound recorder for GNOME",
+    lang: Lang.JavaScript,
+  },
 };
 
 export default Object.entries(APP_MAP)
