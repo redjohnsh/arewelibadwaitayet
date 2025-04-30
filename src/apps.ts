@@ -1674,6 +1674,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Clear the screen by removing groups of colored and shaped tiles",
     lang: Lang.Vala,
   },
+  "re.sonny.Junction": {
+    name: "Junction",
+    desc: "Application chooser",
+    lang: Lang.JavaScript,
+  },
 };
 
 export default Object.entries(APP_MAP)
