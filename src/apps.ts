@@ -1619,6 +1619,26 @@ const APP_MAP: Record<string, App> = {
     desc: "Tweak various aspects of GNOME",
     lang: Lang.Python,
   },
+  "org.gnome.dspy": {
+    name: "D-Spy",
+    desc: "Analyze D-Bus connections",
+    lang: Lang.C,
+  },
+  "org.gnome.GHex": {
+    name: "GHex",
+    desc: "Inspect and edit binary files",
+    lang: Lang.C,
+  },
+  "org.gnome.Calls": {
+    name: "Calls",
+    desc: "Make phone and SIP calls",
+    lang: Lang.C,
+  },
+  "sm.puri.Chatty": {
+    name: "Chats",
+    desc: "Messaging application for mobile and desktop",
+    lang: Lang.C,
+  },
 };
 
 export default Object.entries(APP_MAP)
