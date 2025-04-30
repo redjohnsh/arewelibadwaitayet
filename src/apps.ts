@@ -365,7 +365,7 @@ const APP_MAP: Record<string, App> = {
     lang: Lang.Rust,
   },
   "org.gnome.Decibels": {
-    name: "Decibels",
+    name: "Audio Player",
     desc: "Play audio files",
     lang: Lang.JavaScript,
   },
