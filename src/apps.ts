@@ -1684,6 +1684,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Create and play drum beats",
     lang: Lang.Python,
   },
+    "com.ranfdev.DistroShelf": {
+    name: "DistroShelf",
+    desc: "Manage Distrobox containers",
+    lang: Lang.Rust,
+  },
 };
 
 export default Object.entries(APP_MAP)
