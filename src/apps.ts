@@ -15,6 +15,7 @@ export enum Lang {
   Python = "Python",
   Rust = "Rust",
   Swift = "Swift",
+  TypeScript = "TypeScript",
   Vala = "Vala",
 }
 
@@ -1688,6 +1689,11 @@ const APP_MAP: Record<string, App> = {
     name: "DistroShelf",
     desc: "Manage Distrobox containers",
     lang: Lang.Rust,
+  },
+    "io.github.flattool.Ignition": {
+    name: "Ignition",
+    desc: "Manage startup apps and scripts",
+    lang: Lang.TypeScript,
   },
 };
 
