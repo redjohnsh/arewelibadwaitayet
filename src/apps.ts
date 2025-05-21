@@ -1685,15 +1685,20 @@ const APP_MAP: Record<string, App> = {
     desc: "Create and play drum beats",
     lang: Lang.Python,
   },
-    "com.ranfdev.DistroShelf": {
+  "com.ranfdev.DistroShelf": {
     name: "DistroShelf",
     desc: "Manage Distrobox containers",
     lang: Lang.Rust,
   },
-    "io.github.flattool.Ignition": {
+  "io.github.flattool.Ignition": {
     name: "Ignition",
     desc: "Manage startup apps and scripts",
     lang: Lang.TypeScript,
+  },
+  "io.github.nozwock.Packet": {
+    name: "Packet",
+    desc: "Share files easily",
+    lang: Lang.Rust,
   },
 };
 
