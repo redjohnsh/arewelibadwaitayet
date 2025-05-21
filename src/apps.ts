@@ -15,6 +15,7 @@ export enum Lang {
   Python = "Python",
   Rust = "Rust",
   Swift = "Swift",
+  TypeScript = "TypeScript",
   Vala = "Vala",
 }
 
