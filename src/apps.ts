@@ -1690,6 +1690,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Manage Distrobox containers",
     lang: Lang.Rust,
   },
+    "io.github.flattool.Ignition": {
+    name: "Ignition",
+    desc: "Manage startup apps and scripts",
+    lang: Lang.TypeScript,
+  },
 };
 
 export default Object.entries(APP_MAP)
