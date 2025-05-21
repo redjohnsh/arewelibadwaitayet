@@ -343,7 +343,7 @@ const APP_MAP: Record<string, App> = {
   "org.gnome.Weather": {
     name: "Weather",
     desc: "Show weather conditions and forecast",
-    lang: Lang.JavaScript,
+    lang: Lang.TypeScript,
   },
   "org.gnome.Maps": {
     name: "Maps",
@@ -368,7 +368,7 @@ const APP_MAP: Record<string, App> = {
   "org.gnome.Decibels": {
     name: "Audio Player",
     desc: "Play audio files",
-    lang: Lang.JavaScript,
+    lang: Lang.TypeScript,
   },
   "com.belmoussaoui.Authenticator": {
     name: "Authenticator",
@@ -853,7 +853,7 @@ const APP_MAP: Record<string, App> = {
   "io.github.sigmasd.stimulator": {
     name: "Stimulator",
     desc: "Keep your computer awake",
-    lang: Lang.JavaScript,
+    lang: Lang.TypeScript,
   },
   "io.github.idevecore.Valuta": {
     name: "Valuta",
@@ -1333,7 +1333,7 @@ const APP_MAP: Record<string, App> = {
   "io.github.sigmasd.share": {
     name: "Share",
     desc: "Easily share files",
-    lang: Lang.JavaScript,
+    lang: Lang.TypeScript,
   },
   "com.lynnmichaelmartin.TimeTracker": {
     name: "Time Tracker",
@@ -1503,7 +1503,7 @@ const APP_MAP: Record<string, App> = {
   "io.gitlab.guillermop.Counters": {
     name: "Counters",
     desc: "Keep track of anything",
-    lang: Lang.JavaScript,
+    lang: Lang.TypeScript,
   },
   "io.github.efogdev.mpris-timer": {
     name: "Play Timer",
@@ -1648,7 +1648,7 @@ const APP_MAP: Record<string, App> = {
   "org.gnome.SoundRecorder": {
     name: "Sound Recorder",
     desc: "A simple, modern sound recorder for GNOME",
-    lang: Lang.JavaScript,
+    lang: Lang.TypeScript,
   },
   "org.gnome.LightsOff": {
     name: "Lights Off",
