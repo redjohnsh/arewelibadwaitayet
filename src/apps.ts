@@ -1700,6 +1700,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Share files easily",
     lang: Lang.Rust,
   },
+  "be.alexandervanhee.gradia": {
+    name: "Gradia",
+    desc: "Quickly edit screenshots to put them better in context",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
