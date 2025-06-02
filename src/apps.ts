@@ -1697,7 +1697,7 @@ const APP_MAP: Record<string, App> = {
   },
   "io.github.cgueret.Scriptorium": {
     name: "Scriptorium",
-    desc: "An all in one book editing tool for Gnome",
+    desc: "An all in one book editing tool for GNOME",
     lang: Lang.Python,
   },
 };
