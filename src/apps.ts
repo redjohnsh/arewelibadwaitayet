@@ -860,11 +860,6 @@ const APP_MAP: Record<string, App> = {
     desc: "Convert between currencies",
     lang: Lang.Python,
   },
-  "io.gitlab.idevecore.Pomodoro": {
-    name: "Pomodoro",
-    desc: "Pomodoro is a productivity-focused timer",
-    lang: Lang.JavaScript,
-  },
   "io.github.amit9838.mousam": {
     name: "Mousam",
     desc: "Weather at a glance",
@@ -1354,11 +1349,6 @@ const APP_MAP: Record<string, App> = {
     name: "SkyTemple Randomizer",
     desc: "Randomizer for Pokémon Mystery Dungeon Explorers of Sky",
     lang: Lang.Python,
-  },
-  "io.github.alexkdeveloper.radio": {
-    name: "Radio",
-    desc: "A simple radio with stations from the website radio-browser.info",
-    lang: Lang.Vala,
   },
   "com.adrienplazas.Metronome": {
     name: "Metronome",
