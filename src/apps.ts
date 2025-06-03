@@ -1695,6 +1695,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Quickly edit screenshots to put them better in context",
     lang: Lang.Python,
   },
+  "io.github.cgueret.Scriptorium": {
+    name: "Scriptorium",
+    desc: "An all in one book editing tool for GNOME",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
