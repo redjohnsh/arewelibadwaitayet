@@ -1700,6 +1700,16 @@ const APP_MAP: Record<string, App> = {
     desc: "An all in one book editing tool for GNOME",
     lang: Lang.Python,
   },
+  "io.github.justinrdonnelly.bouncer": {
+    name: "Bouncer",
+    desc: "Choose the correct firewall zone for Wi-Fi",
+    lang: Lang.JavaScript,
+  },
+  "app.drey.MultiplicationPuzzle": {
+    name: "Multiplication Puzzle",
+    desc: "A simple multiplication puzzle game",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
