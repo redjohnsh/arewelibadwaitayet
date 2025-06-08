@@ -1715,6 +1715,11 @@ const APP_MAP: Record<string, App> = {
     desc: "Extensible control center for GNOME",
     lang: Lang.Vala,
   },
+  "com.jeffser.Pigment": {
+    name: "Pigment",
+    desc: "Get color palettes from images",
+    lang: Lang.Python,
+  },
 };
 
 export default Object.entries(APP_MAP)
