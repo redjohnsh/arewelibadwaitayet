@@ -1710,6 +1710,11 @@ const APP_MAP: Record<string, App> = {
     desc: "A simple multiplication puzzle game",
     lang: Lang.Vala,
   },
+  "org.altlinux.Tuner": {
+    name: "Tuner",
+    desc: "Extensible control center for GNOME",
+    lang: Lang.Vala,
+  },
 };
 
 export default Object.entries(APP_MAP)
