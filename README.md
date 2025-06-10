@@ -1,42 +1,38 @@
-# Are We LibAdwaita Yet?
+# sv
 
-Welcome to the "Are We LibAdwaita Yet?" website, where you can explore a curated collection of apps that utilize `libadwaita`. While this list may not encompass every app in existence, it provides a snapshot of apps that we are aware of and welcomes contributions from the community to expand the selection.
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## 🚀 Project Structure
+## Creating a project
 
-Here's an overview of the project's directory structure:
+If you're seeing this, you've probably already done this step. Congrats!
 
-```text
-/
-├── public/
-├── src/
-|   └── apps.ts
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+# create a new project in the current directory
+npx sv create
+
+# create a new project in my-app
+npx sv create my-app
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Developing
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-Any static assets, like images, can be placed in the `public/` directory.
+```bash
+npm run dev
 
-## 🧞 Commands
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-All commands are run from the root of the project, from a terminal:
+## Building
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+To create a production version of your app:
 
-## Contributing
+```bash
+npm run build
+```
 
-If you come across an app that's missing from our list, you can actively contribute by forking this repository and adding it to the `src/apps.ts` file. Each app entry should include four mandatory fields. Note that the app **must** be published on [Flathub](https://flathub.org) for it to be considered.
+You can preview the production build with `npm run preview`.
 
-We appreciate your contributions and look forward to growing our collection of LibAdwaita-powered apps!
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
