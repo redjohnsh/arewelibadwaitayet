@@ -28,7 +28,9 @@
 							>{app.lang.target}</Badge
 						>
 					</div>
-					<p class="text-muted-foreground text-sm text-pretty">{app.desc.target}</p>
+					<p class="text-muted-foreground line-clamp-1 text-sm text-pretty">
+						{app.desc.target}
+					</p>
 				</div>
 			</div>
 		</Card.Content>
