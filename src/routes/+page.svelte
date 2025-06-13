@@ -5,6 +5,7 @@
 	import LangSelect from '$lib/components/lang-select.svelte';
 	import Input from '$lib/components/ui/input/input.svelte';
 	import Toggle from '$lib/components/ui/toggle/toggle.svelte';
+	import EmptyState from '$lib/empty-state.svelte';
 	import { LayoutGridIcon, LayoutListIcon } from '@lucide/svelte';
 	import fuzzysort from 'fuzzysort';
 	import { List } from 'swisslist';
@@ -132,5 +133,7 @@
 		</div>
 	{/if}
 {:else}
-	<p class="text-center text-gray-500">No apps found</p>
+	<div class="mt-12">
+		<EmptyState {search} {selectedLang} />
+	</div>
 {/if}
