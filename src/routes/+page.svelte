@@ -1,6 +1,7 @@
 <script lang="ts">
 	import appList, { Lang } from '$lib/apps';
 	import AppCard from '$lib/components/app-card.svelte';
+	import EmptyState from '$lib/components/empty-state.svelte';
 	import FeaturedApps from '$lib/components/featured-apps.svelte';
 	import LangSelect from '$lib/components/lang-select.svelte';
 	import Input from '$lib/components/ui/input/input.svelte';
@@ -132,5 +133,7 @@
 		</div>
 	{/if}
 {:else}
-	<p class="text-center text-gray-500">No apps found</p>
+	<div class="mt-12">
+		<EmptyState {search} {selectedLang} />
+	</div>
 {/if}
