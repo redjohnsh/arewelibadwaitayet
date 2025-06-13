@@ -7,7 +7,7 @@
 	}>();
 </script>
 
-<div class="text-center">
+<div class="border-t border-dashed py-12 text-center">
 	<SearchX class="text-primary mx-auto size-8" />
 	<h3 class="text-foreground mt-2 text-sm font-semibold">No applications found</h3>
 	<p class="text-muted-foreground mt-1 text-sm">
