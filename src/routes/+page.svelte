@@ -4,9 +4,10 @@
 	import EmptyState from '$lib/components/empty-state.svelte';
 	import FeaturedApps from '$lib/components/featured-apps.svelte';
 	import LangSelect from '$lib/components/lang-select.svelte';
+	import Button from '$lib/components/ui/button/button.svelte';
 	import Input from '$lib/components/ui/input/input.svelte';
-	import Toggle from '$lib/components/ui/toggle/toggle.svelte';
-	import { LayoutGridIcon, LayoutListIcon } from '@lucide/svelte';
+	import * as ToggleGroup from '$lib/components/ui/toggle-group';
+	import { BrushCleaningIcon, LayoutGridIcon, LayoutListIcon } from '@lucide/svelte';
 	import fuzzysort from 'fuzzysort';
 	import { List } from 'swisslist';
 
@@ -56,6 +57,11 @@
 	let grouped = $derived.by(() => {
 		return Object.entries(filtered.groupBy((item) => item.lang.target as Lang));
 	});
+
+	function clearFilters() {
+		search = '';
+		selectedLang = [];
+	}
 </script>
 
 <div class="mx-auto mb-20 flex max-w-4xl flex-col text-center">
@@ -75,7 +81,7 @@
 <FeaturedApps apps={appList} />
 
 <div class="mt-12 gap-2 md:flex md:items-center">
-	<div class="flex-1">
+	<div class="flex flex-1 items-center gap-2">
 		<Input
 			bind:value={search}
 			class="w-full md:max-w-2xl"
@@ -83,23 +89,21 @@
 			type="search"
 			bind:ref={inputRef}
 		/>
+		<Button variant="outline" size="icon" onclick={clearFilters}>
+			<BrushCleaningIcon />
+		</Button>
 	</div>
 	<div class="mt-4 flex shrink-0 items-center gap-2 md:mt-0">
 		<LangSelect bind:value={selectedLang} />
-		<Toggle
-			variant="outline"
-			pressed={selectedView === 'list'}
-			onPressedChange={() => (selectedView = 'list')}
-		>
-			<LayoutListIcon />
-		</Toggle>
-		<Toggle
-			variant="outline"
-			pressed={selectedView === 'group'}
-			onPressedChange={() => (selectedView = 'group')}
-		>
-			<LayoutGridIcon />
-		</Toggle>
+
+		<ToggleGroup.Root type="single" variant="outline" bind:value={selectedView}>
+			<ToggleGroup.Item value="list">
+				<LayoutListIcon />
+			</ToggleGroup.Item>
+			<ToggleGroup.Item value="group">
+				<LayoutGridIcon />
+			</ToggleGroup.Item>
+		</ToggleGroup.Root>
 	</div>
 </div>
 
