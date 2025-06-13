@@ -8,11 +8,11 @@
 
 <svelte:head>
 	<title>Libadwaita Apps - A Curated List for Gnome</title>
-	<meta name="description" content="A curated list of apps for Gnome" />
 	<meta
-		name="keywords"
+		name="description"
 		content="Uncover a curated selection of Linux apps utilizing libadwaita. Explore the latest and most exciting applications seamlessly integrating with LibAdwaita."
 	/>
+	<meta name="keywords" content="libadwaita, gnome, apps, linux" />
 </svelte:head>
 
 <main class="container mx-auto max-w-6xl px-4 py-8 md:px-6 md:py-12 lg:px-8">
