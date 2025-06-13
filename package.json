@@ -16,10 +16,14 @@
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
+		"@internationalized/date": "^3.8.2",
+		"@lucide/svelte": "^0.513.0",
 		"@sveltejs/adapter-auto": "^6.0.1",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
+		"bits-ui": "^2.5.0",
+		"clsx": "^2.1.1",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",
@@ -29,9 +33,16 @@
 		"prettier-plugin-tailwindcss": "^0.6.11",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
+		"tailwind-merge": "^3.3.1",
+		"tailwind-variants": "^1.0.0",
 		"tailwindcss": "^4.0.0",
+		"tw-animate-css": "^1.3.4",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.20.0",
 		"vite": "^6.2.6"
+	},
+	"dependencies": {
+		"fuzzysort": "^3.1.0",
+		"swisslist": "^0.0.4"
 	}
 }
