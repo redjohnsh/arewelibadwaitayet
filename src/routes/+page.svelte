@@ -6,10 +6,15 @@
 	import LangSelect from '$lib/components/lang-select.svelte';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import Input from '$lib/components/ui/input/input.svelte';
+	import * as Pagination from '$lib/components/ui/pagination';
 	import * as ToggleGroup from '$lib/components/ui/toggle-group';
 	import { BrushCleaningIcon, LayoutGridIcon, LayoutListIcon } from '@lucide/svelte';
 	import fuzzysort from 'fuzzysort';
 	import { List } from 'swisslist';
+
+	const PER_PAGE = 24;
+
+	let currentPage = $state(1);
 
 	let search = $state('');
 	let selectedLang = $state<Lang[]>([]);
@@ -58,9 +63,20 @@
 		return Object.entries(filtered.groupBy((item) => item.lang.target as Lang));
 	});
 
+	let paginated = $derived.by(() => {
+		return filtered.drop((currentPage - 1) * PER_PAGE).take(PER_PAGE);
+	});
+
+	$effect(() => {
+		search;
+		selectedLang;
+		currentPage = 1;
+	});
+
 	function clearFilters() {
 		search = '';
 		selectedLang = [];
+		currentPage = 1;
 	}
 </script>
 
@@ -114,10 +130,43 @@
 {#if filtered.size}
 	{#if selectedView === 'list'}
 		<div class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-			{#each filtered as app (app.id)}
+			{#each paginated as app (app.id)}
 				<AppCard {app} />
 			{/each}
 		</div>
+
+		{#if paginated.size < filtered.size}
+			<Pagination.Root
+				class="mt-12"
+				count={filtered.size}
+				perPage={PER_PAGE}
+				bind:page={currentPage}
+			>
+				{#snippet children({ pages, currentPage })}
+					<Pagination.Content>
+						<Pagination.Item>
+							<Pagination.PrevButton />
+						</Pagination.Item>
+						{#each pages as page (page.key)}
+							{#if page.type === 'ellipsis'}
+								<Pagination.Item>
+									<Pagination.Ellipsis />
+								</Pagination.Item>
+							{:else}
+								<Pagination.Item>
+									<Pagination.Link {page} isActive={currentPage === page.value}>
+										{page.value}
+									</Pagination.Link>
+								</Pagination.Item>
+							{/if}
+						{/each}
+						<Pagination.Item>
+							<Pagination.NextButton />
+						</Pagination.Item>
+					</Pagination.Content>
+				{/snippet}
+			</Pagination.Root>
+		{/if}
 	{:else}
 		<div class="mt-6">
 			{#each grouped.toSorted(([lang], [lang2]) => lang.localeCompare(lang2)) as [lang, apps]}
