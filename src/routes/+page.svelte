@@ -8,7 +8,7 @@
 	import Input from '$lib/components/ui/input/input.svelte';
 	import * as Pagination from '$lib/components/ui/pagination';
 	import * as ToggleGroup from '$lib/components/ui/toggle-group';
-	import { BrushCleaningIcon, LayoutGridIcon, LayoutListIcon } from '@lucide/svelte';
+	import { BrushCleaningIcon, LayoutGridIcon, LayoutListIcon, SearchIcon } from '@lucide/svelte';
 	import fuzzysort from 'fuzzysort';
 	import { List } from 'swisslist';
 
@@ -98,13 +98,20 @@
 
 <div class="mt-12 gap-2 md:flex md:items-center">
 	<div class="flex flex-1 items-center gap-2">
-		<Input
-			bind:value={search}
-			class="w-full md:max-w-2xl"
-			placeholder="Search apps... (try fuzzy search like 'audi play' for Audio Player)"
-			type="search"
-			bind:ref={inputRef}
-		/>
+		<div class="relative w-full md:max-w-2xl">
+			<Input
+				bind:value={search}
+				class="peer ps-9"
+				placeholder="Search apps... (try fuzzy search like 'audi play' for Audio Player)"
+				type="search"
+				bind:ref={inputRef}
+			/>
+			<div
+				class="text-muted-foreground/80 pointer-events-none absolute inset-y-0 start-0 flex items-center justify-center ps-3 peer-disabled:opacity-50"
+			>
+				<SearchIcon class="size-4" aria-hidden="true" />
+			</div>
+		</div>
 		<Button variant="outline" size="icon" onclick={clearFilters}>
 			<BrushCleaningIcon />
 		</Button>
