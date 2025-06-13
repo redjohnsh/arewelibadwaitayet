@@ -1,38 +1,44 @@
-# sv
+# Are We LibAdwaita Yet?
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to the "Are We LibAdwaita Yet?" website, where you can explore a curated collection of apps that utilize `libadwaita`. While this list may not encompass every app in existence, it provides a snapshot of apps that we are aware of and welcomes contributions from the community to expand the selection.
 
-## Creating a project
+## 🚀 Project Structure
 
-If you're seeing this, you've probably already done this step. Congrats!
+Here's an overview of the project's directory structure:
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+```text
+/
+├── static/          # Static assets like images
+├── src/
+│   ├── lib/         # Shared components and utilities
+│   ├── routes/      # SvelteKit routes and pages
+│   ├── app.html     # HTML template
+│   └── app.css      # Global styles
+└── package.json
 ```
 
-## Developing
+SvelteKit looks for `.svelte` files in the `src/routes/` directory. Each page is exposed as a route based on its file name.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+The `src/lib/` directory is where we put shared components and utilities that can be imported using the `$lib` alias.
 
-```bash
-npm run dev
+Any static assets, like images, can be placed in the `static/` directory.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## 🧞 Commands
 
-## Building
+All commands are run from the root of the project, from a terminal:
 
-To create a production version of your app:
+| Command           | Action                                       |
+| :---------------- | :------------------------------------------- |
+| `npm install`     | Installs dependencies                        |
+| `npm run dev`     | Starts local dev server at `localhost:5173`  |
+| `npm run build`   | Build your production site to `./build/`     |
+| `npm run preview` | Preview your build locally, before deploying |
+| `npm run check`   | Type-check your Svelte code                  |
+| `npm run format`  | Format your code with Prettier               |
+| `npm run lint`    | Lint your code with ESLint                   |
 
-```bash
-npm run build
-```
+## Contributing
 
-You can preview the production build with `npm run preview`.
+If you come across an app that's missing from our list, you can actively contribute by forking this repository and adding it to the appropriate data file. Each app entry should include four mandatory fields. Note that the app **must** be published on [Flathub](https://flathub.org) for it to be considered.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+We appreciate your contributions and look forward to growing our collection of LibAdwaita-powered apps!
