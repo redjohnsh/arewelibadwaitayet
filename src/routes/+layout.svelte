@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Analytics from '$lib/components/analytics.svelte';
 	import '../app.css';
 
 	let { children } = $props();
@@ -14,6 +15,8 @@
 	/>
 	<meta name="keywords" content="libadwaita, gnome, apps, linux" />
 </svelte:head>
+
+<Analytics />
 
 <div class="flex min-h-[100dvh] flex-col">
 	<main class="container mx-auto max-w-6xl flex-1 px-4 py-8 md:px-6 md:py-12 lg:px-8">

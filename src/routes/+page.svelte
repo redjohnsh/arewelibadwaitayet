@@ -8,13 +8,17 @@
 	import Input from '$lib/components/ui/input/input.svelte';
 	import * as Pagination from '$lib/components/ui/pagination';
 	import * as ToggleGroup from '$lib/components/ui/toggle-group';
+	import { trackEvent } from '$lib/utils';
 	import { BrushCleaningIcon, LayoutGridIcon, LayoutListIcon, SearchIcon } from '@lucide/svelte';
 	import fuzzysort from 'fuzzysort';
 	import { List } from 'swisslist';
 
 	const PER_PAGE = 24;
+	const SEARCH_DEBOUNCE_MS = 500;
 
 	let currentPage = $state(1);
+	let searchTimeout: ReturnType<typeof setTimeout>;
+	let previousPage = $state(1);
 
 	let search = $state('');
 	let selectedLang = $state<Lang[]>([]);
@@ -39,6 +43,49 @@
 		);
 
 		return () => controller.abort();
+	});
+
+	$effect(() => {
+		if (search) {
+			clearTimeout(searchTimeout);
+			searchTimeout = setTimeout(() => {
+				trackEvent('search', {
+					search_term: search,
+					results_count: filtered.size
+				});
+			}, SEARCH_DEBOUNCE_MS);
+		}
+
+		return () => clearTimeout(searchTimeout);
+	});
+
+	$effect(() => {
+		if (selectedLang.length) {
+			trackEvent('filter_by_language', {
+				selected_languages: selectedLang.join(', '),
+				results_count: filtered.size
+			});
+		}
+	});
+
+	$effect(() => {
+		trackEvent('view_change', {
+			view_type: selectedView
+		});
+	});
+
+	$effect(() => {
+		if (currentPage !== previousPage) {
+			trackEvent('pagination', {
+				page_number: currentPage,
+				previous_page: previousPage,
+				total_pages: Math.ceil(filtered.size / PER_PAGE),
+				results_count: filtered.size,
+				has_search: !!search,
+				has_language_filter: selectedLang.length > 0
+			});
+			previousPage = currentPage;
+		}
 	});
 
 	let filtered = $derived.by(() => {
@@ -71,12 +118,24 @@
 		search;
 		selectedLang;
 		currentPage = 1;
+		previousPage = 1;
 	});
 
 	function clearFilters() {
+		const hadSearch = !!search;
+		const hadFilters = selectedLang.length > 0;
+
 		search = '';
 		selectedLang = [];
 		currentPage = 1;
+		previousPage = 1;
+
+		if (hadSearch || hadFilters) {
+			trackEvent('clear_filters', {
+				had_search: hadSearch,
+				had_language_filters: hadFilters
+			});
+		}
 	}
 </script>
 

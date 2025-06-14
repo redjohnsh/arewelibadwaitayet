@@ -1,9 +1,19 @@
 <script lang="ts">
 	import type { PreparedApp } from '$lib/apps';
 	import * as Card from '$lib/components/ui/card/index.js';
+	import { trackEvent } from '$lib/utils';
 	import Badge from './ui/badge/badge.svelte';
 
 	let { app }: { app: PreparedApp } = $props();
+
+	function handleClick() {
+		trackEvent('app_click', {
+			app_id: app.id,
+			app_name: app.name.target,
+			app_language: app.lang.target,
+			app_description: app.desc.target
+		});
+	}
 </script>
 
 <a
@@ -11,6 +21,7 @@
 	target="_blank"
 	rel="noopener noreferrer"
 	class="transition-opacity hover:opacity-80"
+	onclick={handleClick}
 >
 	<Card.Root class="relative h-full">
 		<Card.Content>
