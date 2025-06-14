@@ -23,6 +23,7 @@
 	let search = $state('');
 	let selectedLang = $state<Lang[]>([]);
 	let selectedView = $state<'group' | 'list'>('list');
+	let previousView = $state<'group' | 'list'>('list');
 	let inputRef = $state<HTMLInputElement>(null!);
 
 	$effect(() => {
@@ -69,9 +70,12 @@
 	});
 
 	$effect(() => {
-		trackEvent('view_change', {
-			view_type: selectedView
-		});
+		if (selectedView !== previousView) {
+			trackEvent('view_change', {
+				view_type: selectedView
+			});
+			previousView = selectedView;
+		}
 	});
 
 	$effect(() => {
