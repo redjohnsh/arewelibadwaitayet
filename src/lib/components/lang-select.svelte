@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Lang } from '$lib/apps';
-	import plausible from '$lib/plausible';
+	import { plausible } from '$lib/plausible';
 	import * as Select from './ui/select';
 
 	let { value = $bindable() }: { value: Lang[] } = $props();

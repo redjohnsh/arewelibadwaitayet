@@ -1,7 +1,13 @@
-import Plausible from 'plausible-tracker';
+import { Plausible } from 'plausible-client';
 
-export default Plausible({
+export const plausible = new Plausible({
 	apiHost: 'https://analytics.arewelibadwaitayet.com',
 	domain: 'arewelibadwaitayet.com',
-	trackLocalhost: false
+	filter(event) {
+		if (event.url.includes('localhost')) {
+			return false;
+		}
+
+		return true;
+	}
 });

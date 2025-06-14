@@ -1,21 +1,12 @@
 <script lang="ts">
 	import Analytics from '$lib/components/analytics.svelte';
-	import plausible from '$lib/plausible';
+	import { plausible } from '$lib/plausible';
 	import '../app.css';
 
 	let { children } = $props();
 
 	let year = new Date().getFullYear();
 </script>
-
-<svelte:head>
-	<title>Libadwaita Apps - A Curated List for Gnome</title>
-	<meta
-		name="description"
-		content="Uncover a curated selection of Linux apps utilizing libadwaita. Explore the latest and most exciting applications seamlessly integrating with LibAdwaita."
-	/>
-	<meta name="keywords" content="libadwaita, gnome, apps, linux" />
-</svelte:head>
 
 <Analytics />
 

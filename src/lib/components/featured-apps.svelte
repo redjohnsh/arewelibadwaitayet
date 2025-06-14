@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { PreparedApp } from '$lib/apps';
-	import plausible from '$lib/plausible';
+	import { plausible } from '$lib/plausible';
 	import { ShuffleIcon } from '@lucide/svelte';
 	import type { List } from 'swisslist';
 	import AppCard from './app-card.svelte';

@@ -8,7 +8,7 @@
 	import Input from '$lib/components/ui/input/input.svelte';
 	import * as Pagination from '$lib/components/ui/pagination';
 	import * as ToggleGroup from '$lib/components/ui/toggle-group';
-	import plausible from '$lib/plausible';
+	import { plausible } from '$lib/plausible';
 	import { BrushCleaningIcon, LayoutGridIcon, LayoutListIcon, SearchIcon } from '@lucide/svelte';
 	import fuzzysort from 'fuzzysort';
 	import { List } from 'swisslist';

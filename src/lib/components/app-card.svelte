@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PreparedApp } from '$lib/apps';
 	import * as Card from '$lib/components/ui/card/index.js';
-	import plausible from '$lib/plausible';
+	import { plausible } from '$lib/plausible';
 	import Badge from './ui/badge/badge.svelte';
 
 	let { app }: { app: PreparedApp } = $props();

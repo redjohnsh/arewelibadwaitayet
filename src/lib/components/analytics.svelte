@@ -1,7 +1,9 @@
 <script lang="ts">
-	import plausible from '$lib/plausible';
+	import { plausible } from '$lib/plausible';
+	import { enableAutoPageviews } from 'plausible-client';
+	import { onMount } from 'svelte';
 
-	$effect(() => {
-		plausible.trackPageview();
+	onMount(() => {
+		enableAutoPageviews(plausible);
 	});
 </script>
