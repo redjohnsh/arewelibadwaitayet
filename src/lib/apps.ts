@@ -1732,6 +1732,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'WSelector',
 		desc: 'Wallpaper Selector Manager',
 		lang: Lang.Python
+	},
+	'de.swsnr.keepmeawake': {
+		name: 'Keep Me Awake',
+		desc: 'Inhibit lock screen and suspend',
+		lang: Lang.Rust
 	}
 };
 
