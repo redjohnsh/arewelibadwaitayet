@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PreparedApp } from '$lib/apps';
+	import { trackEvent } from '$lib/utils';
 	import { ShuffleIcon } from '@lucide/svelte';
 	import type { List } from 'swisslist';
 	import AppCard from './app-card.svelte';
@@ -11,6 +12,10 @@
 
 	function shuffle() {
 		featured = apps.shuffle().take(count);
+		trackEvent('shuffle_featured_apps', {
+			featured_apps_count: count,
+			featured_apps: featured.map((app) => app.id)
+		});
 	}
 </script>
 
