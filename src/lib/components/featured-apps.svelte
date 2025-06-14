@@ -8,7 +8,7 @@
 
 	let { apps, count = 3 }: { apps: List<PreparedApp>; count?: number } = $props();
 
-	let featured = $state(apps.slice(-count)); // Show the most recently added apps
+	let featured = $state(apps.reverse().take(count)); // Show the most recently added apps
 
 	function shuffle() {
 		featured = apps.shuffle().take(count);
