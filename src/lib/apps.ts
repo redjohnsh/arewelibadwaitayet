@@ -1737,6 +1737,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Keep Me Awake',
 		desc: 'Inhibit lock screen and suspend',
 		lang: Lang.Rust
+	},
+	'io.github.dzheremi2.lexi': {
+		name: 'Lexi',
+		desc: 'Build your own dictionary',
+		lang: Lang.Python
 	}
 };
 
