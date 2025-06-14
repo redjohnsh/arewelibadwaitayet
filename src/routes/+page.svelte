@@ -175,7 +175,12 @@
 				<SearchIcon class="size-4" aria-hidden="true" />
 			</div>
 		</div>
-		<Button variant="outline" size="icon" onclick={clearFilters}>
+		<Button
+			variant="outline"
+			size="icon"
+			onclick={clearFilters}
+			class="plausible-event-name=clear_filters"
+		>
 			<BrushCleaningIcon />
 		</Button>
 	</div>
@@ -183,10 +188,10 @@
 		<LangSelect bind:value={selectedLang} />
 
 		<ToggleGroup.Root type="single" variant="outline" bind:value={selectedView}>
-			<ToggleGroup.Item value="list">
+			<ToggleGroup.Item value="list" class="plausible-event-name=view_change_list">
 				<LayoutListIcon />
 			</ToggleGroup.Item>
-			<ToggleGroup.Item value="group">
+			<ToggleGroup.Item value="group" class="plausible-event-name=view_change_group">
 				<LayoutGridIcon />
 			</ToggleGroup.Item>
 		</ToggleGroup.Root>
@@ -224,7 +229,11 @@
 								</Pagination.Item>
 							{:else}
 								<Pagination.Item>
-									<Pagination.Link {page} isActive={currentPage === page.value}>
+									<Pagination.Link
+										{page}
+										isActive={currentPage === page.value}
+										class="plausible-event-name=paginate"
+									>
 										{page.value}
 									</Pagination.Link>
 								</Pagination.Item>

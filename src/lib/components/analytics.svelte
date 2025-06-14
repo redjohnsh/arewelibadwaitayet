@@ -6,7 +6,7 @@
 
 	$effect(() => {
 		if (typeof window !== 'undefined' && typeof window.gtag !== 'undefined') {
-			window.gtag('config', GA_ID, {
+			window.gtag('config', GA_ID!, {
 				page_title: document.title,
 				page_path: page.url.pathname + page.url.search,
 				page_location: page.url.href

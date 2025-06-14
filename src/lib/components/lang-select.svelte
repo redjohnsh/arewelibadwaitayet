@@ -18,7 +18,9 @@
 </script>
 
 <Select.Root type="multiple" bind:value>
-	<Select.Trigger class="w-full md:w-auto">{placeholder}</Select.Trigger>
+	<Select.Trigger class="plausible-event-name=lang_select w-full md:w-auto"
+		>{placeholder}</Select.Trigger
+	>
 	<Select.Content>
 		{#each Object.values(Lang) as lang (lang)}
 			<Select.Item value={lang}>{lang}</Select.Item>

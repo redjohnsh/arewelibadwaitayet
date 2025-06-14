@@ -20,7 +20,7 @@
 	href={`https://flathub.org/apps/${app.id}`}
 	target="_blank"
 	rel="noopener noreferrer"
-	class="transition-opacity hover:opacity-80"
+	class="plausible-event-name=app_click transition-opacity hover:opacity-80"
 	onclick={handleClick}
 >
 	<Card.Root class="relative h-full">

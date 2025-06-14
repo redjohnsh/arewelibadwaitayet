@@ -22,7 +22,7 @@
 <div>
 	<div class="flex items-center justify-between gap-4">
 		<h2 class="text-2xl font-bold">Featured Apps</h2>
-		<Button variant="outline" onclick={shuffle}>
+		<Button variant="outline" onclick={shuffle} class="plausible-event-name=shuffle_featured_apps">
 			<ShuffleIcon />
 			Shuffle
 		</Button>
