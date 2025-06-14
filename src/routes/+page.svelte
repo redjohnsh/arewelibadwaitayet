@@ -8,9 +8,11 @@
 	import Input from '$lib/components/ui/input/input.svelte';
 	import * as Pagination from '$lib/components/ui/pagination';
 	import * as ToggleGroup from '$lib/components/ui/toggle-group';
+	import plausible from '$lib/plausible';
 	import { BrushCleaningIcon, LayoutGridIcon, LayoutListIcon, SearchIcon } from '@lucide/svelte';
 	import fuzzysort from 'fuzzysort';
 	import { List } from 'swisslist';
+	import { debounce } from 'throttle-debounce';
 
 	const PER_PAGE = 24;
 
@@ -39,6 +41,18 @@
 		);
 
 		return () => controller.abort();
+	});
+
+	const trackSearch = debounce(1000, (search: string) => {
+		plausible.trackEvent('search', {
+			props: {
+				search_term: search
+			}
+		});
+	});
+
+	$effect(() => {
+		trackSearch(search);
 	});
 
 	let filtered = $derived.by(() => {
@@ -71,6 +85,8 @@
 		search = '';
 		selectedLang = [];
 		currentPage = 1;
+
+		plausible.trackEvent('clear_filters');
 	}
 </script>
 
@@ -106,23 +122,29 @@
 				<SearchIcon class="size-4" aria-hidden="true" />
 			</div>
 		</div>
-		<Button
-			variant="outline"
-			size="icon"
-			onclick={clearFilters}
-			class="plausible-event-name=clear_filters"
-		>
+		<Button variant="outline" size="icon" onclick={clearFilters}>
 			<BrushCleaningIcon />
 		</Button>
 	</div>
 	<div class="mt-4 flex shrink-0 items-center gap-2 md:mt-0">
 		<LangSelect bind:value={selectedLang} />
 
-		<ToggleGroup.Root type="single" variant="outline" bind:value={selectedView}>
-			<ToggleGroup.Item value="list" class="plausible-event-name=view_change_list">
+		<ToggleGroup.Root
+			type="single"
+			variant="outline"
+			bind:value={selectedView}
+			onValueChange={(value) => {
+				plausible.trackEvent('view_change', {
+					props: {
+						view: value
+					}
+				});
+			}}
+		>
+			<ToggleGroup.Item value="list">
 				<LayoutListIcon />
 			</ToggleGroup.Item>
-			<ToggleGroup.Item value="group" class="plausible-event-name=view_change_group">
+			<ToggleGroup.Item value="group">
 				<LayoutGridIcon />
 			</ToggleGroup.Item>
 		</ToggleGroup.Root>
@@ -163,7 +185,13 @@
 									<Pagination.Link
 										{page}
 										isActive={currentPage === page.value}
-										class="plausible-event-name=paginate"
+										onclick={() => {
+											plausible.trackEvent('paginate', {
+												props: {
+													page: page.value
+												}
+											});
+										}}
 									>
 										{page.value}
 									</Pagination.Link>

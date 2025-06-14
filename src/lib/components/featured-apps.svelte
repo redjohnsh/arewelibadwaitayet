@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PreparedApp } from '$lib/apps';
+	import plausible from '$lib/plausible';
 	import { ShuffleIcon } from '@lucide/svelte';
 	import type { List } from 'swisslist';
 	import AppCard from './app-card.svelte';
@@ -11,13 +12,23 @@
 
 	function shuffle() {
 		featured = apps.shuffle().take(count);
+
+		plausible.trackEvent('shuffle_featured_apps', {
+			props: {
+				featured_apps_count: count,
+				featured_apps: featured
+					.map((app) => app.id)
+					.toArray()
+					.join(',')
+			}
+		});
 	}
 </script>
 
 <div>
 	<div class="flex items-center justify-between gap-4">
 		<h2 class="text-2xl font-bold">Featured Apps</h2>
-		<Button variant="outline" class="plausible-event-name=shuffle_featured_apps" onclick={shuffle}>
+		<Button variant="outline" onclick={shuffle}>
 			<ShuffleIcon />
 			Shuffle
 		</Button>

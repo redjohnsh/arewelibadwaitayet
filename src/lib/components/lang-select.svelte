@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Lang } from '$lib/apps';
+	import plausible from '$lib/plausible';
 	import * as Select from './ui/select';
 
 	let { value = $bindable() }: { value: Lang[] } = $props();
@@ -17,10 +18,18 @@
 	});
 </script>
 
-<Select.Root type="multiple" bind:value>
-	<Select.Trigger class="plausible-event-name=lang_select w-full md:w-auto"
-		>{placeholder}</Select.Trigger
-	>
+<Select.Root
+	type="multiple"
+	bind:value
+	onValueChange={(value) => {
+		plausible.trackEvent('lang_select', {
+			props: {
+				selected_languages: value.join(',')
+			}
+		});
+	}}
+>
+	<Select.Trigger class="w-full md:w-auto">{placeholder}</Select.Trigger>
 	<Select.Content>
 		{#each Object.values(Lang) as lang (lang)}
 			<Select.Item value={lang}>{lang}</Select.Item>

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PreparedApp } from '$lib/apps';
 	import * as Card from '$lib/components/ui/card/index.js';
+	import plausible from '$lib/plausible';
 	import Badge from './ui/badge/badge.svelte';
 
 	let { app }: { app: PreparedApp } = $props();
@@ -10,7 +11,17 @@
 	href={`https://flathub.org/apps/${app.id}`}
 	target="_blank"
 	rel="noopener noreferrer"
-	class="plausible-event-name=app_click transition-opacity hover:opacity-80"
+	class="transition-opacity hover:opacity-80"
+	onclick={() => {
+		plausible.trackEvent('app_click', {
+			props: {
+				app_id: app.id,
+				app_name: app.name.target,
+				app_language: app.lang.target,
+				app_description: app.desc.target
+			}
+		});
+	}}
 >
 	<Card.Root class="relative h-full">
 		<Card.Content>
