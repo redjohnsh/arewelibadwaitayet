@@ -1549,7 +1549,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.Rust
 	},
 	'io.github.dzheremi2.lrcmake-gtk': {
-		name: 'LRCMake',
+		name: 'Chronograph',
 		desc: 'Sync lyrics of your loved songs',
 		lang: Lang.Python
 	},
