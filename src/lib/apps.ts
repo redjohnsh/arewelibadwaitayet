@@ -1742,6 +1742,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Lexi',
 		desc: 'Build your own dictionary',
 		lang: Lang.Python
+	},
+	'io.github.johnfactotum.Runemaster': {
+		name: 'Runemaster',
+		desc: 'Unleash the magic of Unicode characters',
+		lang: Lang.JavaScript
 	}
 };
 
