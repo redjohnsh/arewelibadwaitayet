@@ -28,7 +28,7 @@
 			<p class="text-muted-foreground mt-8 text-center text-sm/6 md:order-1 md:mt-0">
 				&copy; {year}
 				<a
-					class="hover:text-accent-foreground"
+					class="hover:text-accent-foreground plausible-event-name=footer_github_link"
 					href="https://github.com/redjohnsh/arewelibadwaitayet"
 					rel="noopener noreferrer"
 					target="_blank">arewelibadwaitayet</a

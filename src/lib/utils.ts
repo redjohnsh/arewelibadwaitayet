@@ -11,9 +11,3 @@ export type WithoutChild<T> = T extends { child?: any } ? Omit<T, 'child'> : T;
 export type WithoutChildren<T> = T extends { children?: any } ? Omit<T, 'children'> : T;
 export type WithoutChildrenOrChild<T> = WithoutChildren<WithoutChild<T>>;
 export type WithElementRef<T, U extends HTMLElement = HTMLElement> = T & { ref?: U | null };
-
-export function trackEvent(eventName: string, eventParams?: Record<string, unknown>) {
-	if (typeof window !== 'undefined' && typeof window.gtag !== 'undefined') {
-		window.gtag('event', eventName, eventParams);
-	}
-}
