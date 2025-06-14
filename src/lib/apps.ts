@@ -1752,6 +1752,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Field Monitor',
 		desc: 'Access VMs and external screens',
 		lang: Lang.Rust
+	},
+	'com.github.PintaProject.Pinta': {
+		name: 'Pinta',
+		desc: 'Edit images and paint digitally',
+		lang: Lang.CSharp
 	}
 };
 
