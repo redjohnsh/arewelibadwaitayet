@@ -44,6 +44,7 @@
 	});
 
 	const trackSearch = debounce(1000, (search: string) => {
+		if (!search.trim().length) return;
 		plausible.trackEvent('search', {
 			props: {
 				search_term: search
