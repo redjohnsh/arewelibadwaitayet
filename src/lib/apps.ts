@@ -1727,6 +1727,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Kapitano',
 		desc: 'Stay safe from malware',
 		lang: Lang.Python
+	},
+	'io.github.Cookiiieee.WSelector': {
+		name: 'WSelector',
+		desc: 'Wallpaper Selector Manager',
+		lang: Lang.Python
 	}
 };
 
