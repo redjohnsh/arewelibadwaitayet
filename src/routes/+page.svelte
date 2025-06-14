@@ -64,7 +64,7 @@
 		}
 
 		if (!search.trim().length) {
-			return arr;
+			return arr.sort((app1, app2) => app1.name.target.localeCompare(app2.name.target));
 		}
 
 		return List.from(

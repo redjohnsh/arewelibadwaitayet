@@ -1762,14 +1762,12 @@ const APP_MAP: Record<string, App> = {
 
 const appArray = Object.entries(APP_MAP).map(([id, app]) => ({ id, ...app }));
 
-const appList = List.from(appArray)
-	.sort((app1, app2) => app1.name.localeCompare(app2.name))
-	.map((app) => ({
-		...app,
-		name: fuzzysort.prepare(app.name),
-		desc: fuzzysort.prepare(app.desc),
-		lang: fuzzysort.prepare(app.lang)
-	}));
+const appList = List.from(appArray).map((app) => ({
+	...app,
+	name: fuzzysort.prepare(app.name),
+	desc: fuzzysort.prepare(app.desc),
+	lang: fuzzysort.prepare(app.lang)
+}));
 
 export default appList;
 
