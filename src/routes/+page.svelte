@@ -43,7 +43,7 @@
 		return () => controller.abort();
 	});
 
-	const trackSearch = debounce(1000, (search: string) => {
+	const trackSearch = debounce(500, (search: string) => {
 		if (!search.trim().length) return;
 		plausible.trackEvent('search', {
 			props: {
