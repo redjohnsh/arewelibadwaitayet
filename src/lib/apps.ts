@@ -1722,6 +1722,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Pigment',
 		desc: 'Get color palettes from images',
 		lang: Lang.Python
+	},
+	'page.codeberg.zynequ.Kapitano': {
+		name: 'Kapitano',
+		desc: 'Stay safe from malware',
+		lang: Lang.Python
 	}
 };
 
