@@ -105,7 +105,7 @@
 	</p>
 </div>
 
-<FeaturedApps apps={appList} />
+<FeaturedApps apps={appList} count={6} />
 
 <div class="mt-12 gap-2 md:flex md:items-center">
 	<div class="flex flex-1 items-center gap-2">
