@@ -1747,6 +1747,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Runemaster',
 		desc: 'Unleash the magic of Unicode characters',
 		lang: Lang.JavaScript
+	},
+	'de.capypara.FieldMonitor': {
+		name: 'Field Monitor',
+		desc: 'Access VMs and external screens',
+		lang: Lang.Rust
 	}
 };
 
