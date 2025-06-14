@@ -25,4 +25,9 @@
         gtag('config', '${GA_ID}');
         
         </script>`}
+	<script
+		defer
+		data-domain="arewelibadwaitayet.com"
+		src="https://analytics.arewelibadwaitayet.com/js/script.outbound-links.pageview-props.tagged-events.js"
+	></script>
 </svelte:head>
