@@ -17,6 +17,7 @@ export enum Lang {
 	Lua = 'Lua',
 	Python = 'Python',
 	Rust = 'Rust',
+	Scheme = 'Scheme',
 	Swift = 'Swift',
 	TypeScript = 'TypeScript',
 	Vala = 'Vala'
@@ -1757,6 +1758,61 @@ const APP_MAP: Record<string, App> = {
 		name: 'Pinta',
 		desc: 'Edit images and paint digitally',
 		lang: Lang.CSharp
+	},
+	'net.rosebirch.nextgroove': {
+		name: 'NextGroove',
+		desc: 'Play music from Nextcloud',
+		lang: Lang.Python
+	},
+	'io.github.debasish_patra_1987.linuxthemestore': {
+		name: 'Linux Theme Store',
+		desc: 'Browse, preview, and install desktop themes',
+		lang: Lang.Rust
+	},
+	'io.github.swordpuffin.wardrobe': {
+		name: 'Wardrobe',
+		desc: 'Install and activate desktop themes effortlessly',
+		lang: Lang.Python
+	},
+	'com.her01n.BatteryInfo': {
+		name: 'Battery Info',
+		desc: 'Show information about the system battery',
+		lang: Lang.Scheme
+	},
+	'io.github.herve4m.Length': {
+		name: 'Length',
+		desc: 'Measure objects on screen',
+		lang: Lang.Python
+	},
+	'io.github.josephmawa.Bella': {
+		name: 'Bella',
+		desc: 'Pick a color from the screen',
+		lang: Lang.JavaScript
+	},
+	'org.gabmus.swatch': {
+		name: 'Swatch',
+		desc: 'Color palette manager',
+		lang: Lang.Python
+	},
+	'io.github.heidefinnischen.cuneo': {
+		name: 'Cuneo',
+		desc: 'Widget-like Calculator and Conversion tool',
+		lang: Lang.Python
+	},
+	'com.vixalien.sticky': {
+		name: 'Sticky Notes',
+		desc: 'Pin notes to your desktop',
+		lang: Lang.TypeScript
+	},
+	'io.github.swordpuffin.hunt': {
+		name: 'Hunt',
+		desc: 'An easy word search game',
+		lang: Lang.Python
+	},
+	'io.github.swordpuffin.splices': {
+		name: 'Splices',
+		desc: 'A word making game',
+		lang: Lang.Python
 	}
 };
 
