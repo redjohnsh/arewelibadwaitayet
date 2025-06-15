@@ -1767,6 +1767,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Linux Theme Store',
 		desc: 'Browse, preview, and install desktop themes',
 		lang: Lang.Rust
+	},
+	'io.github.swordpuffin.wardrobe': {
+		name: 'Wardrobe',
+		desc: 'Install and activate desktop themes effortlessly',
+		lang: Lang.Python
 	}
 };
 
