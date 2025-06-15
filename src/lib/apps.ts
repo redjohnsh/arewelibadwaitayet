@@ -1783,6 +1783,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Length',
 		desc: 'Measure objects on screen',
 		lang: Lang.Python
+	},
+	'io.github.josephmawa.Bella': {
+		name: 'Bella',
+		desc: 'Pick a color from the screen',
+		lang: Lang.JavaScript
 	}
 };
 
