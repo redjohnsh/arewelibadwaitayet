@@ -1757,6 +1757,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Pinta',
 		desc: 'Edit images and paint digitally',
 		lang: Lang.CSharp
+	},
+	'net.rosebirch.nextgroove': {
+		name: 'NextGroove',
+		desc: 'Play music from Nextcloud',
+		lang: Lang.Python
 	}
 };
 
