@@ -1762,6 +1762,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'NextGroove',
 		desc: 'Play music from Nextcloud',
 		lang: Lang.Python
+	},
+	'io.github.debasish_patra_1987.linuxthemestore': {
+		name: 'Linux Theme Store',
+		desc: 'Browse, preview, and install desktop themes',
+		lang: Lang.Rust
 	}
 };
 
