@@ -1773,6 +1773,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Wardrobe',
 		desc: 'Install and activate desktop themes effortlessly',
 		lang: Lang.Python
+	},
+	'com.her01n.BatteryInfo': {
+		name: 'Battery Info',
+		desc: 'Show information about the system battery',
+		lang: Lang.Scheme
 	}
 };
 
