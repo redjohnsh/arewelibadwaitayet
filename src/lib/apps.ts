@@ -1803,6 +1803,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Sticky Notes',
 		desc: 'Pin notes to your desktop',
 		lang: Lang.TypeScript
+	},
+	'io.github.swordpuffin.hunt': {
+		name: 'Hunt',
+		desc: 'An easy word search game',
+		lang: Lang.Python
 	}
 };
 
