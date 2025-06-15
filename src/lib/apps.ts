@@ -1793,6 +1793,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Swatch',
 		desc: 'Color palette manager',
 		lang: Lang.Python
+	},
+	'io.github.heidefinnischen.cuneo': {
+		name: 'Cuneo',
+		desc: 'Widget-like Calculator and Conversion tool',
+		lang: Lang.Python
 	}
 };
 
