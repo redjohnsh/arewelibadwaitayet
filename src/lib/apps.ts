@@ -1788,6 +1788,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Bella',
 		desc: 'Pick a color from the screen',
 		lang: Lang.JavaScript
+	},
+	'org.gabmus.swatch': {
+		name: 'Swatch',
+		desc: 'Color palette manager',
+		lang: Lang.Python
 	}
 };
 
