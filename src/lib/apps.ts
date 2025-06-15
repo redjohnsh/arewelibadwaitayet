@@ -1798,6 +1798,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Cuneo',
 		desc: 'Widget-like Calculator and Conversion tool',
 		lang: Lang.Python
+	},
+	'com.vixalien.sticky': {
+		name: 'Sticky Notes',
+		desc: 'Pin notes to your desktop',
+		lang: Lang.TypeScript
 	}
 };
 
