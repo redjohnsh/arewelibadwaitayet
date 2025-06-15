@@ -1808,6 +1808,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Hunt',
 		desc: 'An easy word search game',
 		lang: Lang.Python
+	},
+	'io.github.swordpuffin.splices': {
+		name: 'Splices',
+		desc: 'A word making game',
+		lang: Lang.Python
 	}
 };
 
