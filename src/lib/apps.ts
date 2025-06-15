@@ -1778,6 +1778,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Battery Info',
 		desc: 'Show information about the system battery',
 		lang: Lang.Scheme
+	},
+	'io.github.herve4m.Length': {
+		name: 'Length',
+		desc: 'Measure objects on screen',
+		lang: Lang.Python
 	}
 };
 
