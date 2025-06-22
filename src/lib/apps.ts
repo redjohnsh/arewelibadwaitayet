@@ -1863,6 +1863,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'CoBang',
 		desc: 'QR code scanner for Linux desktop',
 		lang: Lang.Python
+	},
+	'de.gunibert.Hackgregator': {
+		name: 'Hackgregator',
+		desc: 'Hacker News Reader',
+		lang: Lang.Rust
 	}
 };
 
