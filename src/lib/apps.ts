@@ -1813,6 +1813,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Splices',
 		desc: 'A word making game',
 		lang: Lang.Python
+	},
+	'io.github.fastrizwaan.WineCharm': {
+		name: 'WineCharm',
+		desc: 'A Charming Wine GUI',
+		lang: Lang.Python
 	}
 };
 
