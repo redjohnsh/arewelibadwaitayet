@@ -1823,6 +1823,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Spelling Bee',
 		desc: 'Learn new English words',
 		lang: Lang.JavaScript
+	},
+	're.sonny.Eloquent': {
+		name: 'Eloquent',
+		desc: 'Your proofreading assistant',
+		lang: Lang.JavaScript
 	}
 };
 
