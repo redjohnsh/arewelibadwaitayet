@@ -1858,6 +1858,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'muttum',
 		desc: 'Guess a word in few attempts',
 		lang: Lang.Rust
+	},
+	'vn.hoabinh.quan.CoBang': {
+		name: 'CoBang',
+		desc: 'QR code scanner for Linux desktop',
+		lang: Lang.Python
 	}
 };
 
