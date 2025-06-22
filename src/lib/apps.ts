@@ -1818,6 +1818,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'WineCharm',
 		desc: 'A Charming Wine GUI',
 		lang: Lang.Python
+	},
+	'io.github.josephmawa.SpellingBee': {
+		name: 'Spelling Bee',
+		desc: 'Learn new English words',
+		lang: Lang.JavaScript
 	}
 };
 
