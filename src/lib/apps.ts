@@ -1828,6 +1828,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Eloquent',
 		desc: 'Your proofreading assistant',
 		lang: Lang.JavaScript
+	},
+	'io.github.nokse22.high-tide': {
+		name: 'High Tide',
+		desc: 'Third party unofficial TIDAL music client',
+		lang: Lang.Python
 	}
 };
 
