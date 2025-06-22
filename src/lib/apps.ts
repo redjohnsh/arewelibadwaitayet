@@ -1838,6 +1838,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Egghead',
 		desc: 'A simple trivia (quiz) app to enjoy in your free time',
 		lang: Lang.JavaScript
+	},
+	'net.sapples.LiveCaptions': {
+		name: 'Live Captions',
+		desc: 'Realtime automatic subtitles for the Linux desktop',
+		lang: Lang.C
 	}
 };
 
