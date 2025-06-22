@@ -1868,6 +1868,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Hackgregator',
 		desc: 'Hacker News Reader',
 		lang: Lang.Rust
+	},
+	'page.codeberg.bjawebos.Filmbook': {
+		name: 'Filmbook',
+		desc: 'Track analog film usage in cameras',
+		lang: Lang.Rust
 	}
 };
 
