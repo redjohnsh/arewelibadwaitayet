@@ -1843,6 +1843,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Live Captions',
 		desc: 'Realtime automatic subtitles for the Linux desktop',
 		lang: Lang.C
+	},
+	'io.github.zaedus.spider': {
+		name: 'Spider',
+		desc: 'Install web apps on GNOME desktop',
+		lang: Lang.Rust
 	}
 };
 
