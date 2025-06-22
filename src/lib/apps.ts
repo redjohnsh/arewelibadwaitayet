@@ -1848,6 +1848,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Spider',
 		desc: 'Install web apps on GNOME desktop',
 		lang: Lang.Rust
+	},
+	'io.github.vallabhvidy.CubeTimer': {
+		name: 'Cube Timer',
+		desc: '3x3 Rubiks Cube timer',
+		lang: Lang.Python
 	}
 };
 
