@@ -1853,6 +1853,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Cube Timer',
 		desc: '3x3 Rubiks Cube timer',
 		lang: Lang.Python
+	},
+	'org.muttum.muttum': {
+		name: 'muttum',
+		desc: 'Guess a word in few attempts',
+		lang: Lang.Rust
 	}
 };
 
