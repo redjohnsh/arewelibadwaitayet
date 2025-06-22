@@ -1833,6 +1833,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'High Tide',
 		desc: 'Third party unofficial TIDAL music client',
 		lang: Lang.Python
+	},
+	'io.github.josephmawa.Egghead': {
+		name: 'Egghead',
+		desc: 'A simple trivia (quiz) app to enjoy in your free time',
+		lang: Lang.JavaScript
 	}
 };
 
