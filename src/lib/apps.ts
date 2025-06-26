@@ -1813,6 +1813,66 @@ const APP_MAP: Record<string, App> = {
 		name: 'Splices',
 		desc: 'A word making game',
 		lang: Lang.Python
+	},
+	'io.github.fastrizwaan.WineCharm': {
+		name: 'WineCharm',
+		desc: 'A Charming Wine GUI',
+		lang: Lang.Python
+	},
+	'io.github.josephmawa.SpellingBee': {
+		name: 'Spelling Bee',
+		desc: 'Learn new English words',
+		lang: Lang.JavaScript
+	},
+	're.sonny.Eloquent': {
+		name: 'Eloquent',
+		desc: 'Your proofreading assistant',
+		lang: Lang.JavaScript
+	},
+	'io.github.nokse22.high-tide': {
+		name: 'High Tide',
+		desc: 'Third party unofficial TIDAL music client',
+		lang: Lang.Python
+	},
+	'io.github.josephmawa.Egghead': {
+		name: 'Egghead',
+		desc: 'A simple trivia (quiz) app to enjoy in your free time',
+		lang: Lang.JavaScript
+	},
+	'net.sapples.LiveCaptions': {
+		name: 'Live Captions',
+		desc: 'Realtime automatic subtitles for the Linux desktop',
+		lang: Lang.C
+	},
+	'io.github.zaedus.spider': {
+		name: 'Spider',
+		desc: 'Install web apps on GNOME desktop',
+		lang: Lang.Rust
+	},
+	'io.github.vallabhvidy.CubeTimer': {
+		name: 'Cube Timer',
+		desc: '3x3 Rubiks Cube timer',
+		lang: Lang.Python
+	},
+	'org.muttum.muttum': {
+		name: 'muttum',
+		desc: 'Guess a word in few attempts',
+		lang: Lang.Rust
+	},
+	'vn.hoabinh.quan.CoBang': {
+		name: 'CoBang',
+		desc: 'QR code scanner for Linux desktop',
+		lang: Lang.Python
+	},
+	'de.gunibert.Hackgregator': {
+		name: 'Hackgregator',
+		desc: 'Hacker News Reader',
+		lang: Lang.Rust
+	},
+	'page.codeberg.bjawebos.Filmbook': {
+		name: 'Filmbook',
+		desc: 'Track analog film usage in cameras',
+		lang: Lang.Rust
 	}
 };
 
