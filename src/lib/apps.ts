@@ -2044,6 +2044,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'verse',
 		desc: 'Get currently playing Spotify song lyrics',
 		lang: Lang.Python
+	},
+	'io.gitlab.elescoute.password': {
+		name: 'Password',
+		desc: 'Password calculator and generator',
+		lang: Lang.Vala
 	}
 };
 
