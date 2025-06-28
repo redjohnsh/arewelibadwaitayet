@@ -2039,6 +2039,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'SignWriter',
 		desc: 'Write in SignWriting',
 		lang: Lang.Python
+	},
+	'io.github.TanmayPatil105.verse': {
+		name: 'verse',
+		desc: 'Get currently playing Spotify song lyrics',
+		lang: Lang.Python
 	}
 };
 
