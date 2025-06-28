@@ -2054,6 +2054,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Playlifin Voyager',
 		desc: 'Transfer playlists to/from Jellyfin',
 		lang: Lang.Python
+	},
+	'io.github.dida_code.OpstaKultura': {
+		name: 'Opsta Kultura',
+		desc: 'Game, knowledge quiz',
+		lang: Lang.Python
 	}
 };
 
