@@ -1873,6 +1873,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Filmbook',
 		desc: 'Track analog film usage in cameras',
 		lang: Lang.Rust
+	},
+	'io.github.josephmawa.EncodingExplorer': {
+		name: 'Encoding Explorer',
+		desc: 'Transform characters into binary',
+		lang: Lang.JavaScript
 	}
 };
 
