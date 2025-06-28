@@ -2029,6 +2029,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Awake on LAN',
 		desc: 'Remotely wake up computers',
 		lang: Lang.Python
+	},
+	'io.github.itprojects.MasVisGtk': {
+		name: 'MasVisGtk',
+		desc: 'Audio analysis tool for your music',
+		lang: Lang.Python
 	}
 };
 
