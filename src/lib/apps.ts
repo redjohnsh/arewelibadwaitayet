@@ -1898,6 +1898,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Turntable',
 		desc: 'Scrobble your music',
 		lang: Lang.Vala
+	},
+	're.sonny.OhMySVG': {
+		name: 'Oh My SVG',
+		desc: 'Reduce the size of SVGs',
+		lang: Lang.JavaScript
 	}
 };
 
