@@ -2014,6 +2014,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Diurnals',
 		desc: 'Get daily Todoist notifications',
 		lang: Lang.Python
+	},
+	'io.github.tfuxu.floodit': {
+		name: 'Flood It',
+		desc: 'Flood the board',
+		lang: Lang.Go
 	}
 };
 
