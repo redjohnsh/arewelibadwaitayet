@@ -1923,6 +1923,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Zrythm',
 		desc: 'Digital audio workstation',
 		lang: Lang.CPlusPlus
+	},
+	'io.github.rsvzz.csven': {
+		name: 'csven',
+		desc: 'Order English words',
+		lang: Lang.C
 	}
 };
 
