@@ -2074,6 +2074,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'CubeTimer',
 		desc: 'Like a StackMat but for Linux',
 		lang: Lang.Python
+	},
+	'org.tabos.saldo': {
+		name: 'Saldo',
+		desc: 'Check your bank accounts',
+		lang: Lang.Python
 	}
 };
 
