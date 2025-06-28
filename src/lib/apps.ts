@@ -2059,6 +2059,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Opsta Kultura',
 		desc: 'Game, knowledge quiz',
 		lang: Lang.Python
+	},
+	'io.github.lxndr.gswatcher': {
+		name: 'Game Server Watcher',
+		desc: 'A simple game server monitor and an administrative tool.',
+		lang: Lang.Vala
 	}
 };
 
