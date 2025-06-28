@@ -1943,6 +1943,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'BMI Calculator',
 		desc: 'Calculate your BMI',
 		lang: Lang.Rust
+	},
+	'page.codeberg.dudenix.escritoire': {
+		name: 'Escritoire',
+		desc: 'Write letters with confidence',
+		lang: Lang.Rust
 	}
 };
 
