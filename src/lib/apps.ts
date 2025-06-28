@@ -1893,6 +1893,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Glide',
 		desc: 'Play movies and audio files',
 		lang: Lang.Rust
+	},
+	'dev.geopjr.Turntable': {
+		name: 'Turntable',
+		desc: 'Scrobble your music',
+		lang: Lang.Vala
 	}
 };
 
