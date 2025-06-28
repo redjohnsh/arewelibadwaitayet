@@ -2049,6 +2049,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Password',
 		desc: 'Password calculator and generator',
 		lang: Lang.Vala
+	},
+	'net.krafting.PlaylifinVoyager': {
+		name: 'Playlifin Voyager',
+		desc: 'Transfer playlists to/from Jellyfin',
+		lang: Lang.Python
 	}
 };
 
