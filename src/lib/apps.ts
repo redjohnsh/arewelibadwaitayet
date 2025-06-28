@@ -1973,6 +1973,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Emergency Alerts',
 		desc: 'Receive emergency alerts',
 		lang: Lang.Vala
+	},
+	'it.dottorblaster.cauldron': {
+		name: 'Cauldron',
+		desc: 'Collect content from the web',
+		lang: Lang.Rust
 	}
 };
 
