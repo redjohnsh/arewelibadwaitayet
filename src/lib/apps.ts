@@ -2004,6 +2004,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Japachar',
 		desc: 'Learn Japanese characters',
 		lang: Lang.Perl
+	},
+	'de.z_ray.OptimusUI': {
+		name: 'OptimusUI',
+		desc: 'Interface for nVidia Optimus',
+		lang: Lang.Python
 	}
 };
 
