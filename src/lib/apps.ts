@@ -894,11 +894,6 @@ const APP_MAP: Record<string, App> = {
 		desc: 'Downloads and applies wallpapers',
 		lang: Lang.Rust
 	},
-	'app.drey.Doggo': {
-		name: 'Doggo',
-		desc: 'Clicker and chance game',
-		lang: Lang.C
-	},
 	'com.github.tenderowl.frog': {
 		name: 'Frog',
 		desc: 'Extract text from images',
