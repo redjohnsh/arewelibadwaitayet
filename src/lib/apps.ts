@@ -1888,6 +1888,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Secrets',
 		desc: 'Modern GTK4 password manager with TOTP support and intelligent setup',
 		lang: Lang.Python
+	},
+	'net.base_art.Glide': {
+		name: 'Glide',
+		desc: 'Play movies and audio files',
+		lang: Lang.Rust
 	}
 };
 
