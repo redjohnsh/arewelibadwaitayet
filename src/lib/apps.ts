@@ -1963,6 +1963,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Ear X',
 		desc: 'Control your Nothing earbuds' settings',
 		lang: Lang.Rust
+	},
+	'page.codeberg.petsoi.words': {
+		name: 'Words!',
+		desc: 'Have fun guessing Words',
+		lang: Lang.Rust
 	}
 };
 
