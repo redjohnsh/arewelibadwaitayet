@@ -2064,6 +2064,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Game Server Watcher',
 		desc: 'A simple game server monitor and an administrative tool.',
 		lang: Lang.Vala
+	},
+	'com.belmoussaoui.snowglobe': {
+		name: 'Snowglobe',
+		desc: 'Virtualization viewer using QEMU over DBus',
+		lang: Lang.C
 	}
 };
 
