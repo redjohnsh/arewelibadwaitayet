@@ -1928,6 +1928,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'csven',
 		desc: 'Order English words',
 		lang: Lang.C
+	},
+	'net.kirgroup.confy': {
+		name: 'Confy',
+		desc: 'Conference schedules viewer',
+		lang: Lang.Python
 	}
 };
 
