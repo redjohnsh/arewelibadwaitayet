@@ -1908,6 +1908,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Concessio',
 		desc: 'Understand file permissions',
 		lang: Lang.JavaScript
+	},
+	'com.ranfdev.Geopard': {
+		name: 'Geopard',
+		desc: 'Browse Gemini pages',
+		lang: Lang.Rust
 	}
 };
 
