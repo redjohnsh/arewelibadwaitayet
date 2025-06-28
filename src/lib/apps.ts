@@ -1918,6 +1918,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Lobjur',
 		desc: 'A simple lobste.rs client',
 		lang: Lang.Rust
+	},
+	'org.zrythm.Zrythm': {
+		name: 'Zrythm',
+		desc: 'Digital audio workstation',
+		lang: Lang.CPlusPlus
 	}
 };
 
