@@ -1883,6 +1883,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Text Compare',
 		desc: 'Text snippet comparison',
 		lang: Lang.JavaScript
+	},
+	'io.github.tobagin.secrets': {
+		name: 'Secrets',
+		desc: 'Modern GTK4 password manager with TOTP support and intelligent setup',
+		lang: Lang.Python
 	}
 };
 
