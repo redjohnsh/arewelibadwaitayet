@@ -2024,6 +2024,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'EcoTubeHQ',
 		desc: 'Energy Efficient Video Player',
 		lang: Lang.C
+	},
+	'co.logonoff.awakeonlan': {
+		name: 'Awake on LAN',
+		desc: 'Remotely wake up computers',
+		lang: Lang.Python
 	}
 };
 
