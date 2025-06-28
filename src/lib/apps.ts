@@ -1878,6 +1878,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Encoding Explorer',
 		desc: 'Transform characters into binary',
 		lang: Lang.JavaScript
+	},
+	'io.github.josephmawa.TextCompare': {
+		name: 'Text Compare',
+		desc: 'Text snippet comparison',
+		lang: Lang.JavaScript
 	}
 };
 
