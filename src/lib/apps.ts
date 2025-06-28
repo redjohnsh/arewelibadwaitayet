@@ -20,7 +20,8 @@ export enum Lang {
 	Scheme = 'Scheme',
 	Swift = 'Swift',
 	TypeScript = 'TypeScript',
-	Vala = 'Vala'
+	Vala = 'Vala',
+	Perl = 'Perl'
 }
 
 const APP_MAP: Record<string, App> = {
@@ -1868,6 +1869,216 @@ const APP_MAP: Record<string, App> = {
 		name: 'Filmbook',
 		desc: 'Track analog film usage in cameras',
 		lang: Lang.Rust
+	},
+	'io.github.josephmawa.EncodingExplorer': {
+		name: 'Encoding Explorer',
+		desc: 'Transform characters into binary',
+		lang: Lang.JavaScript
+	},
+	'io.github.josephmawa.TextCompare': {
+		name: 'Text Compare',
+		desc: 'Text snippet comparison',
+		lang: Lang.JavaScript
+	},
+	'io.github.tobagin.secrets': {
+		name: 'Secrets',
+		desc: 'Modern GTK4 password manager with TOTP support and intelligent setup',
+		lang: Lang.Python
+	},
+	'net.base_art.Glide': {
+		name: 'Glide',
+		desc: 'Play movies and audio files',
+		lang: Lang.Rust
+	},
+	'dev.geopjr.Turntable': {
+		name: 'Turntable',
+		desc: 'Scrobble your music',
+		lang: Lang.Vala
+	},
+	're.sonny.OhMySVG': {
+		name: 'Oh My SVG',
+		desc: 'Reduce the size of SVGs',
+		lang: Lang.JavaScript
+	},
+	'io.github.ronniedroid.concessio': {
+		name: 'Concessio',
+		desc: 'Understand file permissions',
+		lang: Lang.JavaScript
+	},
+	'com.ranfdev.Geopard': {
+		name: 'Geopard',
+		desc: 'Browse Gemini pages',
+		lang: Lang.Rust
+	},
+	'com.ranfdev.Lobjur': {
+		name: 'Lobjur',
+		desc: 'A simple lobste.rs client',
+		lang: Lang.Rust
+	},
+	'org.zrythm.Zrythm': {
+		name: 'Zrythm',
+		desc: 'Digital audio workstation',
+		lang: Lang.CPlusPlus
+	},
+	'io.github.rsvzz.csven': {
+		name: 'csven',
+		desc: 'Order English words',
+		lang: Lang.C
+	},
+	'net.kirgroup.confy': {
+		name: 'Confy',
+		desc: 'Conference schedules viewer',
+		lang: Lang.Python
+	},
+	'pro.saladin.Eeman': {
+		name: 'Eeman',
+		desc: 'Track Salah, Read the Quran',
+		lang: Lang.Python
+	},
+	'io.github.johannesboehler2.BmiCalculator': {
+		name: 'BMI Calculator',
+		desc: 'Calculate your BMI',
+		lang: Lang.Rust
+	},
+	'page.codeberg.dudenix.escritoire': {
+		name: 'Escritoire',
+		desc: 'Write letters with confidence',
+		lang: Lang.Rust
+	},
+	'me.ogarcia.lptk': {
+		name: 'LPTK',
+		desc: 'Stateless password manager',
+		lang: Lang.Rust
+	},
+	'de.swsnr.pictureoftheday': {
+		name: 'Picture Of The Day',
+		desc: 'Your daily wallpaper',
+		lang: Lang.Rust
+	},
+	'com.somaxa8.earx': {
+		name: 'Ear X',
+		desc: 'Control your Nothing earbuds\' settings',
+		lang: Lang.Rust
+	},
+	'page.codeberg.petsoi.words': {
+		name: 'Words!',
+		desc: 'Have fun guessing Words',
+		lang: Lang.Rust
+	},
+	'io.github.leolost2605.emergency-alerts': {
+		name: 'Emergency Alerts',
+		desc: 'Receive emergency alerts',
+		lang: Lang.Vala
+	},
+	'it.dottorblaster.cauldron': {
+		name: 'Cauldron',
+		desc: 'Collect content from the web',
+		lang: Lang.Rust
+	},
+	'com.daniel15.wcc': {
+		name: 'WebCamControl',
+		desc: 'Control webcam pan/tilt/zoom settings and more',
+		lang: Lang.CSharp
+	},
+	'io.github.ladaapp.lada': {
+		name: 'Lada',
+		desc: 'Recover pixelated adult videos',
+		lang: Lang.Python
+	},
+	'io.github.aganzha.Stage': {
+		name: 'Stage',
+		desc: 'Git GUI client inspired by Magit',
+		lang: Lang.Rust
+	},
+	'me.sergiotarxz.Exd': {
+		name: 'Hiperthermia',
+		desc: 'Program your thermal printer',
+		lang: Lang.Perl
+	},
+	'me.sergiotarxz.JapaChar': {
+		name: 'Japachar',
+		desc: 'Learn Japanese characters',
+		lang: Lang.Perl
+	},
+	'de.z_ray.OptimusUI': {
+		name: 'OptimusUI',
+		desc: 'Interface for nVidia Optimus',
+		lang: Lang.Python
+	},
+	'io.github.sss_says_snek.diurnals': {
+		name: 'Diurnals',
+		desc: 'Get daily Todoist notifications',
+		lang: Lang.Python
+	},
+	'io.github.tfuxu.floodit': {
+		name: 'Flood It',
+		desc: 'Flood the board',
+		lang: Lang.Go
+	},
+	'io.github.ecotubehq.player': {
+		name: 'EcoTubeHQ',
+		desc: 'Energy Efficient Video Player',
+		lang: Lang.C
+	},
+	'co.logonoff.awakeonlan': {
+		name: 'Awake on LAN',
+		desc: 'Remotely wake up computers',
+		lang: Lang.Python
+	},
+	'io.github.itprojects.MasVisGtk': {
+		name: 'MasVisGtk',
+		desc: 'Audio analysis tool for your music',
+		lang: Lang.Python
+	},
+	'io.github.Samuel_Schlemper_Schlemuel.SignWriter': {
+		name: 'SignWriter',
+		desc: 'Write in SignWriting',
+		lang: Lang.Python
+	},
+	'io.github.TanmayPatil105.verse': {
+		name: 'verse',
+		desc: 'Get currently playing Spotify song lyrics',
+		lang: Lang.Python
+	},
+	'io.gitlab.elescoute.password': {
+		name: 'Password',
+		desc: 'Password calculator and generator',
+		lang: Lang.Vala
+	},
+	'net.krafting.PlaylifinVoyager': {
+		name: 'Playlifin Voyager',
+		desc: 'Transfer playlists to/from Jellyfin',
+		lang: Lang.Python
+	},
+	'io.github.dida_code.OpstaKultura': {
+		name: 'Opsta Kultura',
+		desc: 'Game, knowledge quiz',
+		lang: Lang.Python
+	},
+	'io.github.lxndr.gswatcher': {
+		name: 'Game Server Watcher',
+		desc: 'A simple game server monitor and an administrative tool.',
+		lang: Lang.Vala
+	},
+	'com.belmoussaoui.snowglobe': {
+		name: 'Snowglobe',
+		desc: 'Virtualization viewer using QEMU over DBus',
+		lang: Lang.C
+	},
+	'xyz.aguno.CubeTimer': {
+		name: 'CubeTimer',
+		desc: 'Like a StackMat but for Linux',
+		lang: Lang.Python
+	},
+	'org.tabos.saldo': {
+		name: 'Saldo',
+		desc: 'Check your bank accounts',
+		lang: Lang.Python
+	},
+	'io.github.dyegoaurelio.simple-wireplumber-gui': {
+		name: 'Simple Wireplumber GUI',
+		desc: 'A simple GTK4 GUI for PipeWire',
+		lang: Lang.Python
 	}
 };
 
