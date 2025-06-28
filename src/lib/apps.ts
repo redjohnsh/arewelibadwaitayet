@@ -1958,6 +1958,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Picture Of The Day',
 		desc: 'Your daily wallpaper',
 		lang: Lang.Rust
+	},
+	'com.somaxa8.earx': {
+		name: 'Ear X',
+		desc: 'Control your Nothing earbuds' settings',
+		lang: Lang.Rust
 	}
 };
 
