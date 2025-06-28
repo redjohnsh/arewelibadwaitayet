@@ -2079,6 +2079,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Saldo',
 		desc: 'Check your bank accounts',
 		lang: Lang.Python
+	},
+	'io.github.dyegoaurelio.simple-wireplumber-gui': {
+		name: 'Simple Wireplumber GUI',
+		desc: 'A simple GTK4 GUI for PipeWire',
+		lang: Lang.Python
 	}
 };
 
