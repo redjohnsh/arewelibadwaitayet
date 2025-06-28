@@ -2069,6 +2069,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Snowglobe',
 		desc: 'Virtualization viewer using QEMU over DBus',
 		lang: Lang.C
+	},
+	'xyz.aguno.CubeTimer': {
+		name: 'CubeTimer',
+		desc: 'Like a StackMat but for Linux',
+		lang: Lang.Python
 	}
 };
 
