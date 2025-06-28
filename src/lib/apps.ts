@@ -1938,6 +1938,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Eeman',
 		desc: 'Track Salah, Read the Quran',
 		lang: Lang.Python
+	},
+	'io.github.johannesboehler2.BmiCalculator': {
+		name: 'BMI Calculator',
+		desc: 'Calculate your BMI',
+		lang: Lang.Rust
 	}
 };
 
