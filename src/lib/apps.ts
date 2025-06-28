@@ -1933,6 +1933,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Confy',
 		desc: 'Conference schedules viewer',
 		lang: Lang.Python
+	},
+	'pro.saladin.Eeman': {
+		name: 'Eeman',
+		desc: 'Track Salah, Read the Quran',
+		lang: Lang.Python
 	}
 };
 
