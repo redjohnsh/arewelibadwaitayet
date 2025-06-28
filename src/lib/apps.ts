@@ -1999,6 +1999,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Hiperthermia',
 		desc: 'Program your thermal printer',
 		lang: Lang.Perl
+	},
+	'me.sergiotarxz.JapaChar': {
+		name: 'Japachar',
+		desc: 'Learn Japanese characters',
+		lang: Lang.Perl
 	}
 };
 
