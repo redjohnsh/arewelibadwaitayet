@@ -20,7 +20,8 @@ export enum Lang {
 	Scheme = 'Scheme',
 	Swift = 'Swift',
 	TypeScript = 'TypeScript',
-	Vala = 'Vala'
+	Vala = 'Vala',
+	Perl = 'Perl'
 }
 
 const APP_MAP: Record<string, App> = {
@@ -1993,6 +1994,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Stage',
 		desc: 'Git GUI client inspired by Magit',
 		lang: Lang.Rust
+	},
+	'me.sergiotarxz.Exd': {
+		name: 'Hiperthermia',
+		desc: 'Program your thermal printer',
+		lang: Lang.Perl
 	}
 };
 
