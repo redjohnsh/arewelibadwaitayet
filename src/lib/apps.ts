@@ -2009,6 +2009,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'OptimusUI',
 		desc: 'Interface for nVidia Optimus',
 		lang: Lang.Python
+	},
+	'io.github.sss_says_snek.diurnals': {
+		name: 'Diurnals',
+		desc: 'Get daily Todoist notifications',
+		lang: Lang.Python
 	}
 };
 
