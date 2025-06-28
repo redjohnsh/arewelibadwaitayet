@@ -2019,6 +2019,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Flood It',
 		desc: 'Flood the board',
 		lang: Lang.Go
+	},
+	'io.github.ecotubehq.player': {
+		name: 'EcoTubeHQ',
+		desc: 'Energy Efficient Video Player',
+		lang: Lang.C
 	}
 };
 
