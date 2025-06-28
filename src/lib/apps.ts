@@ -1988,6 +1988,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Lada',
 		desc: 'Recover pixelated adult videos',
 		lang: Lang.Python
+	},
+	'io.github.aganzha.Stage': {
+		name: 'Stage',
+		desc: 'Git GUI client inspired by Magit',
+		lang: Lang.Rust
 	}
 };
 
