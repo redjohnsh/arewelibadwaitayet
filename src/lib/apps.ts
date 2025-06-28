@@ -1978,6 +1978,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Cauldron',
 		desc: 'Collect content from the web',
 		lang: Lang.Rust
+	},
+	'com.daniel15.wcc': {
+		name: 'WebCamControl',
+		desc: 'Control webcam pan/tilt/zoom settings and more',
+		lang: Lang.CSharp
 	}
 };
 
