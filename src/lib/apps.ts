@@ -1903,6 +1903,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Oh My SVG',
 		desc: 'Reduce the size of SVGs',
 		lang: Lang.JavaScript
+	},
+	'io.github.ronniedroid.concessio': {
+		name: 'Concessio',
+		desc: 'Understand file permissions',
+		lang: Lang.JavaScript
 	}
 };
 
