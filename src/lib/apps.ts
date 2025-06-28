@@ -1948,6 +1948,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Escritoire',
 		desc: 'Write letters with confidence',
 		lang: Lang.Rust
+	},
+	'me.ogarcia.lptk': {
+		name: 'LPTK',
+		desc: 'Stateless password manager',
+		lang: Lang.Rust
 	}
 };
 
