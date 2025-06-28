@@ -1913,6 +1913,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Geopard',
 		desc: 'Browse Gemini pages',
 		lang: Lang.Rust
+	},
+	'com.ranfdev.Lobjur': {
+		name: 'Lobjur',
+		desc: 'A simple lobste.rs client',
+		lang: Lang.Rust
 	}
 };
 
