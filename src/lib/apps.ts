@@ -1968,6 +1968,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Words!',
 		desc: 'Have fun guessing Words',
 		lang: Lang.Rust
+	},
+	'io.github.leolost2605.emergency-alerts': {
+		name: 'Emergency Alerts',
+		desc: 'Receive emergency alerts',
+		lang: Lang.Vala
 	}
 };
 
