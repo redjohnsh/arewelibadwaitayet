@@ -1983,6 +1983,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'WebCamControl',
 		desc: 'Control webcam pan/tilt/zoom settings and more',
 		lang: Lang.CSharp
+	},
+	'io.github.ladaapp.lada': {
+		name: 'Lada',
+		desc: 'Recover pixelated adult videos',
+		lang: Lang.Python
 	}
 };
 
