@@ -2034,6 +2034,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'MasVisGtk',
 		desc: 'Audio analysis tool for your music',
 		lang: Lang.Python
+	},
+	'io.github.Samuel_Schlemper_Schlemuel.SignWriter': {
+		name: 'SignWriter',
+		desc: 'Write in SignWriting',
+		lang: Lang.Python
 	}
 };
 
