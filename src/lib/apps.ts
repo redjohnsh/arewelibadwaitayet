@@ -1953,6 +1953,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'LPTK',
 		desc: 'Stateless password manager',
 		lang: Lang.Rust
+	},
+	'de.swsnr.pictureoftheday': {
+		name: 'Picture Of The Day',
+		desc: 'Your daily wallpaper',
+		lang: Lang.Rust
 	}
 };
 
