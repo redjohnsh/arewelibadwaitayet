@@ -1962,7 +1962,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.somaxa8.earx': {
 		name: 'Ear X',
-		desc: 'Control your Nothing earbuds' settings',
+		desc: 'Control your Nothing earbuds\' settings',
 		lang: Lang.Rust
 	},
 	'page.codeberg.petsoi.words': {
