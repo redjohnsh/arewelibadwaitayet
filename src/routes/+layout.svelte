@@ -16,9 +16,11 @@
 	</main>
 
 	<footer class="bg-background border-t">
-		<div class="mx-auto flex max-w-7xl flex-col gap-8 px-6 py-12 lg:px-8">
+		<div
+			class="container mx-auto flex max-w-6xl flex-1 flex-col gap-8 px-4 py-8 md:px-6 md:py-12 lg:px-8"
+		>
 			<img
-				class="mx-auto block w-full md:w-2/3"
+				class="mx-auto block w-full md:max-w-4xl"
 				src="https://repobeats.axiom.co/api/embed/a596b4f02f13beb9bf82e536c5a78dee4a66744f.svg"
 				alt="GitHub stats"
 			/>
