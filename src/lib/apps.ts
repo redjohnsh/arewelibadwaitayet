@@ -2084,6 +2084,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Stretch Break',
 		desc: 'Reminds you to take regular breaks',
 		lang: Lang.Rust
+	},
+	'org.roojs.roobuilder': {
+		name: 'roobuilder',
+		desc: 'Vala and Javascript IDE',
+		lang: Lang.JavaScript
 	}
 };
 
