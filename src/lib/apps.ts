@@ -2099,6 +2099,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'GNOME Network Displays',
 		desc: 'Screencasting for GNOME, Supports the Miracast and Chromecast protocols',
 		lang: Lang.C
+	},
+	'com.github.lachhebo.Gabtag': {
+		name: 'GabTag',
+		desc: 'An audio tagging tool',
+		lang: Lang.Python
 	}
 };
 
