@@ -2079,6 +2079,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Simple Wireplumber GUI',
 		desc: 'A simple GTK4 GUI for PipeWire',
 		lang: Lang.Python
+	},
+	'io.github.pieterdd.StretchBreak': {
+		name: 'Stretch Break',
+		desc: 'Reminds you to take regular breaks',
+		lang: Lang.Rust
 	}
 };
 
