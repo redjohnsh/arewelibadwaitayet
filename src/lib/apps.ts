@@ -2119,6 +2119,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'MQTTy',
 		desc: 'GUI for consuming MQTT topics',
 		lang: Lang.Rust
+	},
+	'io.github.radiolamp.mangojuice': {
+		name: 'Mango Juice',
+		desc: 'The MangoHUD customization assistant',
+		lang: Lang.Vala
 	}
 };
 
