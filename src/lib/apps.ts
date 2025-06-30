@@ -2129,6 +2129,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Serigy',
 		desc: 'A proof of concept for a "clipboard pinner" for GNOME',
 		lang: Lang.Python
+	},
+	'com.mastropaolo.www.tabela': {
+		name: 'Tabëla',
+		desc: 'Format tables to Markdown or HTML',
+		lang: Lang.Rust
 	}
 };
 
