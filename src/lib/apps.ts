@@ -2114,6 +2114,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Typewriter',
 		desc: 'Compose documents faster with typst',
 		lang: Lang.Rust
+	},
+	'io.github.otaxhu.MQTTy': {
+		name: 'MQTTy',
+		desc: 'GUI for consuming MQTT topics',
+		lang: Lang.Rust
 	}
 };
 
