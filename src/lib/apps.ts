@@ -2124,6 +2124,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Mango Juice',
 		desc: 'The MangoHUD customization assistant',
 		lang: Lang.Vala
+	},
+	'io.github.cleomenezesjr.Serigy': {
+		name: 'Serigy',
+		desc: 'A proof of concept for a "clipboard pinner" for GNOME',
+		lang: Lang.Python
 	}
 };
 
