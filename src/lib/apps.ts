@@ -2094,6 +2094,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Screenshot',
 		desc: 'Take screenshots',
 		lang: Lang.C
+	},
+	'org.gnome.NetworkDisplays': {
+		name: 'GNOME Network Displays',
+		desc: 'Screencasting for GNOME, Supports the Miracast and Chromecast protocols',
+		lang: Lang.C
 	}
 };
 
