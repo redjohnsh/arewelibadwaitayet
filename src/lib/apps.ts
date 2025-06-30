@@ -2089,6 +2089,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'roobuilder',
 		desc: 'Vala and Javascript IDE',
 		lang: Lang.JavaScript
+	},
+	'org.adishatz.Screenshot': {
+		name: 'Screenshot',
+		desc: 'Take screenshots',
+		lang: Lang.C
 	}
 };
 
