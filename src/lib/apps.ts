@@ -2104,6 +2104,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'GabTag',
 		desc: 'An audio tagging tool',
 		lang: Lang.Python
+	},
+	'io.github.fastrizwaan.WebkitWord': {
+		name: 'WebkitWord',
+		desc: 'Rich text editor using WebKit',
+		lang: Lang.Python
 	}
 };
 
