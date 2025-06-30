@@ -2134,6 +2134,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Tabëla',
 		desc: 'Format tables to Markdown or HTML',
 		lang: Lang.Rust
+	},
+	'io.github.alfianlosari.GTKChatGPT': {
+		name: 'XCA AI Chat',
+		desc: 'Chat with AI - Powered by ChatGPT API',
+		lang: Lang.Swift
 	}
 };
 
