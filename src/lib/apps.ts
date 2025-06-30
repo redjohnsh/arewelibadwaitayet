@@ -2079,6 +2079,66 @@ const APP_MAP: Record<string, App> = {
 		name: 'Simple Wireplumber GUI',
 		desc: 'A simple GTK4 GUI for PipeWire',
 		lang: Lang.Python
+	},
+	'io.github.pieterdd.StretchBreak': {
+		name: 'Stretch Break',
+		desc: 'Reminds you to take regular breaks',
+		lang: Lang.Rust
+	},
+	'org.roojs.roobuilder': {
+		name: 'roobuilder',
+		desc: 'Vala and Javascript IDE',
+		lang: Lang.JavaScript
+	},
+	'org.adishatz.Screenshot': {
+		name: 'Screenshot',
+		desc: 'Take screenshots',
+		lang: Lang.C
+	},
+	'org.gnome.NetworkDisplays': {
+		name: 'GNOME Network Displays',
+		desc: 'Screencasting for GNOME, Supports the Miracast and Chromecast protocols',
+		lang: Lang.C
+	},
+	'com.github.lachhebo.Gabtag': {
+		name: 'GabTag',
+		desc: 'An audio tagging tool',
+		lang: Lang.Python
+	},
+	'io.github.fastrizwaan.WebkitWord': {
+		name: 'WebkitWord',
+		desc: 'Rich text editor using WebKit',
+		lang: Lang.Python
+	},
+	'app.drey.Typewriter': {
+		name: 'Typewriter',
+		desc: 'Compose documents faster with typst',
+		lang: Lang.Rust
+	},
+	'io.github.otaxhu.MQTTy': {
+		name: 'MQTTy',
+		desc: 'GUI for consuming MQTT topics',
+		lang: Lang.Rust
+	},
+	'io.github.radiolamp.mangojuice': {
+		name: 'Mango Juice',
+		desc: 'The MangoHUD customization assistant',
+		lang: Lang.Vala
+	},
+	'io.github.cleomenezesjr.Serigy': {
+		name: 'Serigy',
+		desc: 'A proof of concept for a "clipboard pinner" for GNOME',
+		lang: Lang.Python
+	},
+	'com.mastropaolo.www.tabela': {
+		name: 'Tabëla',
+		desc: 'Format tables to Markdown or HTML',
+		lang: Lang.Rust
+	},
+	'io.github.alfianlosari.GTKChatGPT': {
+		name: 'XCA AI Chat',
+		desc: 'Chat with AI - Powered by ChatGPT API',
+		lang: Lang.Swift
 	}
 };
 
