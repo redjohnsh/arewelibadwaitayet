@@ -2109,6 +2109,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'WebkitWord',
 		desc: 'Rich text editor using WebKit',
 		lang: Lang.Python
+	},
+	'app.drey.Typewriter': {
+		name: 'Typewriter',
+		desc: 'Compose documents faster with typst',
+		lang: Lang.Rust
 	}
 };
 
