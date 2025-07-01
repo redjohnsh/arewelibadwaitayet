@@ -2139,6 +2139,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'XCA AI Chat',
 		desc: 'Chat with AI - Powered by ChatGPT API',
 		lang: Lang.Swift
+	},
+	'io.github.jorchube.monitorets': {
+		name: 'Monitorets',
+		desc: 'Have always at a glance the usage of system resources',
+		lang: Lang.Python
 	}
 };
 
