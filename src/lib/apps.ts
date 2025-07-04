@@ -2144,6 +2144,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Monitorets',
 		desc: 'Have always at a glance the usage of system resources',
 		lang: Lang.Python
+	},
+	'io.github.dynobo.sphereview': {
+		name: 'SphereView',
+		desc: 'Image viewer for 360° equirectangular images like photospheres and panoramas.',
+		lang: Lang.Rust
 	}
 };
 
