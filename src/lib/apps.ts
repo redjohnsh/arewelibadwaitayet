@@ -2149,6 +2149,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'SphereView',
 		desc: 'Image viewer for 360° equirectangular images like photospheres and panoramas.',
 		lang: Lang.Rust
+	},
+	'eu.jumplink.Learn6502': {
+		name: 'Learn 6502 Assembly',
+		desc: '6502 Assembly Learning Environment',
+		lang: Lang.TypeScript
 	}
 };
 
