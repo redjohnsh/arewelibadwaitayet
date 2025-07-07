@@ -2154,6 +2154,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Learn 6502 Assembly',
 		desc: '6502 Assembly Learning Environment',
 		lang: Lang.TypeScript
+	},
+	'net.hypatiaproject.Hypatia': {
+		name: 'Hypatia',
+		desc: 'Find definitions, explanations, and answers related to the text on your display',
+		lang: Lang.Vala
 	}
 };
 
