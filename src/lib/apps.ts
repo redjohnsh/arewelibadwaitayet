@@ -1692,7 +1692,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'be.alexandervanhee.gradia': {
 		name: 'Gradia',
-		desc: 'Quickly edit screenshots to put them better in context',
+		desc: 'Make your screenshots ready for all',
 		lang: Lang.Python
 	},
 	'io.github.cgueret.Scriptorium': {
@@ -1881,7 +1881,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.JavaScript
 	},
 	'io.github.tobagin.secrets': {
-		name: 'Secrets',
+		name: 'Secrets Manager',
 		desc: 'Modern GTK4 password manager with TOTP support and intelligent setup',
 		lang: Lang.Python
 	},
