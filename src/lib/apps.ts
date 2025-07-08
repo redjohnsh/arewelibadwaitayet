@@ -1692,7 +1692,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'be.alexandervanhee.gradia': {
 		name: 'Gradia',
-		desc: 'Quickly edit screenshots to put them better in context',
+		desc: 'Make your screenshots ready for all',
 		lang: Lang.Python
 	},
 	'io.github.cgueret.Scriptorium': {
