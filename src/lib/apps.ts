@@ -2159,6 +2159,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Hypatia',
 		desc: 'Find definitions, explanations, and answers related to the text on your display',
 		lang: Lang.Vala
+	},
+	'io.github.Ethanscharlie.albumripper': {
+		name: 'Album Ripper',
+		desc: 'Download Albums from YT Music',
+		lang: Lang.Python
 	}
 };
 
