@@ -2164,6 +2164,21 @@ const APP_MAP: Record<string, App> = {
 		name: 'Album Ripper',
 		desc: 'Download Albums from YT Music',
 		lang: Lang.Python
+	},
+	'io.github.tobagin.keysmith': {
+		name: 'KeySmith',
+		desc: 'SSH Key Management Application',
+		lang: Lang.Python
+	},
+	'io.github.tobagin.digger': {
+		name: 'Digger',
+		desc: 'Modern DNS lookup tool with a graphical interface',
+		lang: Lang.Python
+	},
+	'com.ml4w.dotfilesinstaller': {
+		name: 'Dotfiles Installer',
+		desc: 'Install Dotfiles easily, fast and secure',
+		lang: Lang.Python
 	}
 };
 
