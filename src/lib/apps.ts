@@ -2164,6 +2164,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Album Ripper',
 		desc: 'Download Albums from YT Music',
 		lang: Lang.Python
+	},
+	'io.github.tobagin.keysmith': {
+		name: 'KeySmith',
+		desc: 'SSH Key Management Application',
+		lang: Lang.Python
 	}
 };
 
