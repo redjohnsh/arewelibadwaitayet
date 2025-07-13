@@ -2169,6 +2169,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'KeySmith',
 		desc: 'SSH Key Management Application',
 		lang: Lang.Python
+	},
+	'io.github.tobagin.digger': {
+		name: 'Digger',
+		desc: 'Modern DNS lookup tool with a graphical interface',
+		lang: Lang.Python
 	}
 };
 
