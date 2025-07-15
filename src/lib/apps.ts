@@ -2184,6 +2184,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Karere',
 		desc: 'GTK4 WhatsApp Client',
 		lang: Lang.Python
+	},
+	'io.github.wartybix.Constrict': {
+		name: 'Constrict',
+		desc: 'Compress videos to target sizes',
+		lang: Lang.Python
 	}
 };
 
