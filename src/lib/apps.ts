@@ -2189,6 +2189,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Constrict',
 		desc: 'Compress videos to target sizes',
 		lang: Lang.Python
+	},
+	'io.github.tobagin.sonar': {
+		name: 'Sonar',
+		desc: 'Webhook inspector for developers',
+		lang: Lang.Python
 	}
 };
 
