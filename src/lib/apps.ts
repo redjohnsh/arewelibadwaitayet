@@ -2179,6 +2179,21 @@ const APP_MAP: Record<string, App> = {
 		name: 'Dotfiles Installer',
 		desc: 'Install Dotfiles easily, fast and secure',
 		lang: Lang.Python
+	},
+	'io.github.tobagin.karere': {
+		name: 'Karere',
+		desc: 'GTK4 WhatsApp Client',
+		lang: Lang.Python
+	},
+	'io.github.wartybix.Constrict': {
+		name: 'Constrict',
+		desc: 'Compress videos to target sizes',
+		lang: Lang.Python
+	},
+	'io.github.tobagin.sonar': {
+		name: 'Sonar',
+		desc: 'Webhook inspector for developers',
+		lang: Lang.Python
 	}
 };
 
