@@ -2194,6 +2194,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Sonar',
 		desc: 'Webhook inspector for developers',
 		lang: Lang.Python
+	},
+	'io.github.tobagin.tempo': {
+		name: 'Tempo',
+		desc: 'A modern metronome for musicians',
+		lang: Lang.Python
 	}
 };
 
