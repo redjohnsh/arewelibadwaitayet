@@ -1957,7 +1957,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.somaxa8.earx': {
 		name: 'Ear X',
-		desc: 'Control your Nothing earbuds\' settings',
+		desc: "Control your Nothing earbuds' settings",
 		lang: Lang.Rust
 	},
 	'page.codeberg.petsoi.words': {
@@ -2219,3 +2219,14 @@ const appList = List.from(appArray).map((app) => ({
 export default appList;
 
 export type PreparedApp = typeof appList extends List<infer T> ? T : never;
+
+const EDITORS_CHOICE_IDS = [
+	'de.haeckerfelix.Fragments',
+	'org.gnome.gitlab.somas.Apostrophe',
+	'net.natesales.Aviator',
+	'io.github.alainm23.planify',
+	'org.nickvision.tubeconverter',
+	'com.github.finefindus.eyedropper'
+];
+
+export const editorsChoice = appList.filter((app) => EDITORS_CHOICE_IDS.includes(app.id));
