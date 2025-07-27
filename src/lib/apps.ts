@@ -2199,6 +2199,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Tempo',
 		desc: 'A modern metronome for musicians',
 		lang: Lang.Python
+	},
+	'com.nedrichards.octopusagile': {
+		name: 'Octopus Agile Prices',
+		desc: 'Track Octopus electricity prices',
+		lang: Lang.Python
 	}
 };
 
