@@ -1767,7 +1767,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.swordpuffin.wardrobe': {
 		name: 'Wardrobe',
-		desc: 'Install and activate desktop themes effortlessly',
+		desc: 'Prettify your desktop effortlessly',
 		lang: Lang.Python
 	},
 	'com.her01n.BatteryInfo': {
