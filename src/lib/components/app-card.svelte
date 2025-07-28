@@ -53,7 +53,7 @@
 									</Tooltip.Root>
 								</Tooltip.Provider>
 							{/if}
-							<Badge variant="secondary" class="h-5 rounded-full px-1.5 text-[10px]"
+							<Badge variant="secondary" class="h-5 rounded-full px-1.5 text-xs"
 								>{app.lang.target}</Badge
 							>
 						</div>
