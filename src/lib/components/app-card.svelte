@@ -42,7 +42,7 @@
 									<Tooltip.Root>
 										<Tooltip.Trigger>
 											<img
-												src="https://circle.gnome.org/assets/ecosystem.svg"
+												src="https://circle.gnome.org/assets/favicon.svg"
 												alt="GNOME Circle"
 												class="size-5"
 											/>
