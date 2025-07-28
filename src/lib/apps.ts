@@ -2204,6 +2204,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Octopus Agile Prices',
 		desc: 'Track Octopus electricity prices',
 		lang: Lang.Python
+	},
+	'io.github.josephmawa.Gauge': {
+		name: 'Gauge',
+		desc: 'Unit converter',
+		lang: Lang.JavaScript
 	}
 };
 
