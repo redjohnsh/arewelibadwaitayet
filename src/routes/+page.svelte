@@ -3,8 +3,8 @@
 	import AppCard from '$lib/components/app-card.svelte';
 	import EditorsChoice from '$lib/components/editors-choice.svelte';
 	import EmptyState from '$lib/components/empty-state.svelte';
+	import ExploreNewApps from '$lib/components/explore-new-apps.svelte';
 	import LangSelect from '$lib/components/lang-select.svelte';
-	import LatestApps from '$lib/components/latest-apps.svelte';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import Input from '$lib/components/ui/input/input.svelte';
 	import * as Pagination from '$lib/components/ui/pagination';
@@ -117,7 +117,7 @@
 <EditorsChoice apps={editorsChoice} />
 
 <div class="mt-12">
-	<LatestApps apps={appList} count={6} />
+	<ExploreNewApps apps={appList} count={6} />
 </div>
 
 <div class="mt-12">

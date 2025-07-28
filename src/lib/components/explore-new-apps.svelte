@@ -27,7 +27,7 @@
 
 <div>
 	<div class="flex items-center justify-between gap-4">
-		<h2 class="text-2xl font-bold">Latest Apps</h2>
+		<h2 class="text-2xl font-bold">Explore New Apps</h2>
 		<Button variant="outline" onclick={shuffle}>
 			<ShuffleIcon />
 			Shuffle
