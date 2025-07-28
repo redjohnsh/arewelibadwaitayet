@@ -2209,6 +2209,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Gauge',
 		desc: 'Unit converter',
 		lang: Lang.JavaScript
+	},
+	'io.github.swordpuffin.rewaita': {
+		name: 'Rewaita',
+		desc: 'Bring Color to Adwaita',
+		lang: Lang.Python
 	}
 };
 
