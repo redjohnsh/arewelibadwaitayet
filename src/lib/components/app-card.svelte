@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PreparedApp } from '$lib/apps';
 	import * as Card from '$lib/components/ui/card/index.js';
+	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
 	import { plausible } from '$lib/plausible';
 	import Badge from './ui/badge/badge.svelte';
 
@@ -35,9 +36,27 @@
 				<div class="flex-1">
 					<div class="flex items-center gap-2">
 						<h2 class="text-lg font-bold">{app.name.target}</h2>
-						<Badge variant="secondary" class="absolute top-2 right-2 rounded-full text-xs"
-							>{app.lang.target}</Badge
-						>
+						<div class="absolute top-2 right-2 flex gap-1">
+							{#if app.circle}
+								<Tooltip.Provider>
+									<Tooltip.Root>
+										<Tooltip.Trigger>
+											<img
+												src="https://circle.gnome.org/assets/ecosystem.svg"
+												alt="GNOME Circle"
+												class="size-5"
+											/>
+										</Tooltip.Trigger>
+										<Tooltip.Content>
+											<p>GNOME Circle</p>
+										</Tooltip.Content>
+									</Tooltip.Root>
+								</Tooltip.Provider>
+							{/if}
+							<Badge variant="secondary" class="h-5 rounded-full px-1.5 text-[10px]"
+								>{app.lang.target}</Badge
+							>
+						</div>
 					</div>
 					<p class="text-muted-foreground line-clamp-1 text-sm text-pretty">
 						{app.desc.target}

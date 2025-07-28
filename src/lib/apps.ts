@@ -5,6 +5,7 @@ type App = {
 	name: string;
 	desc: string;
 	lang: Lang;
+	circle?: boolean;
 };
 
 export enum Lang {
@@ -28,7 +29,8 @@ const APP_MAP: Record<string, App> = {
 	'io.bassi.Amberol': {
 		name: 'Amberol',
 		desc: 'Plays music, and nothing else',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'net.natesales.Aviator': {
 		name: 'Aviator',
@@ -48,7 +50,8 @@ const APP_MAP: Record<string, App> = {
 	'com.rafaelmardojai.Blanket': {
 		name: 'Blanket',
 		desc: 'Listen to ambient sounds',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'com.usebottles.bottles': {
 		name: 'Bottles',
@@ -63,7 +66,8 @@ const APP_MAP: Record<string, App> = {
 	'page.kramo.Cartridges': {
 		name: 'Cartridges',
 		desc: 'Launch all your games',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'org.gnome.Snapshot': {
 		name: 'Camera',
@@ -88,17 +92,20 @@ const APP_MAP: Record<string, App> = {
 	'io.gitlab.adhami3310.Converter': {
 		name: 'Switcheroo',
 		desc: 'Convert and manipulate images',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.github.huluti.Curtail': {
 		name: 'Curtail',
 		desc: 'Compress your images',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'com.belmoussaoui.Decoder': {
 		name: 'Decoder',
 		desc: 'Scan and Generate QR Codes',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'org.nickvision.money': {
 		name: 'Denaro',
@@ -108,7 +115,8 @@ const APP_MAP: Record<string, App> = {
 	'app.drey.Dialect': {
 		name: 'Dialect',
 		desc: 'Translate between languages',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'me.dusansimic.DynamicWallpaper': {
 		name: 'Dynamic Wallpaper',
@@ -123,7 +131,8 @@ const APP_MAP: Record<string, App> = {
 	'io.github.mrvladus.List': {
 		name: 'Errands',
 		desc: 'Manage your tasks',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'io.github.cleomenezesjr.Escambo': {
 		name: 'Escambo',
@@ -138,12 +147,14 @@ const APP_MAP: Record<string, App> = {
 	'com.github.finefindus.eyedropper': {
 		name: 'Eyedropper',
 		desc: 'Pick and format colors',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.github.ADBeveridge.Raider': {
 		name: 'File Shredder',
 		desc: 'Permanently delete your files',
-		lang: Lang.C
+		lang: Lang.C,
+		circle: true
 	},
 	'de.schmidhuberj.Flare': {
 		name: 'Flare',
@@ -168,12 +179,14 @@ const APP_MAP: Record<string, App> = {
 	'com.mardojai.ForgeSparks': {
 		name: 'Forge Sparks',
 		desc: 'Get Git forges notifications',
-		lang: Lang.JavaScript
+		lang: Lang.JavaScript,
+		circle: true
 	},
 	'de.haeckerfelix.Fragments': {
 		name: 'Fragments',
 		desc: 'Manage torrents',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'io.github.realmazharhussain.GdmSettings': {
 		name: 'GDM Settings',
@@ -183,7 +196,8 @@ const APP_MAP: Record<string, App> = {
 	'dev.Cogitri.Health': {
 		name: 'Health',
 		desc: 'Track your fitness goals',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'org.gnome.Loupe': {
 		name: 'Image Viewer',
@@ -193,17 +207,20 @@ const APP_MAP: Record<string, App> = {
 	'io.gitlab.adhami3310.Impression': {
 		name: 'Impression',
 		desc: 'Create bootable drives',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'io.gitlab.gregorni.Letterpress': {
 		name: 'Letterpress',
 		desc: 'Create beautiful ASCII art',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'org.gnome.design.Lorem': {
 		name: 'Lorem',
 		desc: 'Generate placeholder text',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'fr.romainvigier.MetadataCleaner': {
 		name: 'Metadata Cleaner',
@@ -218,17 +235,20 @@ const APP_MAP: Record<string, App> = {
 	'io.github.seadve.Mousai': {
 		name: 'Mousai',
 		desc: 'Identify songs in seconds',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'io.gitlab.news_flash.NewsFlash': {
 		name: 'Newsflash',
 		desc: 'Keep up with your feeds',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.belmoussaoui.Obfuscate': {
 		name: 'Obfuscate',
 		desc: 'Censor private information',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'org.nickvision.tubeconverter': {
 		name: 'Parabolic',
@@ -238,12 +258,14 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.World.PikaBackup': {
 		name: 'Pika Backup',
 		desc: 'Keep your data safe',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'org.gnome.Podcasts': {
 		name: 'Podcasts',
 		desc: 'Listen to your favorite shows',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.github.marhkb.Pods': {
 		name: 'Pods',
@@ -253,17 +275,20 @@ const APP_MAP: Record<string, App> = {
 	'net.nokyan.Resources': {
 		name: 'Resources',
 		desc: 'Keep an eye on system resources',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.rafaelmardojai.SharePreview': {
 		name: 'Share Preview',
 		desc: 'Test social media cards locally',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'de.haeckerfelix.Shortwave': {
 		name: 'Shortwave',
 		desc: 'Listen to internet radio',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'it.mijorus.smile': {
 		name: 'Smile',
@@ -273,7 +298,8 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.Solanum': {
 		name: 'Solanum',
 		desc: 'Balance working time and break time',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'xyz.ketok.Speedtest': {
 		name: 'Speedtest',
@@ -288,7 +314,8 @@ const APP_MAP: Record<string, App> = {
 	'io.gitlab.liferooter.TextPieces': {
 		name: 'Text Pieces',
 		desc: "Developer's scratchpad",
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'me.iepure.Ticketbooth': {
 		name: 'Ticket Booth',
@@ -313,7 +340,8 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.gitlab.YaLTeR.VideoTrimmer': {
 		name: 'Video Trimmer',
 		desc: 'Trim videos quickly',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'io.github.flattool.Warehouse': {
 		name: 'Warehouse',
@@ -323,17 +351,20 @@ const APP_MAP: Record<string, App> = {
 	'app.drey.Warp': {
 		name: 'Warp',
 		desc: 'Fast and secure file transfer',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.github.hugolabe.Wike': {
 		name: 'Wike',
 		desc: 'Search and read Wikipedia articles',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	're.sonny.Workbench': {
 		name: 'Workbench',
 		desc: 'Prototype with GNOME technologies',
-		lang: Lang.JavaScript
+		lang: Lang.JavaScript,
+		circle: true
 	},
 	'org.gnome.Music': {
 		name: 'Music',
@@ -378,12 +409,14 @@ const APP_MAP: Record<string, App> = {
 	'com.belmoussaoui.Authenticator': {
 		name: 'Authenticator',
 		desc: 'Generate two-factor codes',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'org.gnome.World.Secrets': {
 		name: 'Secrets',
 		desc: 'Manage your passwords',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'com.github.neithern.g4music': {
 		name: 'Gapless',
@@ -403,12 +436,14 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.DejaDup': {
 		name: 'Déjà Dup Backups',
 		desc: 'Protect yourself from data loss',
-		lang: Lang.Vala
+		lang: Lang.Vala,
+		circle: true
 	},
 	'de.haeckerfelix.AudioSharing': {
 		name: 'Audio Sharing',
 		desc: 'Share your computer audio',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'io.github.nate_xyz.Chromatic': {
 		name: 'Chromatic',
@@ -423,7 +458,8 @@ const APP_MAP: Record<string, App> = {
 	'app.drey.EarTag': {
 		name: 'Ear Tag',
 		desc: 'Edit audio file tags',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'io.github.celluloid_player.Celluloid': {
 		name: 'Celluloid',
@@ -448,7 +484,8 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.gitlab.YaLTeR.Identity': {
 		name: 'Identity',
 		desc: 'Compare images and videos',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'io.github.nokse22.asciidraw': {
 		name: 'ASCII Draw',
@@ -478,7 +515,8 @@ const APP_MAP: Record<string, App> = {
 	'com.rafaelmardojai.WebfontKitGenerator': {
 		name: 'Webfont Kit Generator',
 		desc: 'Create @font-face kits easily',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'nl.g4d.Girens': {
 		name: 'Girens for Plex',
@@ -503,22 +541,26 @@ const APP_MAP: Record<string, App> = {
 	'dev.geopjr.Tuba': {
 		name: 'Tuba',
 		desc: 'Browse the Fediverse',
-		lang: Lang.Vala
+		lang: Lang.Vala,
+		circle: true
 	},
 	're.sonny.Tangram': {
 		name: 'Tangram',
 		desc: 'Browser for your pinned tabs',
-		lang: Lang.JavaScript
+		lang: Lang.JavaScript,
+		circle: true
 	},
 	'info.febvre.Komikku': {
 		name: 'Komikku',
 		desc: 'Discover and read manga & comics',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'se.sjoerd.Graphs': {
 		name: 'Graphs',
 		desc: 'Plot and manipulate data',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'com.github.cassidyjames.dippi': {
 		name: 'Dippi',
@@ -538,7 +580,8 @@ const APP_MAP: Record<string, App> = {
 	'com.feaneron.Boatswain': {
 		name: 'Boatswain',
 		desc: 'Control your Elgato Stream Decks',
-		lang: Lang.C
+		lang: Lang.C,
+		circle: true
 	},
 	'garden.turtle.Jellybean': {
 		name: 'Stockpile',
@@ -553,7 +596,8 @@ const APP_MAP: Record<string, App> = {
 	'com.clarahobbs.chessclock': {
 		name: 'Chess Clock',
 		desc: 'Time games of over-the-board chess',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'io.github.lainsce.Khronos': {
 		name: 'Khronos',
@@ -578,7 +622,8 @@ const APP_MAP: Record<string, App> = {
 	'dev.geopjr.Collision': {
 		name: 'Collision',
 		desc: 'Check hashes for your files',
-		lang: Lang.Crystal
+		lang: Lang.Crystal,
+		circle: true
 	},
 	'pm.mirko.Atoms': {
 		name: 'Atoms',
@@ -593,7 +638,8 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.World.Citations': {
 		name: 'Citations',
 		desc: 'Manage your bibliography',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.felipekinoshita.Wildcard': {
 		name: 'Wildcard',
@@ -613,7 +659,8 @@ const APP_MAP: Record<string, App> = {
 	're.sonny.Commit': {
 		name: 'Commit',
 		desc: 'Commit message editor',
-		lang: Lang.JavaScript
+		lang: Lang.JavaScript,
+		circle: true
 	},
 	'io.github.lainsce.Emulsion': {
 		name: 'Emulsion',
@@ -683,7 +730,8 @@ const APP_MAP: Record<string, App> = {
 	'io.github.diegoivan.pdf_metadata_editor': {
 		name: 'Paper Clip',
 		desc: 'Edit PDF document metadata',
-		lang: Lang.Vala
+		lang: Lang.Vala,
+		circle: true
 	},
 	'org.gnome.Chess': {
 		name: 'GNOME Chess',
@@ -693,7 +741,8 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.World.Iotas': {
 		name: 'Iotas',
 		desc: 'Simple note taking',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'de.k_bo.Televido': {
 		name: 'Televido',
@@ -703,7 +752,8 @@ const APP_MAP: Record<string, App> = {
 	'de.schmidhuberj.DieBahn': {
 		name: 'Railway',
 		desc: 'Find all your travel information',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.belmoussaoui.ReadItLater': {
 		name: 'Read It Later',
@@ -758,7 +808,8 @@ const APP_MAP: Record<string, App> = {
 	'app.drey.Biblioteca': {
 		name: 'Biblioteca',
 		desc: 'Read GNOME documentation offline',
-		lang: Lang.JavaScript
+		lang: Lang.JavaScript,
+		circle: true
 	},
 	'org.gnome.Fractal': {
 		name: 'Fractal',
@@ -783,7 +834,8 @@ const APP_MAP: Record<string, App> = {
 	'dev.bragefuglseth.Fretboard': {
 		name: 'Fretboard',
 		desc: 'Look up guitar chords',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'cafe.avery.Delfin': {
 		name: 'Delfin',
@@ -803,7 +855,8 @@ const APP_MAP: Record<string, App> = {
 	'org.freedesktop.Bustle': {
 		name: 'Bustle',
 		desc: 'Visualize D-Bus activity',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.quexten.Goldwarden': {
 		name: 'Goldwarden',
@@ -823,12 +876,14 @@ const APP_MAP: Record<string, App> = {
 	'io.github.fizzyizzy05.binary': {
 		name: 'Binary',
 		desc: 'Convert numbers between bases',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'org.gaphor.Gaphor': {
 		name: 'Gaphor',
 		desc: 'Simple UML and SysML modeling tool',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'page.codeberg.libre_menu_editor.LibreMenuEditor': {
 		name: 'Main Menu',
@@ -863,7 +918,8 @@ const APP_MAP: Record<string, App> = {
 	'io.github.idevecore.Valuta': {
 		name: 'Valuta',
 		desc: 'Convert between currencies',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'io.github.amit9838.mousam': {
 		name: 'Mousam',
@@ -913,7 +969,8 @@ const APP_MAP: Record<string, App> = {
 	'com.github.cassidyjames.clairvoyant': {
 		name: 'Clairvoyant',
 		desc: 'Ask questions, get psychic answers',
-		lang: Lang.Vala
+		lang: Lang.Vala,
+		circle: true
 	},
 	'io.github.xverizex.RetroSpriteEditor': {
 		name: 'Retro Sprite',
@@ -1018,7 +1075,8 @@ const APP_MAP: Record<string, App> = {
 	'app.drey.Elastic': {
 		name: 'Elastic',
 		desc: 'Design spring animations',
-		lang: Lang.Vala
+		lang: Lang.Vala,
+		circle: true
 	},
 	'com.github.geigi.cozy': {
 		name: 'Cozy',
@@ -1043,7 +1101,8 @@ const APP_MAP: Record<string, App> = {
 	'io.github.finefindus.Hieroglyphic': {
 		name: 'Hieroglyphic',
 		desc: 'Find LaTeX symbols',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'com.core447.StreamController': {
 		name: 'StreamController',
@@ -1078,7 +1137,8 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.gitlab.somas.Apostrophe': {
 		name: 'Apostrophe',
 		desc: 'Edit Markdown in style',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'app.drey.Damask': {
 		name: 'Damask',
@@ -1143,7 +1203,8 @@ const APP_MAP: Record<string, App> = {
 	'xyz.safeworlds.hiit': {
 		name: 'Exercise Timer',
 		desc: 'Train and rest with high intensity',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'net.codelogistics.webapps': {
 		name: 'Web Apps',
@@ -1218,7 +1279,8 @@ const APP_MAP: Record<string, App> = {
 	'dev.bragefuglseth.Keypunch': {
 		name: 'Keypunch',
 		desc: 'Practice your typing skills',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'net.danigm.loop': {
 		name: 'Loop',
@@ -1568,7 +1630,8 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.design.Emblem': {
 		name: 'Emblem',
 		desc: 'Generate project avatars',
-		lang: Lang.Rust
+		lang: Lang.Rust,
+		circle: true
 	},
 	'org.gnome.Contacts': {
 		name: 'Contacts',
@@ -1603,7 +1666,8 @@ const APP_MAP: Record<string, App> = {
 	'org.gnome.Polari': {
 		name: 'Polari',
 		desc: 'Talk to people on IRC',
-		lang: Lang.JavaScript
+		lang: Lang.JavaScript,
+		circle: true
 	},
 	'page.tesk.Refine': {
 		name: 'Refine',
@@ -1668,12 +1732,14 @@ const APP_MAP: Record<string, App> = {
 	're.sonny.Junction': {
 		name: 'Junction',
 		desc: 'Application chooser',
-		lang: Lang.JavaScript
+		lang: Lang.JavaScript,
+		circle: true
 	},
 	'io.github.revisto.drum-machine': {
 		name: 'Drum Machine',
 		desc: 'Create and play drum beats',
-		lang: Lang.Python
+		lang: Lang.Python,
+		circle: true
 	},
 	'com.ranfdev.DistroShelf': {
 		name: 'DistroShelf',

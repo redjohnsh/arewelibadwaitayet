@@ -23,7 +23,7 @@
 		"@sveltejs/vite-plugin-svelte": "^5.1.0",
 		"@tailwindcss/vite": "^4.1.10",
 		"@types/throttle-debounce": "^5.0.2",
-		"bits-ui": "^2.7.0",
+		"bits-ui": "^2.8.13",
 		"clsx": "^2.1.1",
 		"eslint": "^9.29.0",
 		"eslint-config-prettier": "^10.1.5",
