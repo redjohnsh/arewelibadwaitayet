@@ -1767,7 +1767,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.swordpuffin.wardrobe': {
 		name: 'Wardrobe',
-		desc: 'Install and activate desktop themes effortlessly',
+		desc: 'Prettify your desktop effortlessly',
 		lang: Lang.Python
 	},
 	'com.her01n.BatteryInfo': {
@@ -2203,6 +2203,16 @@ const APP_MAP: Record<string, App> = {
 	'com.nedrichards.octopusagile': {
 		name: 'Octopus Agile Prices',
 		desc: 'Track Octopus electricity prices',
+		lang: Lang.Python
+	},
+	'io.github.josephmawa.Gauge': {
+		name: 'Gauge',
+		desc: 'Unit converter',
+		lang: Lang.JavaScript
+	},
+	'io.github.swordpuffin.rewaita': {
+		name: 'Rewaita',
+		desc: 'Bring Color to Adwaita',
 		lang: Lang.Python
 	}
 };
