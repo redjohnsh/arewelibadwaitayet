@@ -2280,6 +2280,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Rewaita',
 		desc: 'Bring Color to Adwaita',
 		lang: Lang.Python
+	},
+	'page.codeberg.lo_vely.Nucleus': {
+		name: 'Nucleus',
+		desc: 'Browse the chemical elements',
+		lang: Lang.Python
 	}
 };
 
