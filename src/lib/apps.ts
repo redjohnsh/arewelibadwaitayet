@@ -2285,6 +2285,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Nucleus',
 		desc: 'Browse the chemical elements',
 		lang: Lang.Python
+	},
+	'io.github.zingytomato.netpeek': {
+		name: 'NetPeek',
+		desc: 'Discover devices on your local network',
+		lang: Lang.Python
 	}
 };
 
