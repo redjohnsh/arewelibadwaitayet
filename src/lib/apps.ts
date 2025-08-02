@@ -2295,6 +2295,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Events',
 		desc: 'Manage your schedule',
 		lang: Lang.Rust
+	},
+	'codes.loers.Punchclock': {
+		name: 'Punchclock',
+		desc: 'Track time for your tasks',
+		lang: Lang.Rust
 	}
 };
 
