@@ -2290,6 +2290,16 @@ const APP_MAP: Record<string, App> = {
 		name: 'NetPeek',
 		desc: 'Discover devices on your local network',
 		lang: Lang.Python
+	},
+	'codes.loers.Karlender': {
+		name: 'Events',
+		desc: 'Manage your schedule',
+		lang: Lang.Rust
+	},
+	'codes.loers.Punchclock': {
+		name: 'Punchclock',
+		desc: 'Track time for your tasks',
+		lang: Lang.Rust
 	}
 };
 
