@@ -2300,6 +2300,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Punchclock',
 		desc: 'Track time for your tasks',
 		lang: Lang.Rust
+	},
+	'io.github.mohfy.word2ipa': {
+		name: 'Word2ipa',
+		desc: 'Turn words into their true sounds',
+		lang: Lang.Python
 	}
 };
 
