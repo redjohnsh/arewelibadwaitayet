@@ -2302,7 +2302,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.Rust
 	},
 	'io.github.mohfy.word2ipa': {
-		name: 'Word2ipa',
+		name: 'Word2IPA',
 		desc: 'Turn words into their true sounds',
 		lang: Lang.Python
 	}
