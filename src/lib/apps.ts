@@ -2305,6 +2305,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Word2IPA',
 		desc: 'Turn words into their true sounds',
 		lang: Lang.Python
+	},
+	'io.github.sepehr_rs.Sudoku': {
+		name: 'Sudoku',
+		desc: 'Solve Sudoku puzzles with a clean, distraction-free interface',
+		lang: Lang.Python
 	}
 };
 
