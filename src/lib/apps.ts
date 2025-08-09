@@ -2310,6 +2310,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Sudoku',
 		desc: 'Solve Sudoku puzzles with a clean, distraction-free interface',
 		lang: Lang.Python
+	},
+	'com.pojtinger.felicitas.Sessions': {
+		name: 'Sessions',
+		desc: 'Visual timer for the pomodoro technique',
+		lang: Lang.Go
 	}
 };
 
