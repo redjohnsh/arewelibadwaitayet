@@ -2313,7 +2313,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.pojtinger.felicitas.Sessions': {
 		name: 'Sessions',
-		desc: 'Visual timer for the pomodoro technique',
+		desc: 'Focus with timed work intervals',
 		lang: Lang.Go
 	},
 	'org.andypiper.Fedinspect': {
