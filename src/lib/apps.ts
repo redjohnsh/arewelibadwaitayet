@@ -2315,6 +2315,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Sessions',
 		desc: 'Visual timer for the pomodoro technique',
 		lang: Lang.Go
+	},
+	'org.andypiper.Fedinspect': {
+		name: 'Fedinspect',
+		desc: 'Inspect Fediverse server configurations and features',
+		lang: Lang.Python
 	}
 };
 
