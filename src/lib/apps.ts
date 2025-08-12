@@ -55,12 +55,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.usebottles.bottles': {
 		name: 'Bottles',
-		desc: 'Run Windows Software',
+		desc: 'Run Windows software',
 		lang: Lang.Python
 	},
 	'org.gnome.Builder': {
 		name: 'Builder',
-		desc: 'An IDE for GNOME',
+		desc: 'Create applications for GNOME',
 		lang: Lang.C
 	},
 	'page.kramo.Cartridges': {
@@ -103,7 +103,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.belmoussaoui.Decoder': {
 		name: 'Decoder',
-		desc: 'Scan and Generate QR Codes',
+		desc: 'Scan and generate QR codes',
 		lang: Lang.Rust,
 		circle: true
 	},
@@ -120,7 +120,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'me.dusansimic.DynamicWallpaper': {
 		name: 'Dynamic Wallpaper',
-		desc: 'Dynamic wallpaper creator for Gnome 42',
+		desc: 'Create light/dark wallpapers for GNOME 42 and beyond',
 		lang: Lang.Python
 	},
 	'com.github.wwmm.easyeffects': {
@@ -269,7 +269,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.github.marhkb.Pods': {
 		name: 'Pods',
-		desc: 'Keep track of your podman containers',
+		desc: 'Manage your Podman containers',
 		lang: Lang.Rust
 	},
 	'net.nokyan.Resources': {
@@ -513,7 +513,7 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.Python
 	},
 	'com.rafaelmardojai.WebfontKitGenerator': {
-		name: 'Webfont Kit Generator',
+		name: 'Webfont Bundler',
 		desc: 'Create @font-face kits easily',
 		lang: Lang.Python,
 		circle: true
@@ -593,7 +593,7 @@ const APP_MAP: Record<string, App> = {
 		desc: 'Character map application',
 		lang: Lang.C
 	},
-	'com.clarahobbs.chessclock': {
+	'eu.fortysixandtwo.chessclock': {
 		name: 'Chess Clock',
 		desc: 'Time games of over-the-board chess',
 		lang: Lang.Python,
@@ -627,7 +627,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'pm.mirko.Atoms': {
 		name: 'Atoms',
-		desc: 'Manage Chroot and Containers',
+		desc: 'Manage Chroot and containers',
 		lang: Lang.Python
 	},
 	're.sonny.Playhouse': {
@@ -653,7 +653,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'me.iepure.devtoolbox': {
 		name: 'Dev Toolbox',
-		desc: 'Development tools at your fingertips',
+		desc: 'Dev tools at your fingertips',
 		lang: Lang.Python
 	},
 	're.sonny.Commit': {
@@ -714,12 +714,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.gitlab.guillermop.MasterKey': {
 		name: 'Master Key',
-		desc: 'A password manager application',
+		desc: 'Manage passwords without saving them',
 		lang: Lang.Python
 	},
 	'io.github.eminfedar.vaktisalah-gtk-rs': {
 		name: 'Vakt-i Salah',
-		desc: 'Simple prayer times app',
+		desc: 'Simple prayer/adhan times app',
 		lang: Lang.Rust
 	},
 	'io.gitlab.azymohliad.WatchMate': {
@@ -777,11 +777,11 @@ const APP_MAP: Record<string, App> = {
 	},
 	'im.bernard.Nostalgia': {
 		name: 'Nostalgia',
-		desc: 'Set historic GNOME Wallpapers',
+		desc: 'Set historic GNOME wallpapers',
 		lang: Lang.Vala
 	},
 	'io.github.vikdevelop.SaveDesktop': {
-		name: 'SaveDesktop',
+		name: 'Save Desktop',
 		desc: 'Save your desktop configuration',
 		lang: Lang.Python
 	},
@@ -792,17 +792,17 @@ const APP_MAP: Record<string, App> = {
 	},
 	'cool.ldr.lfy': {
 		name: 'lfy',
-		desc: 'Translation software for read paper',
+		desc: 'Translation software designed for reading scientific research literature',
 		lang: Lang.Python
 	},
 	'art.taunoerik.tauno-monitor': {
 		name: 'Tauno Monitor',
-		desc: 'Serial port monitor',
+		desc: 'The serial port monitor for Arduino and other embedded development',
 		lang: Lang.Python
 	},
 	'io.github.giantpinkrobots.varia': {
 		name: 'Varia',
-		desc: 'Download files and torrents',
+		desc: 'Download files, videos and torrents',
 		lang: Lang.Python
 	},
 	'app.drey.Biblioteca': {
@@ -892,7 +892,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.fabrialberio.pinapp': {
 		name: 'Pins',
-		desc: 'Create and edit application shortcuts',
+		desc: 'Create and edit app shortcuts',
 		lang: Lang.C
 	},
 	'it.mijorus.whisper': {
@@ -933,12 +933,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	'org.sigxcpu.Livi': {
 		name: 'Light Video',
-		desc: 'A simple GTK4 based video player for mobile phones',
+		desc: 'A simple GTK4 based video player (not only) for mobile phones',
 		lang: Lang.C
 	},
 	'net.krafting.PleasureDVR': {
 		name: 'Pleasure DVR',
-		desc: 'DVR for the Chaturbate website',
+		desc: 'Record Chaturbate live streams',
 		lang: Lang.Python
 	},
 	'io.github.unrud.RecentFilter': {
@@ -966,7 +966,7 @@ const APP_MAP: Record<string, App> = {
 		desc: 'View and edit BibTeX entries',
 		lang: Lang.Python
 	},
-	'com.github.cassidyjames.clairvoyant': {
+	'com.cassidyjames.clairvoyant': {
 		name: 'Clairvoyant',
 		desc: 'Ask questions, get psychic answers',
 		lang: Lang.Vala,
@@ -1012,9 +1012,9 @@ const APP_MAP: Record<string, App> = {
 		desc: 'Stay on track during speeches',
 		lang: Lang.Python
 	},
-	'me.ppvan.psequel': {
-		name: 'psequel',
-		desc: 'A minimal SQL client',
+	'io.github.ppvan.tarug': {
+		name: 'Tarug',
+		desc: 'A minimal Postgres SQL client',
 		lang: Lang.Vala
 	},
 	'dev.tchx84.Portfolio': {
@@ -1059,7 +1059,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.toolstack.Folio': {
 		name: 'Folio',
-		desc: 'Take notes in Markdown',
+		desc: 'Beautiful markdown note-taking app',
 		lang: Lang.Vala
 	},
 	'org.cvfosammmm.Lemma': {
@@ -1095,7 +1095,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'de.wagnermartin.Plattenalbum': {
 		name: 'Plattenalbum',
-		desc: 'Browse music with MPD',
+		desc: 'Connect to your music',
 		lang: Lang.Python
 	},
 	'io.github.finefindus.Hieroglyphic': {
@@ -1162,7 +1162,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'org.gnome.design.AppIconPreview': {
 		name: 'App Icon Preview',
-		desc: 'Tool for designing applications icons',
+		desc: 'Icon design helper',
 		lang: Lang.Rust
 	},
 	'io.github.andreibachim.shortcut': {
@@ -1187,7 +1187,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'cz.ondrejkolin.Barcoder': {
 		name: 'Barcoder',
-		desc: 'Create barcodes',
+		desc: 'Create barcodes & QR codes',
 		lang: Lang.Rust
 	},
 	'io.github.achetagames.epic_asset_manager': {
@@ -1213,7 +1213,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.jeffser.Alpaca': {
 		name: 'Alpaca',
-		desc: 'Chat with local AI models',
+		desc: 'Chat with AI models',
 		lang: Lang.Python
 	},
 	'app.devsuite.Schemes': {
@@ -1334,7 +1334,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'org.gnome.Sudoku': {
 		name: 'GNOME Sudoku',
-		desc: 'Test your logic skills in this number grid puzzle',
+		desc: 'Test yourself in the classic puzzle',
 		lang: Lang.Vala
 	},
 	'io.github.lo2dev.Echo': {
@@ -1349,7 +1349,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'nl.emphisia.icon': {
 		name: 'Iconic',
-		desc: 'Easily add icons on top of folders',
+		desc: 'Add icons on top of folders',
 		lang: Lang.Rust
 	},
 	'com.github.ztefn.haguichi': {
@@ -1419,7 +1419,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.mezoahmedii.Picker': {
 		name: 'Picker',
-		desc: 'A simple app to pick something out of a list of things',
+		desc: 'Randomly pick something to do',
 		lang: Lang.Python
 	},
 	'dev.geopjr.Archives': {
@@ -1429,7 +1429,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.github.gmg137.netease-cloud-music-gtk': {
 		name: 'NetEase Cloud Music Gtk4',
-		desc: 'Linux muisc player for NetEase Cloud Music',
+		desc: 'Linux music player for NetEase Cloud Music',
 		lang: Lang.Rust
 	},
 	'com.github.ryonakano.pinit': {
@@ -1454,12 +1454,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	'de.leopoldluley.Clapgrep': {
 		name: 'Clapgrep',
-		desc: 'One app to search through all your files, powered by ripgrep',
+		desc: 'Search through all your files',
 		lang: Lang.Rust
 	},
 	'eu.nokun.MirrorHall': {
 		name: 'Mirror Hall',
-		desc: 'Use Linux devices as virtual displays in a peer-to-peer fashion',
+		desc: 'Use Linux devices as second screens',
 		lang: Lang.Python
 	},
 	'org.pipewire.Helvum': {
@@ -1469,7 +1469,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.kelvinnovais.Kasasa': {
 		name: 'Kasasa',
-		desc: 'Create ephemeral floating screenshot windows',
+		desc: 'Snip and pin useful information',
 		lang: Lang.C
 	},
 	'io.github.vmkspv.netsleuth': {
@@ -1494,7 +1494,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.philippkosarev.bmi': {
 		name: 'BMI',
-		desc: 'A body mass index calculator',
+		desc: 'Body mass index calculator',
 		lang: Lang.Python
 	},
 	'ca.vlacroix.Tally': {
@@ -1508,18 +1508,18 @@ const APP_MAP: Record<string, App> = {
 		lang: Lang.C
 	},
 	'org.gnome.design.Palette': {
-		name: 'Palette',
-		desc: 'Color Palette tool',
+		name: 'Color Palette',
+		desc: 'Look up GNOME colors',
 		lang: Lang.Vala
 	},
 	'net.krafting.PedantiK': {
 		name: 'PedantiK',
-		desc: 'Find the Wikipedia page',
+		desc: 'Find the Wikipedia article',
 		lang: Lang.Python
 	},
 	'io.github.buonhobo.Katharsis': {
 		name: 'Katharsis',
-		desc: 'A simple Kathara GUI to test emulated computer networks',
+		desc: 'Emulate computer networks with ease',
 		lang: Lang.Python
 	},
 	'ca.edestcroix.Recordbox': {
@@ -1534,7 +1534,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'dev.qwery.AddWater': {
 		name: 'Add Water',
-		desc: 'Keep Firefox in Fashion',
+		desc: 'Keep Firefox in fashion',
 		lang: Lang.Python
 	},
 	'com.dz4k.FruitCredits': {
@@ -1559,12 +1559,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.efogdev.mpris-timer': {
 		name: 'Play Timer',
-		desc: 'Native-feeling timers for GNOME',
+		desc: 'Native-feeling timers',
 		lang: Lang.Go
 	},
 	'io.github.plrigaux.sysd-manager': {
 		name: 'SysD Manager',
-		desc: 'A GUI to manage systemd units',
+		desc: "A user-friendly application to manage systemd's units",
 		lang: Lang.Rust
 	},
 	'com.github.flxzt.rnote': {
@@ -1574,11 +1574,11 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.qwersyk.Newelle': {
 		name: 'Newelle',
-		desc: 'Your AI-Powered System Assistant',
+		desc: 'AI chatbot',
 		lang: Lang.Python
 	},
 	'net.krafting.SemantiK': {
-		name: 'Semantik',
+		name: 'SemantiK',
 		desc: 'Find the secret word',
 		lang: Lang.Python
 	},
@@ -1604,7 +1604,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.OkuBrowser.oku': {
 		name: 'Oku',
-		desc: 'A Web browser with an emphasis on local-first data storage',
+		desc: 'Browse & express yourself',
 		lang: Lang.Rust
 	},
 	'io.github.dzheremi2.lrcmake-gtk': {
@@ -1614,7 +1614,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.kriptolix.Poliedros': {
 		name: 'Poliedros',
-		desc: 'Poliedros is a multi-type dice roller',
+		desc: 'Roll multi-type dice',
 		lang: Lang.Python
 	},
 	'com.konstantintutsch.Lock': {
@@ -1743,7 +1743,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.ranfdev.DistroShelf': {
 		name: 'DistroShelf',
-		desc: 'Manage Distrobox containers',
+		desc: 'Graphical interface for managing Distrobox containers',
 		lang: Lang.Rust
 	},
 	'io.github.flattool.Ignition': {
@@ -1758,27 +1758,27 @@ const APP_MAP: Record<string, App> = {
 	},
 	'be.alexandervanhee.gradia': {
 		name: 'Gradia',
-		desc: 'Make your screenshots ready for all',
+		desc: 'Annotate your screenshots',
 		lang: Lang.Python
 	},
 	'io.github.cgueret.Scriptorium': {
 		name: 'Scriptorium',
-		desc: 'An all in one book editing tool for GNOME',
+		desc: 'Design and write manuscripts',
 		lang: Lang.Python
 	},
 	'io.github.justinrdonnelly.bouncer': {
 		name: 'Bouncer',
-		desc: 'Choose the correct firewall zone for Wi-Fi',
+		desc: 'Keep the riffraff out!',
 		lang: Lang.JavaScript
 	},
 	'app.drey.MultiplicationPuzzle': {
 		name: 'Multiplication Puzzle',
-		desc: 'A simple multiplication puzzle game',
+		desc: 'Solve a math mystery',
 		lang: Lang.Vala
 	},
 	'org.altlinux.Tuner': {
 		name: 'Tuner',
-		desc: 'Extensible control center for GNOME',
+		desc: 'Extensible control center',
 		lang: Lang.Vala
 	},
 	'com.jeffser.Pigment': {
@@ -1838,7 +1838,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'com.her01n.BatteryInfo': {
 		name: 'Battery Info',
-		desc: 'Show information about the system battery',
+		desc: 'Shows informations about the system battery',
 		lang: Lang.Scheme
 	},
 	'io.github.herve4m.Length': {
@@ -1868,7 +1868,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.swordpuffin.hunt': {
 		name: 'Hunt',
-		desc: 'An easy word search game',
+		desc: 'Find every word',
 		lang: Lang.Python
 	},
 	'io.github.swordpuffin.splices': {
@@ -1893,22 +1893,22 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.nokse22.high-tide': {
 		name: 'High Tide',
-		desc: 'Third party unofficial TIDAL music client',
+		desc: 'TIDAL client',
 		lang: Lang.Python
 	},
 	'io.github.josephmawa.Egghead': {
 		name: 'Egghead',
-		desc: 'A simple trivia (quiz) app to enjoy in your free time',
+		desc: 'Learn while having fun',
 		lang: Lang.JavaScript
 	},
 	'net.sapples.LiveCaptions': {
 		name: 'Live Captions',
-		desc: 'Realtime automatic subtitles for the Linux desktop',
+		desc: 'Live Captioning for the desktop',
 		lang: Lang.C
 	},
 	'io.github.zaedus.spider': {
 		name: 'Spider',
-		desc: 'Install web apps on GNOME desktop',
+		desc: 'Install web apps',
 		lang: Lang.Rust
 	},
 	'io.github.vallabhvidy.CubeTimer': {
@@ -1948,7 +1948,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.tobagin.secrets': {
 		name: 'Secrets Manager',
-		desc: 'Modern GTK4 password manager with TOTP support and intelligent setup',
+		desc: 'Password manager with 2FA',
 		lang: Lang.Python
 	},
 	'net.base_art.Glide': {
@@ -2153,7 +2153,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'org.roojs.roobuilder': {
 		name: 'roobuilder',
-		desc: 'Vala and Javascript IDE',
+		desc: 'Vala and Javascript IDE - for building Vala Desktop applications and Web Javascript',
 		lang: Lang.JavaScript
 	},
 	'org.adishatz.Screenshot': {
@@ -2163,7 +2163,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'org.gnome.NetworkDisplays': {
 		name: 'GNOME Network Displays',
-		desc: 'Screencasting for GNOME, Supports the Miracast and Chromecast protocols',
+		desc: 'Screencasting for GNOME',
 		lang: Lang.C
 	},
 	'com.github.lachhebo.Gabtag': {
@@ -2178,7 +2178,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'app.drey.Typewriter': {
 		name: 'Typewriter',
-		desc: 'Compose documents faster with typst',
+		desc: 'Compose documents faster',
 		lang: Lang.Rust
 	},
 	'io.github.otaxhu.MQTTy': {
@@ -2188,7 +2188,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.radiolamp.mangojuice': {
 		name: 'Mango Juice',
-		desc: 'The MangoHUD customization assistant',
+		desc: 'Customizable performance display',
 		lang: Lang.Vala
 	},
 	'io.github.cleomenezesjr.Serigy': {
@@ -2213,7 +2213,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.dynobo.sphereview': {
 		name: 'SphereView',
-		desc: 'Image viewer for 360° equirectangular images like photospheres and panoramas.',
+		desc: 'Explore photospheres and panoramas',
 		lang: Lang.Rust
 	},
 	'eu.jumplink.Learn6502': {
@@ -2223,7 +2223,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'net.hypatiaproject.Hypatia': {
 		name: 'Hypatia',
-		desc: 'Find definitions, explanations, and answers related to the text on your display',
+		desc: 'Get information quickly',
 		lang: Lang.Vala
 	},
 	'io.github.Ethanscharlie.albumripper': {
@@ -2238,12 +2238,12 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.tobagin.digger': {
 		name: 'Digger',
-		desc: 'Modern DNS lookup tool with a graphical interface',
+		desc: 'DNS lookup tool with graphical interface',
 		lang: Lang.Python
 	},
 	'com.ml4w.dotfilesinstaller': {
 		name: 'Dotfiles Installer',
-		desc: 'Install Dotfiles easily, fast and secure',
+		desc: 'Manage dotfiles fast and secure',
 		lang: Lang.Python
 	},
 	'io.github.tobagin.karere': {
@@ -2278,7 +2278,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.swordpuffin.rewaita': {
 		name: 'Rewaita',
-		desc: 'Bring Color to Adwaita',
+		desc: 'Bring color to Adwaita',
 		lang: Lang.Python
 	},
 	'page.codeberg.lo_vely.Nucleus': {
@@ -2288,7 +2288,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.zingytomato.netpeek': {
 		name: 'NetPeek',
-		desc: 'Discover devices on your local network',
+		desc: "See what's on your network",
 		lang: Lang.Python
 	},
 	'codes.loers.Karlender': {
@@ -2308,7 +2308,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'io.github.sepehr_rs.Sudoku': {
 		name: 'Sudoku',
-		desc: 'Solve Sudoku puzzles with a clean, distraction-free interface',
+		desc: 'Solve puzzles in style',
 		lang: Lang.Python
 	},
 	'com.pojtinger.felicitas.Sessions': {
@@ -2318,7 +2318,7 @@ const APP_MAP: Record<string, App> = {
 	},
 	'org.andypiper.Fedinspect': {
 		name: 'Fedinspect',
-		desc: 'Inspect Fediverse server configurations and features',
+		desc: 'Analyse Fediverse servers',
 		lang: Lang.Python
 	}
 };
