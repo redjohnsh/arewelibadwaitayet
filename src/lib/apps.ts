@@ -22,7 +22,8 @@ export enum Lang {
 	Swift = 'Swift',
 	TypeScript = 'TypeScript',
 	Vala = 'Vala',
-	Perl = 'Perl'
+	Perl = 'Perl',
+	Kotlin = 'Kotlin'
 }
 
 const APP_MAP: Record<string, App> = {
@@ -2320,6 +2321,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Fedinspect',
 		desc: 'Analyse Fediverse servers',
 		lang: Lang.Python
+	},
+	'ch.bailu.aat': {
+		name: 'AAT Activity Tracker',
+		desc: 'Track your outdoor activities',
+		lang: Lang.Kotlin
 	}
 };
 
