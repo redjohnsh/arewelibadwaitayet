@@ -2331,6 +2331,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Bazaar',
 		desc: 'Discover and install applications',
 		lang: Lang.C
+	},
+	'io.github.seadve.Breathing': {
+		name: 'Breathing',
+		desc: 'Relax and meditate',
+		lang: Lang.Python
 	}
 };
 
