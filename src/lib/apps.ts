@@ -2336,6 +2336,11 @@ const APP_MAP: Record<string, App> = {
 		name: 'Breathing',
 		desc: 'Relax and meditate',
 		lang: Lang.Python
+	},
+	'io.github.htkhiem.Euphonica': {
+		name: 'Euphonica',
+		desc: 'An MPD client with delusions of grandeur',
+		lang: Lang.Rust
 	}
 };
 
