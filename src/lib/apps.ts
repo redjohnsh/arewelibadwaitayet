@@ -15,15 +15,15 @@ export enum Lang {
 	Crystal = 'Crystal',
 	Go = 'Go',
 	JavaScript = 'JavaScript',
+	Kotlin = 'Kotlin'
 	Lua = 'Lua',
+	Perl = 'Perl',
 	Python = 'Python',
 	Rust = 'Rust',
 	Scheme = 'Scheme',
 	Swift = 'Swift',
 	TypeScript = 'TypeScript',
 	Vala = 'Vala',
-	Perl = 'Perl',
-	Kotlin = 'Kotlin'
 }
 
 const APP_MAP: Record<string, App> = {
