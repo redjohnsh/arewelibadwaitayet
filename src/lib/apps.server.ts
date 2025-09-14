@@ -11,12 +11,35 @@ export async function createAppList(): Promise<SerializableApp[]> {
 }
 
 const EDITORS_CHOICE_IDS = [
-	"de.haeckerfelix.Fragments",
+	"com.jeffser.Alpaca",
+	"io.bassi.Amberol",
 	"org.gnome.gitlab.somas.Apostrophe", 
+	"com.belmoussaoui.Authenticator",
 	"net.natesales.Aviator",
-	"io.github.alainm23.planify",
-	"org.nickvision.tubeconverter",
+	"com.rafaelmardojai.Blanket",
+	"dev.geopjr.Calligraphy",
+	"com.github.huluti.Curtail",
+	"com.belmoussaoui.Decoder",
+	"com.mattjakeman.ExtensionManager",
 	"com.github.finefindus.eyedropper",
+	"com.github.ADBeveridge.Raider",
+	"com.mardojai.ForgeSparks",
+	"de.haeckerfelix.Fragments",
+	"be.alexandervanhee.gradia",
+	"io.gitlab.adhami3310.Impression",
+	"garden.jamie.Morphosis",
+	"io.github.seadve.Mousai",
+	"io.gitlab.news_flash.NewsFlash",
+	"io.github.nozwock.Packet",
+	"org.nickvision.tubeconverter",
+	"org.gnome.World.PikaBackup",
+	"io.github.alainm23.planify",
+	"com.github.marhkb.Pods",
+	"net.nokyan.Resources",
+	"org.gnome.World.Secrets",
+	"io.gitlab.adhami3310.Converter",
+	"dev.geopjr.Tuba",
+	"io.gitlab.theevilskeleton.Upscaler"
 ];
 
 // Simple filter function for editors choice (works with plain arrays)

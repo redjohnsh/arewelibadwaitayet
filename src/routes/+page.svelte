@@ -35,14 +35,22 @@
 		}))
 	);
 
-	const editorsChoice = $derived(
-		List.from(rawEditorsChoice).map((app) => ({
+	// Track if we're in the browser (after hydration) and loading state
+	let isClient = $state(false);
+	let isEditorsChoiceLoading = $state(true);
+
+	const editorsChoice = $derived.by(() => {
+		const baseList = List.from(rawEditorsChoice);
+		// Only shuffle after hydration to avoid SSR/client mismatch
+		const shuffledList = isClient ? baseList.shuffle() : baseList;
+
+		return shuffledList.take(6).map((app) => ({
 			...app,
 			name: fuzzysort.prepare(app.name),
 			desc: fuzzysort.prepare(app.desc),
 			lang: fuzzysort.prepare(app.lang)
-		}))
-	);
+		}));
+	});
 
 	const PER_PAGE = 24;
 
@@ -52,6 +60,18 @@
 	let selectedLang = $state<Lang[]>([]);
 	let selectedView = $state<'group' | 'list'>('list');
 	let inputRef = $state<HTMLInputElement>(null!);
+
+	// Set client flag after hydration with loading delay
+	$effect(() => {
+		isClient = true;
+		// Simulate loading with random delay between 500-2000ms for realistic feel
+		const randomDelay = Math.floor(Math.random() * 1500) + 500; // 500-2000ms
+		const timer = setTimeout(() => {
+			isEditorsChoiceLoading = false;
+		}, randomDelay);
+
+		return () => clearTimeout(timer);
+	});
 
 	$effect(() => {
 		const controller = new AbortController();
@@ -139,7 +159,7 @@
 	</h2>
 </div>
 
-<EditorsChoice apps={editorsChoice} />
+<EditorsChoice apps={editorsChoice} loading={isEditorsChoiceLoading} />
 
 <div class="mt-12">
 	<ExploreNewApps apps={appList} count={6} />
