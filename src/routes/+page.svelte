@@ -1,6 +1,9 @@
 <script lang="ts">
-	import appList, { editorsChoice, Lang } from '$lib/apps';
+	import { Lang } from '$lib/apps';
+	import type { PageData } from './$types';
 	import AppCard from '$lib/components/app-card.svelte';
+	import fuzzysort from 'fuzzysort';
+	import { List } from 'swisslist';
 	import EditorsChoice from '$lib/components/editors-choice.svelte';
 	import EmptyState from '$lib/components/empty-state.svelte';
 	import ExploreNewApps from '$lib/components/explore-new-apps.svelte';
@@ -11,9 +14,35 @@
 	import * as ToggleGroup from '$lib/components/ui/toggle-group';
 	import { plausible } from '$lib/plausible';
 	import { BrushCleaningIcon, LayoutGridIcon, LayoutListIcon, SearchIcon } from '@lucide/svelte';
-	import fuzzysort from 'fuzzysort';
-	import { List } from 'swisslist';
 	import { debounce } from 'throttle-debounce';
+
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
+
+	// Extract the serializable app data from the loader
+	const { appList: rawAppList, editorsChoice: rawEditorsChoice } = data;
+
+	// Client-side: Create List with fuzzy search preparation
+	const appList = $derived(
+		List.from(rawAppList).map((app) => ({
+			...app,
+			name: fuzzysort.prepare(app.name),
+			desc: fuzzysort.prepare(app.desc),
+			lang: fuzzysort.prepare(app.lang)
+		}))
+	);
+
+	const editorsChoice = $derived(
+		List.from(rawEditorsChoice).map((app) => ({
+			...app,
+			name: fuzzysort.prepare(app.name),
+			desc: fuzzysort.prepare(app.desc),
+			lang: fuzzysort.prepare(app.lang)
+		}))
+	);
 
 	const PER_PAGE = 24;
 

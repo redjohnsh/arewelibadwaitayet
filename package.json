@@ -22,6 +22,7 @@
 		"@sveltejs/kit": "^2.39.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.0",
 		"@tailwindcss/vite": "^4.1.13",
+		"@types/node": "^24.4.0",
 		"@types/throttle-debounce": "^5.0.2",
 		"bits-ui": "^2.9.8",
 		"clsx": "^2.1.1",
@@ -43,6 +44,7 @@
 		"vite": "^7.1.5"
 	},
 	"dependencies": {
+		"fast-xml-parser": "^5.2.5",
 		"fuzzysort": "^3.1.0",
 		"plausible-client": "^1.2.0",
 		"swisslist": "^0.0.4",
