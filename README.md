@@ -1,6 +1,6 @@
-# Are We LibAdwaita Yet?
+# Are We Adwaita Yet?
 
-Welcome to the "Are We LibAdwaita Yet?" website, where you can explore a curated collection of apps that utilize `libadwaita`. While this list may not encompass every app in existence, it provides a snapshot of apps that we are aware of and welcomes contributions from the community to expand the selection.
+Welcome to the "Are We Adwaita Yet?" website, where you can explore a curated collection of apps that utilize `libadwaita`. While this list may not encompass every app in existence, it provides a snapshot of apps that we are aware of and welcomes contributions from the community to expand the selection.
 
 ## 🚀 Project Structure
 
@@ -41,4 +41,4 @@ All commands are run from the root of the project, from a terminal:
 
 If you come across an app that's missing from our list, you can actively contribute by forking this repository and adding it to the appropriate data file. Each app entry should include four mandatory fields. Note that the app **must** be published on [Flathub](https://flathub.org) for it to be considered.
 
-We appreciate your contributions and look forward to growing our collection of LibAdwaita-powered apps!
+We appreciate your contributions and look forward to growing our collection of Adwaita-powered apps!

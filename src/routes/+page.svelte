@@ -25,7 +25,7 @@
 	let inputRef = $state<HTMLInputElement>(null!);
 
 	$effect(() => {
-		let controller = new AbortController();
+		const controller = new AbortController();
 
 		document.addEventListener(
 			'keydown',
@@ -65,7 +65,7 @@
 		currentPage = 1;
 	});
 
-	let filtered = $derived.by(() => {
+	const filtered = $derived.by(() => {
 		let arr = appList.clone();
 
 		if (selectedLang.length) {
@@ -83,11 +83,11 @@
 		);
 	});
 
-	let grouped = $derived.by(() => {
+	const grouped = $derived.by(() => {
 		return Object.entries(filtered.groupBy((item) => item.lang.target as Lang));
 	});
 
-	let paginated = $derived.by(() => {
+	const paginated = $derived.by(() => {
 		return filtered.drop((currentPage - 1) * PER_PAGE).take(PER_PAGE);
 	});
 
@@ -101,17 +101,13 @@
 </script>
 
 <div class="mx-auto mb-20 flex max-w-4xl flex-col text-center">
-	<h1 class="mt-12 text-6xl font-extrabold text-zinc-900 dark:text-white">
-		Discover the Best LibAdwaita Apps in One Place
+	<h1 class="mt-12 text-6xl font-extrabold text-balance">
+		Discover the best Adwaita apps in one place
 	</h1>
-	<h2 class="mt-8 text-xl font-extrabold text-zinc-900 dark:text-white">
-		Your Comprehensive List for LibAdwaita-Powered Linux Applications
+	<h2 class="text-muted-foreground mt-8 text-xl text-balance">
+		A curated selection of Linux apps built on Libadwaita. Explore the latest and most exciting apps
+		seamlessly integrating with your GNOME system.
 	</h2>
-	<p class="mt-4 text-lg leading-relaxed text-zinc-800 dark:text-zinc-200">
-		Uncover a curated selection of Linux apps utilizing libadwaita. Explore the latest and most
-		exciting applications seamlessly integrating with LibAdwaita.
-		<strong>🚀 Explore. Find. Innovate. 🧑‍💻</strong>
-	</p>
 </div>
 
 <EditorsChoice apps={editorsChoice} />
