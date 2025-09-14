@@ -28,17 +28,22 @@ export interface CircleApp {
 // Fetch circle apps data from GNOME Circle API
 export async function fetchCircleApps(): Promise<Set<string>> {
   try {
+    console.log(`Fetching circle apps from: ${CIRCLE_APPS_URL}`);
     const response = await fetch(CIRCLE_APPS_URL);
     if (!response.ok) {
-      console.warn('Failed to fetch circle apps, continuing without circle badges');
-      return new Set();
+      const errorMsg = `Failed to fetch circle apps (${response.status}): ${response.statusText}`;
+      console.error(errorMsg);
+      throw new Error(errorMsg);
     }
     
     const circleApps: CircleApp[] = await response.json();
-    return new Set(circleApps.map(app => app.app_id));
+    const circleAppIds = new Set(circleApps.map(app => app.app_id));
+    console.log(`Fetched ${circleAppIds.size} circle apps:`, Array.from(circleAppIds).slice(0, 5));
+    return circleAppIds;
   } catch (error) {
-    console.warn('Error fetching circle apps:', error);
-    return new Set();
+    const errorMsg = `Error fetching circle apps: ${error instanceof Error ? error.message : String(error)}`;
+    console.error(errorMsg);
+    throw new Error(errorMsg);
   }
 }
 
