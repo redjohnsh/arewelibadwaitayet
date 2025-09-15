@@ -480,6 +480,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	"io.github.kolunmi.Bazaar": Lang.C,
 	"io.github.seadve.Breathing": Lang.Python,
 	"io.github.htkhiem.Euphonica": Lang.Rust,
+	"io.github.BuddySirJava.SSH-Studio": Lang.Python,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
