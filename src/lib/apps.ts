@@ -482,6 +482,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	"io.github.htkhiem.Euphonica": Lang.Rust,
 	"io.github.BuddySirJava.SSH-Studio": Lang.Python,
 	"io.github.tobagin.scramble": Lang.Vala,
+	"io.github.mfat.sshpilot": Lang.Python,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
