@@ -484,7 +484,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.BuddySirJava.SSH-Studio': Lang.Python,
 	'io.github.tobagin.scramble': Lang.Vala,
 	'io.github.mfat.sshpilot': Lang.Python,
-	'com.odnoyko.valot': Lang.JavaScript
+	'com.odnoyko.valot': Lang.JavaScript,
+	'au.stevetech.yafi': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
