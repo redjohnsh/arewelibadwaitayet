@@ -26,8 +26,6 @@
 	// Extract the serializable app data from the loader
 	const { appList: rawAppList, editorsChoice: rawEditorsChoice, categories } = data;
 
-	console.log(categories);
-
 	// Client-side: Create List with fuzzy search preparation
 	const appList = $derived(
 		List.from(rawAppList).map((app) => ({
@@ -182,7 +180,7 @@
 <div class="mt-12">
 	<h2 class="mb-6 text-2xl font-bold">All Apps</h2>
 
-	<div class="gap-2 md:flex md:items-center">
+	<div class="space-y-4 md:flex md:items-center md:gap-2 md:space-y-0">
 		<div class="flex flex-1 items-center gap-2">
 			<div class="relative w-full md:max-w-xl">
 				<Input
@@ -202,7 +200,7 @@
 				<BrushCleaningIcon />
 			</Button>
 		</div>
-		<div class="mt-4 flex shrink-0 items-center gap-2 md:mt-0">
+		<div class="flex flex-wrap items-center gap-2">
 			<LangSelect bind:value={selectedLang} />
 			<CategorySelect bind:value={selectedCategories} categories={categories || []} />
 

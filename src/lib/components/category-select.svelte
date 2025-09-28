@@ -70,16 +70,16 @@
 			<Button
 				{...triggerProps}
 				variant="outline"
-				class="w-full justify-between md:w-auto"
+				class="w-full min-w-0 justify-between text-left md:w-auto"
 				role="combobox"
 				aria-expanded={open}
 			>
-				{placeholder}
+				<span class="truncate">{placeholder}</span>
 				<ChevronsUpDownIcon class="ml-2 size-4 shrink-0 opacity-50" />
 			</Button>
 		{/snippet}
 	</Popover.Trigger>
-	<Popover.Content class="w-[300px] p-0">
+	<Popover.Content class="w-[calc(100vw-2rem)] max-w-[300px] p-0">
 		<Command.Root>
 			<Command.Input placeholder="Search categories..." bind:value={searchValue} />
 			<Command.List>

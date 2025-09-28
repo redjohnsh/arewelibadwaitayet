@@ -29,7 +29,9 @@
 		});
 	}}
 >
-	<Select.Trigger class="w-full md:w-auto">{placeholder}</Select.Trigger>
+	<Select.Trigger class="w-full min-w-0 text-left md:w-auto">
+		<span class="truncate">{placeholder}</span>
+	</Select.Trigger>
 	<Select.Content>
 		{#each Object.values(Lang) as lang (lang)}
 			<Select.Item value={lang}>{lang}</Select.Item>
