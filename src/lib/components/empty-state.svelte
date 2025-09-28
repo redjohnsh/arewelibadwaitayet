@@ -1,9 +1,14 @@
 <script lang="ts">
 	import { SearchX } from '@lucide/svelte';
 
-	let { search = '', selectedLang = [] } = $props<{
+	let {
+		search = '',
+		selectedLang = [],
+		selectedCategories = []
+	} = $props<{
 		search?: string;
 		selectedLang?: string[];
+		selectedCategories?: string[];
 	}>();
 </script>
 
@@ -13,14 +18,37 @@
 	<p class="text-muted-foreground mt-1 text-sm">
 		{#if search}
 			No applications match "{search}"
-			{#if selectedLang.length}
-				in {new Intl.ListFormat('en', { style: 'long', type: 'disjunction' }).format(selectedLang)}
+			{#if selectedLang.length || selectedCategories.length}
+				in
+				{#if selectedLang.length}
+					{new Intl.ListFormat('en', { style: 'long', type: 'disjunction' }).format(selectedLang)}
+				{/if}
+				{#if selectedLang.length && selectedCategories.length}
+					and
+				{/if}
+				{#if selectedCategories.length}
+					{new Intl.ListFormat('en', { style: 'long', type: 'disjunction' }).format(
+						selectedCategories
+					)}
+				{/if}
 			{/if}
-		{:else if selectedLang.length}
-			No applications found for {new Intl.ListFormat('en', {
-				style: 'long',
-				type: 'disjunction'
-			}).format(selectedLang)}
+		{:else if selectedLang.length || selectedCategories.length}
+			No applications found for
+			{#if selectedLang.length}
+				{new Intl.ListFormat('en', {
+					style: 'long',
+					type: 'disjunction'
+				}).format(selectedLang)}
+			{/if}
+			{#if selectedLang.length && selectedCategories.length}
+				and
+			{/if}
+			{#if selectedCategories.length}
+				{new Intl.ListFormat('en', {
+					style: 'long',
+					type: 'disjunction'
+				}).format(selectedCategories)}
+			{/if}
 		{:else}
 			Try adjusting your search or filters to find what you're looking for.
 		{/if}

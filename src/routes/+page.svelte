@@ -8,6 +8,7 @@
 	import EmptyState from '$lib/components/empty-state.svelte';
 	import ExploreNewApps from '$lib/components/explore-new-apps.svelte';
 	import LangSelect from '$lib/components/lang-select.svelte';
+	import CategorySelect from '$lib/components/category-select.svelte';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import Input from '$lib/components/ui/input/input.svelte';
 	import * as Pagination from '$lib/components/ui/pagination';
@@ -23,7 +24,9 @@
 	let { data }: Props = $props();
 
 	// Extract the serializable app data from the loader
-	const { appList: rawAppList, editorsChoice: rawEditorsChoice } = data;
+	const { appList: rawAppList, editorsChoice: rawEditorsChoice, categories } = data;
+
+	console.log(categories);
 
 	// Client-side: Create List with fuzzy search preparation
 	const appList = $derived(
@@ -31,7 +34,8 @@
 			...app,
 			name: fuzzysort.prepare(app.name),
 			desc: fuzzysort.prepare(app.desc),
-			lang: fuzzysort.prepare(app.lang)
+			lang: fuzzysort.prepare(app.lang),
+			categoriesSearch: fuzzysort.prepare(app.categories.join(' '))
 		}))
 	);
 
@@ -48,7 +52,8 @@
 			...app,
 			name: fuzzysort.prepare(app.name),
 			desc: fuzzysort.prepare(app.desc),
-			lang: fuzzysort.prepare(app.lang)
+			lang: fuzzysort.prepare(app.lang),
+			categoriesSearch: fuzzysort.prepare(app.categories.join(' '))
 		}));
 	});
 
@@ -58,6 +63,7 @@
 
 	let search = $state('');
 	let selectedLang = $state<Lang[]>([]);
+	let selectedCategories = $state<string[]>([]);
 	let selectedView = $state<'group' | 'list'>('list');
 	let inputRef = $state<HTMLInputElement>(null!);
 
@@ -108,9 +114,10 @@
 
 	// Reset pagination when search or filters change
 	$effect(() => {
-		// Reset to page 1 when search or language filters change
+		// Reset to page 1 when search or filters change
 		search;
 		selectedLang;
+		selectedCategories;
 		currentPage = 1;
 	});
 
@@ -121,13 +128,19 @@
 			arr = arr.filter((app) => selectedLang.includes(app.lang.target as Lang));
 		}
 
+		if (selectedCategories.length) {
+			arr = arr.filter((app) =>
+				selectedCategories.some((category) => app.categories.includes(category))
+			);
+		}
+
 		if (!search.trim().length) {
 			return arr.sort((app1, app2) => app1.name.target.localeCompare(app2.name.target));
 		}
 
 		return List.from(
 			fuzzysort
-				.go(search, arr.toArray(), { keys: ['name', 'desc', 'lang'] })
+				.go(search, arr.toArray(), { keys: ['name', 'desc', 'lang', 'categoriesSearch'] })
 				.map((result) => result.obj)
 		);
 	});
@@ -143,6 +156,7 @@
 	function clearFilters() {
 		search = '';
 		selectedLang = [];
+		selectedCategories = [];
 		currentPage = 1;
 
 		plausible.trackEvent('clear_filters');
@@ -170,7 +184,7 @@
 
 	<div class="gap-2 md:flex md:items-center">
 		<div class="flex flex-1 items-center gap-2">
-			<div class="relative w-full md:max-w-2xl">
+			<div class="relative w-full md:max-w-xl">
 				<Input
 					bind:value={search}
 					class="peer ps-9"
@@ -190,6 +204,7 @@
 		</div>
 		<div class="mt-4 flex shrink-0 items-center gap-2 md:mt-0">
 			<LangSelect bind:value={selectedLang} />
+			<CategorySelect bind:value={selectedCategories} categories={categories || []} />
 
 			<ToggleGroup.Root
 				type="single"
@@ -287,7 +302,7 @@
 		{/if}
 	{:else}
 		<div class="mt-12">
-			<EmptyState {search} {selectedLang} />
+			<EmptyState {search} {selectedLang} {selectedCategories} />
 		</div>
 	{/if}
 </div>
