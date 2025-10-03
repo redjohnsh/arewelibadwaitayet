@@ -486,7 +486,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.mfat.sshpilot': Lang.Python,
 	'com.odnoyko.valot': Lang.JavaScript,
 	'au.stevetech.yafi': Lang.Python,
-	'org.indii.mendingwall': Lang.C
+	'org.indii.mendingwall': Lang.C,
+	'net.codelogistics.letters': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
