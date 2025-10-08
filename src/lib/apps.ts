@@ -488,7 +488,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'au.stevetech.yafi': Lang.Python,
 	'org.indii.mendingwall': Lang.C,
 	'net.codelogistics.letters': Lang.Python,
-	'io.github.tobagin.Draughts': Lang.Vala
+	'io.github.tobagin.Draughts': Lang.Vala,
+	'org.scratchmark.Scratchmark': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
