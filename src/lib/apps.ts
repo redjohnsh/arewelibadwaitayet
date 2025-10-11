@@ -489,7 +489,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.indii.mendingwall': Lang.C,
 	'net.codelogistics.letters': Lang.Python,
 	'io.github.tobagin.Draughts': Lang.Vala,
-	'org.scratchmark.Scratchmark': Lang.Rust
+	'org.scratchmark.Scratchmark': Lang.Rust,
+	'io.github.vmkspv.lenspect': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
