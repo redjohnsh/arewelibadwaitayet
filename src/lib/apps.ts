@@ -492,7 +492,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.scratchmark.Scratchmark': Lang.Rust,
 	'io.github.vmkspv.lenspect': Lang.Python,
 	'one.k8ie.Identities': Lang.Python,
-	'io.github.v81d.Wattage': Lang.Vala
+	'io.github.v81d.Wattage': Lang.Vala,
+	'page.codeberg.vendillah.GamepadMirror': Lang.JavaScript
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
