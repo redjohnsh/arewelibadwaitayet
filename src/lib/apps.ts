@@ -493,7 +493,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.vmkspv.lenspect': Lang.Python,
 	'one.k8ie.Identities': Lang.Python,
 	'io.github.v81d.Wattage': Lang.Vala,
-	'page.codeberg.vendillah.GamepadMirror': Lang.JavaScript
+	'page.codeberg.vendillah.GamepadMirror': Lang.JavaScript,
+	'io.github.gaheldev.Millisecond': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
