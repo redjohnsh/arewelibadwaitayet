@@ -495,7 +495,9 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.v81d.Wattage': Lang.Vala,
 	'page.codeberg.vendillah.GamepadMirror': Lang.JavaScript,
 	'io.github.gaheldev.Millisecond': Lang.Python,
-	'org.rayforge.rayforge': Lang.Python
+	'org.rayforge.rayforge': Lang.Python,
+	'me.spaceinbox.actioneer': Lang.Rust,
+	'net.trowell.typesetter': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
