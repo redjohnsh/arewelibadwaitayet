@@ -496,7 +496,9 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'page.codeberg.vendillah.GamepadMirror': Lang.JavaScript,
 	'io.github.gaheldev.Millisecond': Lang.Python,
 	'org.rayforge.rayforge': Lang.Python,
-	'com.ekonomikas.merkato': Lang.Python
+	'me.spaceinbox.actioneer': Lang.Rust,
+	'net.trowell.typesetter': Lang.Rust,
+  'com.ekonomikas.merkato': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
