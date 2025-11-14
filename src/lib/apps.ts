@@ -498,7 +498,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.rayforge.rayforge': Lang.Python,
 	'me.spaceinbox.actioneer': Lang.Rust,
 	'net.trowell.typesetter': Lang.Rust,
-  'com.ekonomikas.merkato': Lang.Python
+    'com.ekonomikas.merkato': Lang.Python,
+	'io.github.herve4m.Hexkudo': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
