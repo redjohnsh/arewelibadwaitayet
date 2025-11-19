@@ -500,7 +500,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'net.trowell.typesetter': Lang.Rust,
     'com.ekonomikas.merkato': Lang.Python,
 	'io.github.herve4m.Hexkudo': Lang.Rust,
-	'io.github.shonubot.Spruce': Lang.Python
+	'io.github.shonubot.Spruce': Lang.Python,
+	'io.github.kingorgg.Luna': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
