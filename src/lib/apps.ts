@@ -502,7 +502,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.herve4m.Hexkudo': Lang.Rust,
 	'io.github.shonubot.Spruce': Lang.Python,
 	'io.github.kingorgg.Luna': Lang.Python,
-	'io.m51.Gelly': Lang.Rust
+	'io.m51.Gelly': Lang.Rust,
+	'io.github.IshuSinghSE.aurynk': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
