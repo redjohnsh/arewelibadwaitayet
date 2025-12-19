@@ -512,7 +512,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'moe.launcher.the-honkers-railway-launcher': Lang.Rust,
 	'org.gnome.Quadrapassel': Lang.Vala,
 	'page.codeberg.censor.Censor': Lang.Python,
-	'tech.digiroad.Convertidor': Lang.Python
+	'tech.digiroad.Convertidor': Lang.Python,
+	'io.github.shonebinu.Brief': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
