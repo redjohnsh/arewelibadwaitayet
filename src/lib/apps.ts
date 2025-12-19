@@ -513,7 +513,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.gnome.Quadrapassel': Lang.Vala,
 	'page.codeberg.censor.Censor': Lang.Python,
 	'tech.digiroad.Convertidor': Lang.Python,
-	'io.github.shonebinu.Brief': Lang.Python
+	'io.github.shonebinu.Brief': Lang.Python,
+	'io.github.diegopvlk.Tomatillo': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
