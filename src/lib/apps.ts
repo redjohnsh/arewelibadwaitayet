@@ -514,7 +514,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'page.codeberg.censor.Censor': Lang.Python,
 	'tech.digiroad.Convertidor': Lang.Python,
 	'io.github.shonebinu.Brief': Lang.Python,
-	'io.github.diegopvlk.Tomatillo': Lang.Python
+	'io.github.diegopvlk.Tomatillo': Lang.Python,
+	'one.naiara.Kuychi': Lang.TypeScript
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
