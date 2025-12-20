@@ -510,7 +510,12 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'moe.launcher.honkers-launcher': Lang.Rust,
 	'moe.launcher.sleepy-launcher': Lang.Rust,
 	'moe.launcher.the-honkers-railway-launcher': Lang.Rust,
-	'org.gnome.Quadrapassel': Lang.Vala
+	'org.gnome.Quadrapassel': Lang.Vala,
+	'page.codeberg.censor.Censor': Lang.Python,
+	'tech.digiroad.Convertidor': Lang.Python,
+	'io.github.shonebinu.Brief': Lang.Python,
+	'io.github.diegopvlk.Tomatillo': Lang.Python,
+	'one.naiara.Kuychi': Lang.TypeScript
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
