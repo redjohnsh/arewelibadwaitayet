@@ -515,7 +515,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'tech.digiroad.Convertidor': Lang.Python,
 	'io.github.shonebinu.Brief': Lang.Python,
 	'io.github.diegopvlk.Tomatillo': Lang.Python,
-	'one.naiara.Kuychi': Lang.TypeScript
+	'one.naiara.Kuychi': Lang.TypeScript,
+	'io.github.falldaemon.engplayer': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
