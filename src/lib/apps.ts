@@ -518,7 +518,10 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'one.naiara.Kuychi': Lang.TypeScript,
 	'io.github.falldaemon.engplayer': Lang.Python,
 	'io.github.erenseymen.android-tv-remote': Lang.Python,
-	'io.github.noobping.listenmoe': Lang.Rust
+	'io.github.noobping.listenmoe': Lang.Rust,
+	'io.github.zhrexl.thisweekinmylife': Lang.C,
+	'io.github.lloura.DuelPy': Lang.Python,
+	'org.pvermeer.WebAppHub': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
