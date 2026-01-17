@@ -528,7 +528,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'dev.rotstein.SmashedPumpkin': Lang.C,
 	'io.github.linx_systems.ClamUI': Lang.Python,
 	'org.vanillaos.ApxGUI': Lang.Python,
-	'io.github.nacho.mecalin': Lang.Rust
+	'io.github.nacho.mecalin': Lang.Rust,
+	'com.markdeepwell.GitY': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
