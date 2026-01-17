@@ -525,7 +525,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'me.dumke.Reinschrift': Lang.Rust,
 	'tech.digiroad.ImageFlow': Lang.Python,
 	'io.github.tobagin.Ntfyr': Lang.Rust,
-	'dev.rotstein.SmashedPumpkin': Lang.C
+	'dev.rotstein.SmashedPumpkin': Lang.C,
+	'io.github.linx_systems.ClamUI': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
