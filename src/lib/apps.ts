@@ -522,7 +522,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.zhrexl.thisweekinmylife': Lang.C,
 	'io.github.lloura.DuelPy': Lang.Python,
 	'org.pvermeer.WebAppHub': Lang.Rust,
-	'me.dumke.Reinschrift': Lang.Rust
+	'me.dumke.Reinschrift': Lang.Rust,
+	'tech.digiroad.ImageFlow': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
