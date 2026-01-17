@@ -521,7 +521,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.noobping.listenmoe': Lang.Rust,
 	'io.github.zhrexl.thisweekinmylife': Lang.C,
 	'io.github.lloura.DuelPy': Lang.Python,
-	'org.pvermeer.WebAppHub': Lang.Rust
+	'org.pvermeer.WebAppHub': Lang.Rust,
+	'me.dumke.Reinschrift': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
