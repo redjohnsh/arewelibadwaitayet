@@ -524,7 +524,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.pvermeer.WebAppHub': Lang.Rust,
 	'me.dumke.Reinschrift': Lang.Rust,
 	'tech.digiroad.ImageFlow': Lang.Python,
-	'io.github.tobagin.Ntfyr': Lang.Rust
+	'io.github.tobagin.Ntfyr': Lang.Rust,
+	'dev.rotstein.SmashedPumpkin': Lang.C
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
