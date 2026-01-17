@@ -527,7 +527,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.tobagin.Ntfyr': Lang.Rust,
 	'dev.rotstein.SmashedPumpkin': Lang.C,
 	'io.github.linx_systems.ClamUI': Lang.Python,
-	'org.vanillaos.ApxGUI': Lang.Python
+	'org.vanillaos.ApxGUI': Lang.Python,
+	'io.github.nacho.mecalin': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
