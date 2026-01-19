@@ -529,7 +529,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.linx_systems.ClamUI': Lang.Python,
 	'org.vanillaos.ApxGUI': Lang.Python,
 	'io.github.nacho.mecalin': Lang.Rust,
-	'com.markdeepwell.GitY': Lang.Rust
+	'com.markdeepwell.GitY': Lang.Rust,
+	'studio.planetpeanut.Bobby': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
