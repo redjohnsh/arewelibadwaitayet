@@ -51,7 +51,6 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.nickvision.money': Lang.CSharp,
 	'app.drey.Dialect': Lang.Python,
 	'me.dusansimic.DynamicWallpaper': Lang.Python,
-	'com.github.wwmm.easyeffects': Lang.CPlusPlus,
 	'io.github.mrvladus.List': Lang.Python,
 	'io.github.cleomenezesjr.Escambo': Lang.Python,
 	'com.mattjakeman.ExtensionManager': Lang.C,
