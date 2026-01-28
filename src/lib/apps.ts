@@ -533,7 +533,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.teacond.Morse': Lang.Rust,
 	'cz.bugsy.roster': Lang.Python,
 	'io.github.schwarzen.colormydesktop': Lang.Python,
-	'io.github.alyraffauf.Switchyard': Lang.Go
+	'io.github.alyraffauf.Switchyard': Lang.Go,
+	'io.github.diegopvlk.Cine': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
