@@ -529,7 +529,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.vanillaos.ApxGUI': Lang.Python,
 	'io.github.nacho.mecalin': Lang.Rust,
 	'com.markdeepwell.GitY': Lang.Rust,
-	'studio.planetpeanut.Bobby': Lang.Rust
+	'studio.planetpeanut.Bobby': Lang.Rust,
+	'io.github.teacond.Morse': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
