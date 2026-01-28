@@ -535,7 +535,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.schwarzen.colormydesktop': Lang.Python,
 	'io.github.alyraffauf.Switchyard': Lang.Go,
 	'io.github.diegopvlk.Cine': Lang.Python,
-	'dev.dergs.Tonearm': Lang.Go
+	'dev.dergs.Tonearm': Lang.Go,
+	'me.breakgim.runa': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
