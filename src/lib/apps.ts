@@ -282,7 +282,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.smolblackcat.Progress': Lang.CPlusPlus,
 	'org.gnome.Sudoku': Lang.Vala,
 	'io.github.lo2dev.Echo': Lang.Python,
-	'io.github.getnf.embellish': Lang.Go,
+	'io.github.getnf.embellish': Lang.JavaScript,
 	'nl.emphisia.icon': Lang.Rust,
 	'com.github.ztefn.haguichi': Lang.Vala,
 	'com.oyajun.ColorCode': Lang.Python,
@@ -536,7 +536,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.alyraffauf.Switchyard': Lang.Go,
 	'io.github.diegopvlk.Cine': Lang.Python,
 	'dev.dergs.Tonearm': Lang.Go,
-	'me.breakgim.runa': Lang.Python
+	'me.breakgim.runa': Lang.Python,
+ 'io.github.sitraorg.sitra': Lang.Vala
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
