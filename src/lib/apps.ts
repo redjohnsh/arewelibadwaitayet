@@ -539,7 +539,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'me.breakgim.runa': Lang.Python,
 	'io.github.sitraorg.sitra': Lang.Vala,
 	'io.github.totoshko88.RustConn': Lang.Rust,
-	'io.github.dp0sk.Crosspipe': Lang.Vala
+	'io.github.dp0sk.Crosspipe': Lang.Vala,
+	'io.github.enginkirmaci.lumux': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
