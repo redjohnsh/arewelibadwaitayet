@@ -542,7 +542,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.dp0sk.Crosspipe': Lang.Vala,
 	'io.github.enginkirmaci.lumux': Lang.Python,
 	'io.github.shonebinu.Glyph': Lang.Python,
-	'fr.arnaudmichel.launcherstudio': Lang.Rust
+	'fr.arnaudmichel.launcherstudio': Lang.Rust,
+	'com.sidevesh.Luminance': Lang.C
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
