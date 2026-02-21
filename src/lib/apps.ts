@@ -538,7 +538,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'dev.dergs.Tonearm': Lang.Go,
 	'me.breakgim.runa': Lang.Python,
 	'io.github.sitraorg.sitra': Lang.Vala,
-	'io.github.totoshko88.RustConn': Lang.Rust
+	'io.github.totoshko88.RustConn': Lang.Rust,
+	'io.github.dp0sk.Crosspipe': Lang.Vala
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
