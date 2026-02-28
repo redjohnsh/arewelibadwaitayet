@@ -545,7 +545,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'fr.arnaudmichel.launcherstudio': Lang.Rust,
 	'com.sidevesh.Luminance': Lang.C,
 	'io.github.ans_ibrahim.Memento': Lang.JavaScript,
-	'com.k0vcz.Artemis': Lang.Vala
+	'com.k0vcz.Artemis': Lang.Vala,
+	'io.github.meehow.Receiver': Lang.Vala
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
