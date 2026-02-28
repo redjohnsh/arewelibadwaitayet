@@ -548,7 +548,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'com.k0vcz.Artemis': Lang.Vala,
 	'io.github.meehow.Receiver': Lang.Vala,
 	'io.github.basshift.Recall': Lang.Rust,
-	'io.github.megakode.Wallrus': Lang.Rust
+	'io.github.megakode.Wallrus': Lang.Rust,
+	'io.gitlab.zulfian1732.munquet': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
