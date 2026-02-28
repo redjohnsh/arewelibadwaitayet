@@ -544,7 +544,12 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.shonebinu.Glyph': Lang.Python,
 	'fr.arnaudmichel.launcherstudio': Lang.Rust,
 	'com.sidevesh.Luminance': Lang.C,
-	'io.github.ans_ibrahim.Memento': Lang.JavaScript
+	'io.github.ans_ibrahim.Memento': Lang.JavaScript,
+	'com.k0vcz.Artemis': Lang.Vala,
+	'io.github.meehow.Receiver': Lang.Vala,
+	'io.github.basshift.Recall': Lang.Rust,
+	'io.github.megakode.Wallrus': Lang.Rust,
+	'io.gitlab.zulfian1732.munquet': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
