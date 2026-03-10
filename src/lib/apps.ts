@@ -558,7 +558,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.shonebinu.Exchange': Lang.Python,
 	'space.x1z53.iris': Lang.Vala,
 	'ca.vtrlx.Telepipe': Lang.Lua,
-	're.fossplant.vmlinux-to-elf': Lang.Python
+	're.fossplant.vmlinux-to-elf': Lang.Python,
+	'io.github.seja_arctic_fox.vidcom': Lang.CPlusPlus
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
