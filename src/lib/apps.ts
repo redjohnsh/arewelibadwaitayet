@@ -549,7 +549,17 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.meehow.Receiver': Lang.Vala,
 	'io.github.basshift.Recall': Lang.Rust,
 	'io.github.megakode.Wallrus': Lang.Rust,
-	'io.gitlab.zulfian1732.munquet': Lang.Python
+	'io.gitlab.zulfian1732.munquet': Lang.Python,
+	'io.github.focustimerhq.FocusTimer': Lang.Vala,
+	'com.cassidyjames.dippi': Lang.Vala,
+	'io.github.vani_tty1.memerist': Lang.C,
+	'moe.liam.audimorf': Lang.JavaScript,
+	'page.codeberg.M23Snezhok.Vinyl': Lang.Rust,
+	'io.github.shonebinu.Exchange': Lang.Python,
+	'space.x1z53.iris': Lang.Vala,
+	'ca.vtrlx.Telepipe': Lang.Lua,
+	're.fossplant.vmlinux-to-elf': Lang.Python,
+	'io.github.seja_arctic_fox.vidcom': Lang.CPlusPlus
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
