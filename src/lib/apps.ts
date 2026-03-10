@@ -553,7 +553,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.focustimerhq.FocusTimer': Lang.Vala,
 	'com.cassidyjames.dippi': Lang.Vala,
 	'io.github.vani_tty1.memerist': Lang.C,
-	'moe.liam.audimorf': Lang.JavaScript
+	'moe.liam.audimorf': Lang.JavaScript,
+	'page.codeberg.M23Snezhok.Vinyl': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
