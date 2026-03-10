@@ -551,7 +551,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.megakode.Wallrus': Lang.Rust,
 	'io.gitlab.zulfian1732.munquet': Lang.Python,
 	'io.github.focustimerhq.FocusTimer': Lang.Vala,
-	'com.cassidyjames.dippi': Lang.Vala
+	'com.cassidyjames.dippi': Lang.Vala,
+	'io.github.vani_tty1.memerist': Lang.C
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
