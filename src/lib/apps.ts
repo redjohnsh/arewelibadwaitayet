@@ -552,7 +552,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.gitlab.zulfian1732.munquet': Lang.Python,
 	'io.github.focustimerhq.FocusTimer': Lang.Vala,
 	'com.cassidyjames.dippi': Lang.Vala,
-	'io.github.vani_tty1.memerist': Lang.C
+	'io.github.vani_tty1.memerist': Lang.C,
+	'moe.liam.audimorf': Lang.JavaScript
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
