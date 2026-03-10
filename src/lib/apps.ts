@@ -557,7 +557,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'page.codeberg.M23Snezhok.Vinyl': Lang.Rust,
 	'io.github.shonebinu.Exchange': Lang.Python,
 	'space.x1z53.iris': Lang.Vala,
-	'ca.vtrlx.Telepipe': Lang.Lua
+	'ca.vtrlx.Telepipe': Lang.Lua,
+	're.fossplant.vmlinux-to-elf': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
