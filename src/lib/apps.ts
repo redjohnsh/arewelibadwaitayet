@@ -554,7 +554,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'com.cassidyjames.dippi': Lang.Vala,
 	'io.github.vani_tty1.memerist': Lang.C,
 	'moe.liam.audimorf': Lang.JavaScript,
-	'page.codeberg.M23Snezhok.Vinyl': Lang.Rust
+	'page.codeberg.M23Snezhok.Vinyl': Lang.Rust,
+	'io.github.shonebinu.Exchange': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
