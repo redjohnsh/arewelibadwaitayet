@@ -560,7 +560,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'ca.vtrlx.Telepipe': Lang.Lua,
 	're.fossplant.vmlinux-to-elf': Lang.Python,
 	'io.github.seja_arctic_fox.vidcom': Lang.CPlusPlus,
-	're.fossplant.songrec': Lang.Rust
+	're.fossplant.songrec': Lang.Rust,
+	'io.github.vani_tty1.memerist': Lang.C,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
