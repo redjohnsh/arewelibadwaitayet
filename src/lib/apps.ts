@@ -562,6 +562,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.seja_arctic_fox.vidcom': Lang.CPlusPlus,
 	're.fossplant.songrec': Lang.Rust,
 	'io.github.sugarycandybar.Hosty': Lang.Python,
+	'io.github.shonebinu.Defuse': Lang.Python,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
