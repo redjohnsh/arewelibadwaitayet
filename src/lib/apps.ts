@@ -564,6 +564,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.sugarycandybar.Hosty': Lang.Python,
 	'io.github.shonebinu.Defuse': Lang.Python,
 	'io.github.noobping.keycord': Lang.Rust,
+	'io.github.bhack.mini-eq': Lang.Python,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
