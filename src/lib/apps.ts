@@ -563,6 +563,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	're.fossplant.songrec': Lang.Rust,
 	'io.github.sugarycandybar.Hosty': Lang.Python,
 	'io.github.shonebinu.Defuse': Lang.Python,
+	'io.github.noobping.keycord': Lang.Rust,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
