@@ -565,6 +565,12 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.shonebinu.Defuse': Lang.Python,
 	'io.github.noobping.keycord': Lang.Rust,
 	'io.github.bhack.mini-eq': Lang.Python,
+	'de.wwwtech.gitte': Lang.Rust,
+	'flatpak run dev.mohfy.quizbite': Lang.Python,
+	'io.github.sugarycandybar.Crucible': Lang.Python,
+	'io.gitlab.luiggircardoso.Draft': Lang.Python,
+	'io.github.bendik.Zodia': Lang,Rust,
+	'io.github.maniacx.BudsLink': Lang.JavaScript,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
