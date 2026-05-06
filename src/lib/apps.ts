@@ -569,6 +569,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'flatpak run dev.mohfy.quizbite': Lang.Python,
 	'io.github.sugarycandybar.Crucible': Lang.Python,
 	'io.gitlab.luiggircardoso.Draft': Lang.Python,
+	'io.github.bendik.Zodia': Lang,Rust,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
