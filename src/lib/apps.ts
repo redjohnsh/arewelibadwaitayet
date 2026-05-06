@@ -569,7 +569,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'flatpak run dev.mohfy.quizbite': Lang.Python,
 	'io.github.sugarycandybar.Crucible': Lang.Python,
 	'io.gitlab.luiggircardoso.Draft': Lang.Python,
-	'io.github.bendik.Zodia': Lang,Rust,
+	'io.github.bendik.Zodia': Lang.Rust,
 	'io.github.maniacx.BudsLink': Lang.JavaScript,
 };
 
