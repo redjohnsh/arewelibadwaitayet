@@ -570,6 +570,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.sugarycandybar.Crucible': Lang.Python,
 	'io.gitlab.luiggircardoso.Draft': Lang.Python,
 	'io.github.bendik.Zodia': Lang,Rust,
+	'io.github.maniacx.BudsLink': Lang.JavaScript,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
