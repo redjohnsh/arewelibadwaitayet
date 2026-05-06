@@ -567,6 +567,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.bhack.mini-eq': Lang.Python,
 	'de.wwwtech.gitte': Lang.Rust,
 	'flatpak run dev.mohfy.quizbite': Lang.Python,
+	'io.github.sugarycandybar.Crucible': Lang.Python,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
