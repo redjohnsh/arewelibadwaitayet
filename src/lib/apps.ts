@@ -571,6 +571,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.gitlab.luiggircardoso.Draft': Lang.Python,
 	'io.github.bendik.Zodia': Lang.Rust,
 	'io.github.maniacx.BudsLink': Lang.JavaScript,
+	'io.github.anil_e.Codd': Lang.Rust,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
