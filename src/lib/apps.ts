@@ -576,6 +576,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'dev.nicx.mimick': Lang.Rust,
 	'ca.vtrlx.Parchment': Lang.Lua,
 	'xyz.riothedev.emojify': Lang.CPlusPlus,
+	'art.fatdawlf.Piccolo': Lang.Rust,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
