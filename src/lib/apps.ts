@@ -578,6 +578,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'xyz.riothedev.emojify': Lang.CPlusPlus,
 	'art.fatdawlf.Piccolo': Lang.Rust,
 	'io.github.masakk1.press' Lang.Vala,
+	'im.bernard.Parolu': Lang.Vala,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
