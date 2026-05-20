@@ -575,6 +575,14 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.arijanj.Mimic': Lang.Python,
 	'dev.nicx.mimick': Lang.Rust,
 	'ca.vtrlx.Parchment': Lang.Lua,
+	'xyz.riothedev.emojify': Lang.CPlusPlus,
+	'art.fatdawlf.Piccolo': Lang.Rust,
+	'io.github.masakk1.press': Lang.Vala,
+	'im.bernard.Parolu': Lang.Vala,
+	'nl.andreasknoben.Laser': Lang.Python,
+	'io.gitlab.metadatacleaner.metadatacleaner': Lang.Python,
+	'net.ffkkinos.Wildcard': Lang.Rust,
+	'com.jeffser.Nocturne': Lang.Python,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
