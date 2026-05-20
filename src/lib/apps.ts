@@ -580,6 +580,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.masakk1.press': Lang.Vala,
 	'im.bernard.Parolu': Lang.Vala,
 	'nl.andreasknoben.Laser': Lang.Python,
+	'io.gitlab.metadatacleaner.metadatacleaner': Lang.Python,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
