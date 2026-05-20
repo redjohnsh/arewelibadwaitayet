@@ -582,6 +582,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'nl.andreasknoben.Laser': Lang.Python,
 	'io.gitlab.metadatacleaner.metadatacleaner': Lang.Python,
 	'net.ffkkinos.Wildcard': Lang.Rust,
+	'com.jeffser.Nocturne': Lang.Python,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
