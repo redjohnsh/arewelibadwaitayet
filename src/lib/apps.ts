@@ -586,6 +586,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.lluciocc.Vish': Lang.Python,
 	'io.github.Lluciocc.Shapebound': Lang.Python,
 	'io.github.tanaybhomia.Whisp': Lang.Python,
+	'io.github.sugarycandybar.Carabiner': Lang.Rust,
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
