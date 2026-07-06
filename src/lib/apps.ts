@@ -590,7 +590,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'page.codeberg.sesivany.Meshy': Lang.Python,
 	'se.sjoerd.lockpicker': Lang.Python,
 	'me.fouquet.Stencil': Lang.Rust,
-	'io.gitlab.hinnerkm.Kairos': Lang.Vala
+	'io.gitlab.hinnerkm.Kairos': Lang.Vala,
+	'io.github.dprietob.queue': Lang.Vala
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
