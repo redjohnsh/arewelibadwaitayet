@@ -497,7 +497,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.rayforge.rayforge': Lang.Python,
 	'me.spaceinbox.actioneer': Lang.Rust,
 	'net.trowell.typesetter': Lang.Rust,
-    'com.ekonomikas.merkato': Lang.Python,
+	'com.ekonomikas.merkato': Lang.Python,
 	'io.github.herve4m.Hexkudo': Lang.Rust,
 	'io.github.shonubot.Spruce': Lang.Python,
 	'io.github.kingorgg.Luna': Lang.Python,
@@ -587,6 +587,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.Lluciocc.Shapebound': Lang.Python,
 	'io.github.tanaybhomia.Whisp': Lang.Python,
 	'io.github.sugarycandybar.Carabiner': Lang.Rust,
+	'page.codeberg.sesivany.Meshy': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
