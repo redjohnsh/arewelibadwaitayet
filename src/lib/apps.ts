@@ -593,7 +593,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.gitlab.hinnerkm.Kairos': Lang.Vala,
 	'io.github.dprietob.queue': Lang.Vala,
 	'dev.deimoshall.DecryptIt': Lang.Rust,
-	'io.github.weiteck.Lyricade': Lang.Rust
+	'io.github.weiteck.Lyricade': Lang.Rust,
+	'page.codeberg.grinka.Transition': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
