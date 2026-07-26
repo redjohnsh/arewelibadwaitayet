@@ -592,7 +592,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'me.fouquet.Stencil': Lang.Rust,
 	'io.gitlab.hinnerkm.Kairos': Lang.Vala,
 	'io.github.dprietob.queue': Lang.Vala,
-	'dev.deimoshall.DecryptIt': Lang.Rust
+	'dev.deimoshall.DecryptIt': Lang.Rust,
+	'io.github.weiteck.Lyricade': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
