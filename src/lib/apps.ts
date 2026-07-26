@@ -595,7 +595,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'dev.deimoshall.DecryptIt': Lang.Rust,
 	'io.github.weiteck.Lyricade': Lang.Rust,
 	'page.codeberg.grinka.Transition': Lang.Rust,
-	'page.codeberg.snensmens.Chapterize': Lang.Python
+	'page.codeberg.snensmens.Chapterize': Lang.Python,
+	'io.github.trufae.Parla': Lang.Vala
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
