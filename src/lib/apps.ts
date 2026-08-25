@@ -599,7 +599,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.trufae.Parla': Lang.Vala,
 	'space.f1nn.chorus': Lang.Go,
 	'me.nathandyer.Kepublicity': Lang.Vala,
-	'dev.andy128k.Hearts': Lang.Rust
+	'dev.andy128k.Hearts': Lang.Rust,
+	'page.codeberg.foolish.Flipbook': Lang.Vala
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
