@@ -600,7 +600,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'space.f1nn.chorus': Lang.Go,
 	'me.nathandyer.Kepublicity': Lang.Vala,
 	'dev.andy128k.Hearts': Lang.Rust,
-	'page.codeberg.foolish.Flipbook': Lang.Vala
+	'page.codeberg.foolish.Flipbook': Lang.Vala,
+	'io.github.mhhemati0.WebArchive': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
