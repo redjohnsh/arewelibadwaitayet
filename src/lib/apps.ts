@@ -598,7 +598,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'page.codeberg.snensmens.Chapterize': Lang.Python,
 	'io.github.trufae.Parla': Lang.Vala,
 	'space.f1nn.chorus': Lang.Go,
-	'me.nathandyer.Kepublicity': Lang.Vala
+	'me.nathandyer.Kepublicity': Lang.Vala,
+	'dev.andy128k.Hearts': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
