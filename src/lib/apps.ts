@@ -602,7 +602,13 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'dev.andy128k.Hearts': Lang.Rust,
 	'page.codeberg.foolish.Flipbook': Lang.Vala,
 	'io.github.mhhemati0.WebArchive': Lang.Python,
-	'io.github.screwys.Rufin': Lang.Rust
+	'io.github.screwys.Rufin': Lang.Rust,
+	'cx.modal.TestCenter': Lang.Rust,
+	'moe.nomm.Nomm': Lang.Python,
+	'io.github.dragonGR.Dropzone': Lang.Rust,
+	'page.wisha.platen': Lang.Rust,
+	'io.github.tanaybhomia.DeepDive': Lang.Python,
+	'org.temple.Bible': Lang.C
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
