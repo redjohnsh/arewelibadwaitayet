@@ -603,7 +603,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'page.codeberg.foolish.Flipbook': Lang.Vala,
 	'io.github.mhhemati0.WebArchive': Lang.Python,
 	'io.github.screwys.Rufin': Lang.Rust,
-	'cx.modal.TestCenter': Lang.Rust
+	'cx.modal.TestCenter': Lang.Rust,
+	'moe.nomm.Nomm': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
