@@ -606,7 +606,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'cx.modal.TestCenter': Lang.Rust,
 	'moe.nomm.Nomm': Lang.Python,
 	'io.github.dragonGR.Dropzone': Lang.Rust,
-	'page.wisha.platen': Lang.Rust
+	'page.wisha.platen': Lang.Rust,
+	'io.github.tanaybhomia.DeepDive': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
