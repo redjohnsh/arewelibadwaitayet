@@ -604,7 +604,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.mhhemati0.WebArchive': Lang.Python,
 	'io.github.screwys.Rufin': Lang.Rust,
 	'cx.modal.TestCenter': Lang.Rust,
-	'moe.nomm.Nomm': Lang.Python
+	'moe.nomm.Nomm': Lang.Python,
+	'io.github.dragonGR.Dropzone': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
