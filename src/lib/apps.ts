@@ -607,7 +607,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'moe.nomm.Nomm': Lang.Python,
 	'io.github.dragonGR.Dropzone': Lang.Rust,
 	'page.wisha.platen': Lang.Rust,
-	'io.github.tanaybhomia.DeepDive': Lang.Python
+	'io.github.tanaybhomia.DeepDive': Lang.Python,
+	'org.temple.Bible': Lang.C
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
