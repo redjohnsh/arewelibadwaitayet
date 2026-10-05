@@ -608,7 +608,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.dragonGR.Dropzone': Lang.Rust,
 	'page.wisha.platen': Lang.Rust,
 	'io.github.tanaybhomia.DeepDive': Lang.Python,
-	'org.temple.Bible': Lang.C
+	'org.temple.Bible': Lang.C,
+	'ir.NonFree.VCMusic': Lang.Crystal
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
