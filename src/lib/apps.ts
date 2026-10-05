@@ -608,7 +608,15 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.dragonGR.Dropzone': Lang.Rust,
 	'page.wisha.platen': Lang.Rust,
 	'io.github.tanaybhomia.DeepDive': Lang.Python,
-	'org.temple.Bible': Lang.C
+	'org.temple.Bible': Lang.C,
+	'ir.NonFree.VCMusic': Lang.Crystal,
+	'io.github.leo030303.drizzle': Lang.Rust,
+	'fr.ethal.tessera': Lang.Rust,
+	'io.github.pemsley.Alexandria': Lang.Python,
+	'de.gonicus.bubbles': Lang.Rust,
+	'org.altlinux.Tailor': Lang.Vala,
+	'net.donnybeelo.Convey': Lang.Vala,
+	'org.gnome.gitlab.TitouanReal.Era': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
