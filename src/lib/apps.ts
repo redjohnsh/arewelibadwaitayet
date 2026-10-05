@@ -611,7 +611,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'org.temple.Bible': Lang.C,
 	'ir.NonFree.VCMusic': Lang.Crystal,
 	'io.github.leo030303.drizzle': Lang.Rust,
-	'fr.ethal.tessera': Lang.Rust
+	'fr.ethal.tessera': Lang.Rust,
+	'io.github.pemsley.Alexandria': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
