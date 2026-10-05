@@ -613,7 +613,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.leo030303.drizzle': Lang.Rust,
 	'fr.ethal.tessera': Lang.Rust,
 	'io.github.pemsley.Alexandria': Lang.Python,
-	'de.gonicus.bubbles': Lang.Rust
+	'de.gonicus.bubbles': Lang.Rust,
+	'org.altlinux.Tailor': Lang.Vala
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
