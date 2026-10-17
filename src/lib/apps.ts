@@ -616,7 +616,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'de.gonicus.bubbles': Lang.Rust,
 	'org.altlinux.Tailor': Lang.Vala,
 	'net.donnybeelo.Convey': Lang.Vala,
-	'org.gnome.gitlab.TitouanReal.Era': Lang.Rust
+	'org.gnome.gitlab.TitouanReal.Era': Lang.Rust,
+	'com.p1security.diagng': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
