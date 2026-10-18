@@ -621,7 +621,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.word_sys.word-sys-pdf-editor': Lang.Python,
 	'app.drey.Haystack': Lang.Vala,
 	'page.codeberg.petsoi.pully': Lang.Rust,
-	'page.codeberg.petsoi.coronet': Lang.Rust
+	'page.codeberg.petsoi.coronet': Lang.Rust,
+	'io.github.riyaniii.Kaori': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
