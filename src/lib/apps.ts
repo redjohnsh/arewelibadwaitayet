@@ -618,7 +618,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'net.donnybeelo.Convey': Lang.Vala,
 	'org.gnome.gitlab.TitouanReal.Era': Lang.Rust,
 	'com.p1security.diagng': Lang.Python,
-	'io.github.word_sys.word-sys-pdf-editor': Lang.Python
+	'io.github.word_sys.word-sys-pdf-editor': Lang.Python,
+	'app.drey.Haystack': Lang.Vala
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
