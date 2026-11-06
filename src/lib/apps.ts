@@ -581,7 +581,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'page.codeberg.petsoi.coronet': Lang.Rust,
 	'io.github.riyaniii.Kaori': Lang.Python,
 	'page.codeberg.petsoi.griddle': Lang.Rust,
-	'page.codeberg.petsoi.scribble': Lang.Rust
+	'page.codeberg.petsoi.scribble': Lang.Rust,
+	'dev.bitritter.BitRitter': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
