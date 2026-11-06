@@ -522,7 +522,7 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'io.github.noobping.keycord': Lang.Rust,
 	'io.github.bhack.mini-eq': Lang.Python,
 	'de.wwwtech.gitte': Lang.Rust,
-	'flatpak run dev.mohfy.quizbite': Lang.Python,
+	'dev.mohfy.quizbite': Lang.Python,
 	'io.github.sugarycandybar.Crucible': Lang.Python,
 	'io.github.bendik.Zodia': Lang.Rust,
 	'io.github.maniacx.BudsLink': Lang.JavaScript,
