@@ -584,7 +584,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'page.codeberg.petsoi.scribble': Lang.Rust,
 	'dev.bitritter.BitRitter': Lang.Rust,
 	'io.github.gnacho.Scribe': Lang.Rust,
-	'com.jeffser.Popcorn': Lang.Python
+	'com.jeffser.Popcorn': Lang.Python,
+	'io.github.hernantz.timezones': Lang.Python
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
