@@ -579,7 +579,8 @@ export const APP_LANGUAGES: AppLanguageMap = {
 	'app.drey.Haystack': Lang.Vala,
 	'page.codeberg.petsoi.pully': Lang.Rust,
 	'page.codeberg.petsoi.coronet': Lang.Rust,
-	'io.github.riyaniii.Kaori': Lang.Python
+	'io.github.riyaniii.Kaori': Lang.Python,
+	'page.codeberg.petsoi.griddle': Lang.Rust
 };
 
 // Client-side prepared app type (for reference, but not used in server code)
